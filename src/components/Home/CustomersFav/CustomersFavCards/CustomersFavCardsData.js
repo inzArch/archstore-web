@@ -1,16 +1,15 @@
-import MorsoLogo from '../../../../assets/images/customersfav/MorsoLogo.svg';
-import ArtemideLogo from '../../../../assets/images/customersfav/ArtemideLogo.svg';
-import SalvatoriLogo from '../../../../assets/images/customersfav/SalvatoriLogo.svg';
-import VitraLogo from '../../../../assets/images/customersfav/VitraLogo.svg';
-import VitraChair from '../../../../assets/images/customersfav/VitraChair.svg';
-import VitraChair2 from '../../../../assets/images/customersfav/VitraChair2.svg';
-import ArtemideChair from '../../../../assets/images/customersfav/ArtemideChair.svg';
-import ArtemideChair2 from '../../../../assets/images/customersfav/ArtemideChair2.svg';
-import MorsoChair from '../../../../assets/images/customersfav/MorsoChair.svg';
-import MorsoChair2 from '../../../../assets/images/customersfav/MorsoChair2.svg';
-import SalvatoriChair from '../../../../assets/images/customersfav/SalvatoriChair.svg';
-import SalvatoriChair2 from '../../../../assets/images/customersfav/SalvatoriChair2.svg';
-// import HeartIcon from '../../../../assets/images/customersfav/HeartIcon.svg';
+import MorsoLogo from '../../../../assets/images/home/customersfav/MorsoLogo.svg';
+import ArtemideLogo from '../../../../assets/images/home/customersfav/ArtemideLogo.svg';
+import SalvatoriLogo from '../../../../assets/images/home/customersfav/SalvatoriLogo.svg';
+import VitraLogo from '../../../../assets/images/home/customersfav/VitraLogo.svg';
+import VitraChair from '../../../../assets/images/home/customersfav/VitraChair.svg';
+import VitraChair2 from '../../../../assets/images/home/customersfav/VitraChair2.svg';
+import ArtemideChair from '../../../../assets/images/home/customersfav/ArtemideChair.svg';
+import ArtemideChair2 from '../../../../assets/images/home/customersfav/ArtemideChair2.svg';
+import MorsoChair from '../../../../assets/images/home/customersfav/MorsoChair.svg';
+import MorsoChair2 from '../../../../assets/images/home/customersfav/MorsoChair2.svg';
+import SalvatoriChair from '../../../../assets/images/home/customersfav/SalvatoriChair.svg';
+import SalvatoriChair2 from '../../../../assets/images/home/customersfav/SalvatoriChair2.svg';
 
 export const CustomersFavCardsData = [
     {

@@ -1,9 +1,9 @@
 import React from 'react';
-import CreateMoodBoardImg from '../../../assets/images/howitworks/CreateMoodBoardImg.svg';
-import InspirationsImg from '../../../assets/images/howitworks/InspirationsImg.svg';
-import OrderProductsImg from '../../../assets/images/howitworks/OrderProductsImg.svg';
-import ConnectVendorsImg from '../../../assets/images/howitworks/ConnectVendorsImg.svg';
-import HowItWorksImg from '../../../assets/images/howitworks/HowItWorksImg.svg';
+import CreateMoodBoardImg from '../../../assets/images/home/howitworks/CreateMoodBoardImg.svg';
+import InspirationsImg from '../../../assets/images/home/howitworks/InspirationsImg.svg';
+import OrderProductsImg from '../../../assets/images/home/howitworks/OrderProductsImg.svg';
+import ConnectVendorsImg from '../../../assets/images/home/howitworks/ConnectVendorsImg.svg';
+import HowItWorksImg from '../../../assets/images/home/howitworks/HowItWorksImg.svg';
 import './index.css';
 
 const HowItWorks = () => {

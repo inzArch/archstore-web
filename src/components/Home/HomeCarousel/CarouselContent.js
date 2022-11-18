@@ -1,4 +1,4 @@
-import templateBgImg from '../../../assets/images/carousel/templateBgImg.svg';
+import templateBgImg from '../../../assets/images/home/carousel/templateBgImg.svg';
 
 export const CarouselContent = [
     {
