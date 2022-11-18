@@ -1,0 +1,79 @@
+.brands-container {
+	max-width: 1350px;
+	margin-inline: auto;
+	margin-top: 2rem;
+}
+
+.brands-title {
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 2.5rem;
+	/* margin-block: 1.5rem; */
+}
+
+.brand-logos-container {
+	/* outline: thin solid red; */
+	display: flex;
+	overflow-x: scroll;
+	width: 80%;
+	margin-inline: auto;
+
+	height: 200px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.brand-logos {
+	/* width: min(80vw, 1350px); */
+	width: 100%;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.brand-logos > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.brand-logo > img {
+	/* height: 20px; */
+	width: 100px;
+}
+
+/* @media (min-width: 576px) {
+	.brand-logo > img {
+		height: 25px;
+	}
+
+	.brand-logos > div,
+	.brand-logos {
+		gap: 2rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.brand-logo > img {
+		height: 30px;
+	}
+
+	.brand-logos > div,
+	.brand-logos {
+		gap: 3rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.brand-logo > img {
+		height: 40px;
+	}
+
+	.brand-logos > div {
+		gap: 4rem;
+	}
+} */
