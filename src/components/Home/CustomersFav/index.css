@@ -72,14 +72,14 @@
 
 .CustomersFav-viewall-btn{
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .CustomersFav-viewall-btn > button{
     border: 1px solid #364366;
     border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 150px;
     padding: 5px 5px;
     color: #364366;
