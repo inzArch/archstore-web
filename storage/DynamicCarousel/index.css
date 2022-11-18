@@ -1,0 +1,15 @@
+.container > .carousel > .carousel-control-prev{
+    justify-content: left;
+    z-index: 4;
+    width: 3%;
+  }
+  
+  .container > .carousel > .carousel-control-next{
+    justify-content: right;
+    z-index: 4;
+    width: 3%;
+  }
+  
+  .container > .carousel > .carousel-indicators{
+    z-index: 4;
+  }

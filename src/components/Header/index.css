@@ -1,0 +1,174 @@
+.main-header-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+}
+
+.header-container{
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 0.5px solid #DDDDDD;
+    background: #ffffff;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.header-logo-section{
+    min-width: 150px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-logo-section > img:nth-child(2){
+    width: 100%;
+}
+
+.header-menu-icon{
+    display: none;
+}
+
+.header-menu-items{
+    padding: 0 30px;
+    display: flex;
+    flex: 1;
+}
+
+.header-menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.header-menu-item > img{
+    width: 37px;
+}
+
+.header-menu-item > p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #666975;
+    padding: 4px 0;
+    margin: 0;
+}
+
+.header-options-section{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-buttons-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+}
+
+.header-buttons-section > img{
+    cursor: pointer;
+}
+
+.header-options-section > button{
+    background: #0A1D3C;
+    border-radius: 2px;
+    color: #fff;
+    width: 130px;
+    padding: 6px 0;
+}
+
+.header-resposnive-menu-items{
+    position: absolute;
+    background: #ffffff;
+    top: 0;
+}
+
+@media screen and (max-width: 1360px) {
+    .header-menu-items{
+        padding: 0 5px;
+    }
+
+    .header-menu-item > img{
+        width: 30px;
+    }
+
+    .header-menu-item > p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .header-container{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+
+    .header-container{
+        padding: 10px 20px;
+    }
+
+    .header-menu-items{
+        display: none;
+    }
+
+    .header-logo-section{
+        justify-content: left;
+    }
+
+    .header-menu-icon{
+        display: block;
+        width: 35%;
+        padding: 0 20px;
+    }
+        
+    .header-logo-section > img:nth-child(2){
+        width: 65%;
+        flex: 1;
+    }
+
+    .header-container{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .header-container{
+        padding: 10px 10px;
+    }
+
+    .header-menu-icon{
+        display: block;
+        width: 20%;
+        padding: 0 8px;
+    }
+
+    .header-options-section{
+        width: 180px;
+    }
+    
+    .header-buttons-section{
+        margin: 0 15px;
+    }
+    
+    .header-buttons-section > img{
+        margin: 0 5px;
+    }
+
+    .header-options-section > button{
+        width: 90px;
+    }
+
+}

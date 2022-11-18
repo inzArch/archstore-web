@@ -1,0 +1,106 @@
+.howitworks-container{
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.howitworks-contents{
+    display: flex;
+}
+
+.howitworks-contents > div{
+    width: 50%;
+}
+
+.howitworks-leftSection{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howitworks-rightSection-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.howitworks-rightSection-cards > div{
+    width: 40%;
+}
+
+.howitworks-card{
+    margin: 10px 15px;
+}
+
+.howitworks-headings{
+    padding: 0 25px;
+}
+
+.howitworks-card-header{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.howitworks-card-header > img{
+    width: 50px;
+}
+
+.howitworks-card-header > p{
+    margin: 0;
+    padding: 0 8px;
+    font-weight: 500;
+    font-size: large;
+}
+
+@media screen and (max-width: 800px) {
+        
+    .howitworks-contents{
+        flex-direction: column;
+        padding-top: 150px;
+        position: relative;
+    }
+
+    .howitworks-contents > div{
+        width: 100%;
+    }
+
+    .howitworks-headings{
+        position: absolute;
+        top: 0;
+        text-align: center;
+        padding: 0 80px;
+    }
+
+    .howitworks-rightSection-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howitworks-rightSection-cards > div{
+        width: 60%;
+    }
+
+    .howitworks-card-header{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .howitworks-card{
+        text-align: center;
+    }
+
+    .howitworks-card > p{
+        font-size: larger;
+    }
+
+    .howitworks-card-header > img{
+        width: 70px;
+    }
+
+    .howitworks-card-header > p{
+        font-size: x-large;
+    }
+}

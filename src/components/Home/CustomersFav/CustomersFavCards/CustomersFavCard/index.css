@@ -1,0 +1,71 @@
+.CustomersFavCard{
+    width: 95%;
+    margin: auto;
+    height: 420px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.CustomersFavCard:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 16px 24px rgba(52, 52, 52, 0.12);
+    border-radius: 8px;
+    transform: translateY(-5px);
+}
+
+.CustomersFavCard:hover > .CustomersFavCard-bottom-content{
+    background: #8B847B;
+    color: #FFFFFF;
+}
+
+.CustomersFavCards-container > .CustomersFavCards-section:nth-child(even) > .CustomersFavCard{
+    margin-top: 30px;
+}
+
+.CustomersFavCards-container > .CustomersFavCards-section:nth-child(odd) > .CustomersFavCard{
+    margin-top: -10px;
+}
+
+.CustomersFavCard-top-img-section{
+    margin-top: 60px;
+    height: 50%;
+    position: relative;
+}
+
+.CustomersFavCard-top-img-section > img:nth-child(1){
+    position: absolute;
+    top: -50px;
+    width: 80px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.CustomersFavCard-top-img-section > img:nth-child(2){
+    width: 100%;
+    height: 100%;
+}
+
+.CustomersFavCard-bottom-content{
+    padding: 10px;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+}
+
+.CustomersFavCard-bottom-content > p:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 550px) {
+    .CustomersFavCards-container > .CustomersFavCards-section:nth-child(even) > .CustomersFavCard{
+        margin-top: 0px;
+    }
+}
