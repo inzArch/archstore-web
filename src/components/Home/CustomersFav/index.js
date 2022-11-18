@@ -27,6 +27,9 @@ const CustomersFav = () => {
           <span>Stories</span>
         </div>
         <CustomersFavCards />
+        <div className='CustomersFav-viewall-btn'>
+          <button>View All</button>
+        </div>
     </div>
   )
 }

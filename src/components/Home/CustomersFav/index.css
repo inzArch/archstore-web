@@ -68,3 +68,38 @@
     background: rgba(171, 164, 155, 0.44);
     color: #433e37;
 }
+
+
+.CustomersFav-viewall-btn{
+    margin-top: 40px;
+}
+
+.CustomersFav-viewall-btn > button{
+    border: 1px solid #364366;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 5px 5px;
+    color: #364366;
+    transition: all ease-in-out 0.3s;
+}
+
+.CustomersFav-viewall-btn > button:hover{
+    border: 1px solid #FFFFFF;
+    background: #364366;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 780px) {
+        
+    .customersFav-categories{
+        display: none;
+    }
+        
+    .customersFav-type-options{
+        display: none;
+    }
+
+}

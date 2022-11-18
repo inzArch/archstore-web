@@ -2,10 +2,11 @@
     display: grid;
     width: 90%;
     margin: 40px auto;
+    margin-bottom: 5px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
-    column-gap: 5px;
-    row-gap: 5px;
+    column-gap: 10px;
+    row-gap: 2px;
 }
 
 .CustomersFavCards-section{
