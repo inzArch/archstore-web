@@ -18,9 +18,10 @@
 	width: 80%;
 	margin-inline: auto;
 
-	height: 200px;
-	margin-top: 50px;
+	height: 250px;
+	/* margin-top: 50px; */
 	margin-bottom: 100px;
+	scrollbar-color: #f2b28f #e3e3e3;
 }
 
 .brand-logos {
@@ -30,12 +31,15 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	gap: 1rem;
 }
 
 .brand-logos > div {
+	width: 100%;
+	justify-content: space-evenly;
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 1rem;
@@ -44,6 +48,10 @@
 .brand-logo > img {
 	/* height: 20px; */
 	width: 100px;
+}
+
+.brand-logos:last-child {
+	margin-left: -0.5rem;
 }
 
 /* @media (min-width: 576px) {
@@ -77,3 +85,23 @@
 		gap: 4rem;
 	}
 } */
+
+@media screen and (max-width: 430px) {
+	.brand-logos-container {
+		height: 300px;
+	}
+}
+
+@media (min-width: 992px) {
+	.brand-logo > img {
+		/* height: 20px; */
+		width: 110px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.brand-logo > img {
+		/* height: 20px; */
+		width: 120px;
+	}
+}
