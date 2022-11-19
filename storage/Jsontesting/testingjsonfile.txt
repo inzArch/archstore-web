@@ -1,0 +1,381 @@
+export const Product = [
+	{
+    productDetail: {
+        brandIcon: "pending",
+        brandName: "jaipur rugs",
+        collectionName: "collection name",
+        Type: ["Residence"],
+        manufactureYear: "pending",
+        Designer: "pending"
+    },
+    productImages: [
+"https://d3o59fu9acgbkr.cloudfront.net/prod-images/Headshot/Large/RCT_SATK-70-0001.jpg",
+    ],
+    productOverview: {
+        heading: {
+            name: " Antique by jaipur rugs ",
+            path: "pending"
+        },
+        collection: {
+            name: "pending",
+            path: "pending"
+        },
+        type: "Residence",
+        designer: {
+            name: "pending",
+            path: "pending"
+        },
+        description: "100% wool,satk-70 - fresh lemonade / red,traditional,hand knotted,Handmade in Rural India,6 months warranty,indoor use only",
+    },
+    dimensions: {
+        texts: ["1500/2190",],
+        images: ["pending",],
+    },
+    technicalSheets: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    details: [
+        "",
+    ],
+    catalogues: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    Videos: [
+        {
+            name: "pending",
+            placeholder: "pending",
+            videoLink: "pending"
+        },
+
+    ],
+    tags: [
+        {
+            name: "pending",
+            path: "pending"
+        },
+    ]
+},
+	{
+    productDetail: {
+        brandIcon: "pending",
+        brandName: "jaipur rugs",
+        collectionName: "collection name",
+        Type: "residence",
+        manufactureYear: "pending",
+        Designer: "pending"
+    },
+    productImages: [
+        "https://d3o59fu9acgbkr.cloudfront.net/prod-images/Headshot/Large/RCT_LCA-2353-0002.jpg",
+    ],
+    productOverview: {
+        heading: {
+            name: "Artemis by jaipur rugs",
+            path: "pending"
+        },
+        collection: {
+            name: "collection name",
+            path: "pending"
+        },
+        type: "residence",
+        designer: {
+            name: "pending",
+            path: "pending"
+        },
+        description: "100% wool,lca-2353 - antique white / evening blue,modern,hand knotted,Handmade in Rural India,24 months warranty,indoor use only",
+    },
+    dimensions: {
+        texts: ["60/900",],
+        images: ["pending",],
+    },
+    technicalSheets: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    details: [
+        "features",
+    ],
+    catalogues: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    Videos: [
+        {
+            name: "pending",
+            placeholder: "pending",
+            videoLink: "pending"
+        },
+
+    ],
+    tags: [
+        {
+            name: "pending",
+            path: "pending"
+        },
+    ]
+},
+{
+    productDetail: {
+        brandIcon: "pending",
+        brandName: "jaipur rugs",
+        collectionName: "collection name",
+        Type: "residence",
+        manufactureYear: "pending",
+        Designer: "pending"
+    },
+    productImages: [
+        "https://d3o59fu9acgbkr.cloudfront.net/prod-images/Headshot/Large/RCT_LCA-2353-0002.jpg",
+    ],
+    productOverview: {
+        heading: {
+            name: "Artemis by jaipur rugs",
+            path: "pending"
+        },
+        collection: {
+            name: "collection name",
+            path: "pending"
+        },
+        type: "residence",
+        designer: {
+            name: "pending",
+            path: "pending"
+        },
+        description: "100% wool,lca-2353 - antique white / evening blue,modern,hand knotted,Handmade in Rural India,24 months warranty,indoor use only",
+    },
+    dimensions: {
+        texts: ["1680/2400",],
+        images: ["pending",],
+    },
+    technicalSheets: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    details: [
+        "features",
+    ],
+    catalogues: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    Videos: [
+        {
+            name: "pending",
+            placeholder: "pending",
+            videoLink: "pending"
+        },
+
+    ],
+    tags: [
+        {
+            name: "pending",
+            path: "pending"
+        },
+    ]
+},
+{
+    productDetail: {
+        brandIcon: "pending",
+        brandName: "jaipur rugs",
+        collectionName: "collection name",
+        Type: "residence",
+        manufactureYear: "pending",
+        Designer: "pending"
+    },
+    productImages: [
+        "https://d3o59fu9acgbkr.cloudfront.net/prod-images/Headshot/Large/RCT_LCA-2353-0005.jpg",
+    ],
+    productOverview: {
+        heading: {
+            name: "Artemis by jaipur rugs",
+            path: "pending"
+        },
+        collection: {
+            name: "collection name",
+            path: "pending"
+        },
+        type: "residence",
+        designer: {
+            name: "pending",
+            path: "pending"
+        },
+        description: "100% wool,lca-2353 - antique white / evening blue,modern,hand knotted,Handmade in Rural India,24 months warranty,indoor use only",
+    },
+    dimensions: {
+        texts: ["240/3000",],
+        images: ["pending",""],
+    },
+    technicalSheets: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    details: [
+        "features",
+    ],
+    catalogues: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    Videos: [
+        {
+            name: "pending",
+            placeholder: "pending",
+            videoLink: "pending"
+        },
+
+    ],
+    tags: [
+        {
+            name: "pending",
+            path: "pending"
+        },
+    ]
+},
+{
+    productDetail: {
+        brandIcon: "pending",
+        brandName: "jaipur rugs",
+        collectionName: "collection name",
+        Type: "residence",
+        manufactureYear: "pending",
+        Designer: "pending"
+    },
+    productImages: [
+        "https://d3o59fu9acgbkr.cloudfront.net/prod-images/Headshot/Large/RCT_LCA-2351-0006.jpg",
+    ],
+    productOverview: {
+        heading: {
+            name: "Artemis by jaipur rugs",
+            path: "pending"
+        },
+        collection: {
+            name: "collection name",
+            path: "pending"
+        },
+        type: "residence",
+        designer: {
+            name: "pending",
+            path: "pending"
+        },
+        description: "100% wool,lca-2351 - ink blue / capri,transitional,hand knotted,Handmade in Rural India,24 months warranty,indoor use only",
+    },
+    dimensions: {
+        texts: ["150/2400",],
+        images: ["pending",""],
+    },
+    technicalSheets: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    details: [
+        "features",
+    ],
+    catalogues: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    Videos: [
+        {
+            name: "pending",
+            placeholder: "pending",
+            videoLink: "pending"
+        },
+
+    ],
+    tags: [
+        {
+            name: "pending",
+            path: "pending"
+        },
+    ]
+},
+{
+    productDetail: {
+        brandIcon: "pending",
+        brandName: "vendor name",
+        collectionName: "collection name",
+        Type: "project type",
+        manufactureYear: "pending",
+        Designer: "pending"
+    },
+    productImages: [
+        "Images",
+"https://d3bvng1ozw4ph9.cloudfront.net/media/wysiwyg/banners/Tile-3.jpg",
+"uygcgerugvcv"
+    ],
+    productOverview: {
+        heading: {
+            name: "(collection name) | (product name) by (brand name) ",
+            path: "pending"
+        },
+        collection: {
+            name: "collection name",
+            path: "pending"
+        },
+        type: "project type",
+        designer: {
+            name: "pending",
+            path: "pending"
+        },
+        description: "description",
+    },
+    dimensions: {
+        texts: ["(LENGTH)/(WIDTH)","",""],
+        images: ["pending",""],
+    },
+    technicalSheets: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    details: [
+        "features",
+        "",
+        ""
+    ],
+    catalogues: [
+        {
+            placeholder: "pending",
+            path: "pending"
+        },
+    ],
+    Videos: [
+        {
+            name: "pending",
+            placeholder: "pending",
+            videoLink: "pending"
+        },
+
+    ],
+    tags: [
+        {
+            name: "pending",
+            path: "pending"
+        },
+    ]
+},
+
+
+
+]

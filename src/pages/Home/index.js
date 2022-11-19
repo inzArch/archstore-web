@@ -6,6 +6,7 @@ import HowItWorks from '../../components/Home/HowItWorks';
 import Brands from '../../components/Home/Brands';
 import './index.css';
 import Subscribe from '../../components/Home/Subscribe';
+import Magazines from '../../components/Home/Magazines';
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			<HowItWorks />
 			<CustomersFav />
 			<Brands />
+			<Magazines />
 			<Subscribe />
 		</div>
 	);
