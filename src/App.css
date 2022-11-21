@@ -1,3 +1,5 @@
-.main-page-container{
-    position: relative;
+.main-page-container {
+	position: relative;
+	max-width: 1200px;
+	margin-inline: auto;
 }
