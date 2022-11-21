@@ -50,14 +50,13 @@ export default function WeeklyTrendsCarousel() {
 	const [visibleSlides, setVisibleSlides] = useState([0, 1, 2]);
 	const [l, c, r] = visibleSlides;
 	const [animClass, setAnimClass] = useState('');
-	const c_slideRef = useRef(null);
 
 	function onClickNext() {
 		const new_l = c;
 		const new_c = (c + 1) % data.length;
 		const new_r = (new_c + 1) % data.length;
 		setVisibleSlides([new_l, new_c, new_r]);
-		setAnimClass('slide-out-left');
+		setAnimClass('slide-in-left');
 	}
 
 	function onClickPrev() {
@@ -66,7 +65,7 @@ export default function WeeklyTrendsCarousel() {
 		const new_r = (new_c + 1) % data.length;
 
 		setVisibleSlides([new_l, new_c, new_r]);
-		setAnimClass('slide-out-right');
+		setAnimClass('slide-in-right');
 	}
 
 	return (
@@ -77,12 +76,19 @@ export default function WeeklyTrendsCarousel() {
 				<p>{data[c].subtitle}</p>
 			</div>
 			<ul className='sl'>
-				<li className='sl-left'>
+				<li
+					className={`sl-left ${
+						animClass === 'slide-in-left'
+							? 'bg-card-slide-in-right'
+							: animClass === 'slide-in-right'
+							? 'bg-card-slide-in-left'
+							: ''
+					}`}
+				>
 					<img src={data[l].imgSrc} alt={data[l].title} />
 				</li>
 				<li
 					className={`sl-center ${animClass}`}
-					ref={c_slideRef}
 					onAnimationEnd={() => setAnimClass('')}
 				>
 					<img src={data[c].imgSrc} alt={data[c].title} />
@@ -100,7 +106,15 @@ export default function WeeklyTrendsCarousel() {
 						</a>
 					</div>
 				</li>
-				<li className='sl-right'>
+				<li
+					className={`sl-right ${
+						animClass === 'slide-in-left'
+							? 'bg-card-slide-in-right'
+							: animClass === 'slide-in-right'
+							? 'bg-card-slide-in-left'
+							: ''
+					}`}
+				>
 					<img src={data[r].imgSrc} alt={data[r].title} />
 				</li>
 			</ul>
