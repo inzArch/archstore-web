@@ -8,6 +8,7 @@ import './index.css';
 import Subscribe from '../../components/Home/Subscribe';
 import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
+import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
 
 export const MenuItemActiveStatusContext = createContext(null);
 
@@ -27,6 +28,7 @@ const Home = () => {
 				<Brands />
 				<Magazines />
 				<Subscribe />
+				<WeeklyTrendsCarousel />
 			</div>
 		</MenuItemActiveStatusContext.Provider>
 	);

@@ -1,0 +1,206 @@
+@import url(./animation-styles.css);
+
+.weekly-trends {
+	max-width: 1000px;
+	margin-inline: auto;
+	overflow-x: hidden;
+}
+
+.weekly-trends > h2 {
+	text-align: center;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 500;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.weekly-trends > .sl .sl-center-info {
+	display: none;
+}
+
+.weekly-trends > .sl-center-info {
+	text-align: center;
+}
+
+.weekly-trends > .sl-center-info > h3,
+.weekly-trends .sl-center > .sl-center-info > h3 {
+	font-family: 'Crimson Text', serif;
+	font-size: 1.75rem;
+	margin-top: 1.5rem;
+}
+
+.weekly-trends .sl-center > .sl-center-info > h3 {
+	margin-top: 0;
+}
+
+.weekly-trends > .sl-center-info > p,
+.weekly-trends .sl-center > .sl-center-info > p {
+	font-family: 'Outfit', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-inline: 2rem;
+
+	height: 43px;
+	overflow-y: hidden;
+}
+
+.weekly-trends .sl-center > .sl-center-info > p {
+	margin-inline: 0;
+}
+
+.weekly-trends > .sl {
+	padding: 0;
+	margin-inline: 1rem;
+	height: 275px;
+	position: relative;
+}
+
+.weekly-trends > .sl > *:not(.sl-center) {
+	display: none;
+}
+
+.weekly-trends > .sl > li.sl-center {
+	height: 100%;
+	position: relative;
+}
+
+.weekly-trends > .sl > li > img {
+	border-radius: 8px;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.weekly-trends .sl-center > .learn-more {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.25rem 0.75rem;
+
+	border-radius: 0 8px;
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(2.5px);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	text-decoration: none;
+}
+
+.weekly-trends .sl-center > .sl-center-info > .learn-more {
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+}
+
+.weekly-trends .sl-center > .learn-more > span,
+.weekly-trends .sl-center > .sl-center-info > .learn-more > span {
+	margin-right: 0.5rem;
+	letter-spacing: 0.05rem;
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: white;
+}
+
+.carousel-control {
+	display: flex;
+	justify-content: center;
+	margin-block: 1.5rem;
+}
+
+.carousel-control > button:last-child {
+	margin-left: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+	.weekly-trends > .sl {
+		height: 350px;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.weekly-trends .sl-center > .learn-more {
+		display: none;
+	}
+
+	.weekly-trends > .sl-center-info {
+		display: none;
+	}
+
+	.weekly-trends > h2 {
+		margin-bottom: 2rem;
+	}
+
+	.weekly-trends .sl-center > .sl-center-info {
+		position: absolute;
+		display: block;
+
+		bottom: 0;
+		right: 0;
+		width: 80%;
+
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 3px;
+		backdrop-filter: blur(2.5px);
+
+		color: white;
+
+		padding: 1.2rem;
+		margin: 1rem;
+	}
+
+	.weekly-trends > .sl {
+		margin-inline: 2rem;
+	}
+
+	.weekly-trends > .sl > li:not(.sl-center) {
+		position: absolute;
+		display: block;
+		height: 80%;
+
+		width: 48%;
+		height: 70%;
+
+		top: 15%;
+		z-index: -1;
+
+		opacity: 0.75;
+	}
+
+	.weekly-trends > .sl > .sl-left {
+		left: 0;
+	}
+
+	.weekly-trends > .sl > .sl-center > img {
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+			rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	}
+
+	.weekly-trends > .sl > .sl-right {
+		right: 0;
+	}
+
+	.weekly-trends > .sl > .sl-center {
+		width: 70%;
+		margin-inline: auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.weekly-trends > .sl {
+		height: 400px;
+	}
+
+	.weekly-trends .sl-center > .sl-center-info {
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.weekly-trends > .sl {
+		height: 450px;
+	}
+
+	.weekly-trends .sl-center > .sl-center-info {
+		width: 50%;
+	}
+}
