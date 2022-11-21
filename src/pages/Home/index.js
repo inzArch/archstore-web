@@ -6,6 +6,7 @@ import HowItWorks from '../../components/Home/HowItWorks';
 import Brands from '../../components/Home/Brands';
 import './index.css';
 import Subscribe from '../../components/Home/Subscribe';
+import Footer from '../../components/Footer';
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 			<CustomersFav />
 			<Brands />
 			<Subscribe />
+			<Footer />
 		</div>
 	);
 };
