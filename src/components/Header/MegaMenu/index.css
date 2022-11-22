@@ -39,8 +39,7 @@
 .megamenu-container {
 	position: fixed;
 	top: 135px;
-	z-index: 10;
-	width: 100%;
+	z-index: 19;
 }
 
 .megamenu-inner-container {

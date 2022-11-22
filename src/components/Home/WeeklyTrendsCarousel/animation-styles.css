@@ -1,0 +1,83 @@
+.slide-in-left {
+	animation-name: slideInLeft;
+}
+
+.slide-in-right {
+	animation-name: slideInRight;
+}
+
+.bg-card-slide-in-left {
+	animation-name: bgCardslideInLeft;
+}
+
+.bg-card-slide-in-right {
+	animation-name: bgCardslideInRight;
+}
+
+.fade-in {
+	animation-name: fadeIn;
+}
+
+.hidden {
+	display: none;
+	opacity: 0;
+}
+
+.slide-in-left,
+.slide-in-right,
+.fade-in {
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft {
+	from {
+		transform: translateX(100vw) scale(0.5);
+	}
+
+	to {
+		transform: translateX(0) scale(1);
+	}
+}
+
+@keyframes slideInRight {
+	from {
+		transform: translateX(-100vw) scale(0.5);
+	}
+
+	to {
+		transform: translateX(0) scale(1);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes bgCardslideInLeft {
+	from {
+		transform: translateX(100vw);
+	}
+
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes bgCardslideInRight {
+	from {
+		transform: translateX(-100vw);
+	}
+
+	to {
+		transform: translateX(0);
+	}
+}
