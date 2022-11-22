@@ -11,6 +11,8 @@ import { MenuItemActiveStatusContext } from '../../pages/Home';
 const Header = () => {
 	const { setActiveMenuItem } = useContext(MenuItemActiveStatusContext);
 
+	console.log(MenuContent);
+
 	return (
 		<nav className='main-header-container'>
 			<div className='header-container'>
@@ -24,7 +26,7 @@ const Header = () => {
 							className='header-menu-item'
 							onMouseOver={() => setActiveMenuItem(content.name)}
 						>
-							<img src={content.img} alt='livingroom' />
+							<img src={content.icon} alt='livingroom' />
 							<p>{content.name}</p>
 						</div>
 					))}
