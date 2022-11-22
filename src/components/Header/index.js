@@ -11,8 +11,6 @@ import { MenuItemActiveStatusContext } from '../../pages/Home';
 const Header = () => {
 	const { setActiveMenuItem } = useContext(MenuItemActiveStatusContext);
 
-	console.log(MenuContent);
-
 	return (
 		<nav className='main-header-container'>
 			<div className='header-container'>

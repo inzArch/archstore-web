@@ -1,10 +1,10 @@
-// import LivingRoom from '../../assets/images/header/LivingRoom.svg';
-// import BedRoom from '../../assets/images/header/BedRoom.svg';
-// import Kitchen from '../../assets/images/header/Kitchen.svg';
-// import BathRoom from '../../assets/images/header/BathRoom.svg';
-// import Fabric from '../../assets/images/header/Fabric.svg';
-// import Office from '../../assets/images/header/Office.svg';
-// import Planters from '../../assets/images/header/Planters.svg';
+import LivingRoom from '../../assets/images/header/LivingRoom.svg';
+import BedRoom from '../../assets/images/header/BedRoom.svg';
+import Kitchen from '../../assets/images/header/Kitchen.svg';
+import BathRoom from '../../assets/images/header/BathRoom.svg';
+import Fabric from '../../assets/images/header/Fabric.svg';
+import Office from '../../assets/images/header/Office.svg';
+import Planters from '../../assets/images/header/Planters.svg';
 
 
 import Heart from '../../assets/images/header/Heart.svg';
@@ -14,7 +14,7 @@ import Bell from '../../assets/images/header/Bell.svg';
 const MenuContent = [
     {
         name: "Living Room",
-        icon: "http://localhost:3000/static/media/LivingRoom.67dcbec0688f53308c01a40d800b6877.svg",
+        icon: LivingRoom,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
@@ -404,7 +404,7 @@ const MenuContent = [
     },
     {
         name: "Bath Room",
-        icon: "http://localhost:3000/static/media/BathRoom.6c959e5ae814fbf5bae7a0ba72742d2d.svg",
+        icon: BathRoom,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
@@ -794,7 +794,7 @@ const MenuContent = [
     },
     {
         name: "Bed Room",
-        icon: "http://localhost:3000/static/media/BedRoom.3f1704fcf0ad625c711fb9cd434de706.svg",
+        icon: BedRoom,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
@@ -1184,7 +1184,7 @@ const MenuContent = [
     },
     {
         name: "Kitchen",
-        icon: "http://localhost:3000/static/media/Kitchen.49020dd22f720862743b7b9e88c1df5f.svg",
+        icon: Kitchen,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
@@ -1574,7 +1574,7 @@ const MenuContent = [
     },
     {
         name: "Fabric",
-        icon: "http://localhost:3000/static/media/Fabric.ef9d8bf4eefad74134fd4d2723f84d50.svg",
+        icon: Fabric,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
@@ -1964,7 +1964,7 @@ const MenuContent = [
     },
     {
         name: "Office",
-        icon: "http://localhost:3000/static/media/Office.bf67085ab5df74abe6e02a9e3211e04a.svg",
+        icon: Office,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
@@ -2354,7 +2354,7 @@ const MenuContent = [
     },
     {
         name: "Planters",
-        icon: "http://localhost:3000/static/media/Planters.95259c2e260cb4ff1ddf65326c768f14.svg",
+        icon: Planters,
         colors: {
             primary: "#f2e4e0",
             secondary: "#ead4ce",
