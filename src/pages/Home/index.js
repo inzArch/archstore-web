@@ -1,15 +1,15 @@
 import React, { useState, createContext } from 'react';
-import CustomersFav from '../../components/Home/CustomersFav';
+// import CustomersFav from '../../components/Home/CustomersFav';
 import Header from '../../components/Header';
 import HomeCarousel from '../../components/Home/HomeCarousel';
 import HowItWorks from '../../components/Home/HowItWorks';
-import Brands from '../../components/Home/Brands';
+// import Brands from '../../components/Home/Brands';
 import './index.css';
-import Subscribe from '../../components/Home/Subscribe';
+// import Subscribe from '../../components/Home/Subscribe';
 import Footer from '../../components/Footer';
-import Magazines from '../../components/Home/Magazines';
+// import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
-import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
+// import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
 
 export const MenuItemActiveStatusContext = createContext(null);
 
@@ -25,11 +25,11 @@ const Home = () => {
 				<MegaMenu />
 				<HomeCarousel />
 				<HowItWorks />
-				<CustomersFav />
+				{/* <CustomersFav />
 				<WeeklyTrendsCarousel />
 				<Brands />
 				<Magazines />
-				<Subscribe />
+				<Subscribe /> */}
 				<Footer />
 			</div>
 		</MenuItemActiveStatusContext.Provider>

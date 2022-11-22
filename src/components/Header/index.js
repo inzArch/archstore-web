@@ -24,7 +24,7 @@ const Header = () => {
 							className='header-menu-item'
 							onMouseOver={() => setActiveMenuItem(content.name)}
 						>
-							<img src={content.img} alt='livingroom' />
+							<img src={content.icon} alt='livingroom' />
 							<p>{content.name}</p>
 						</div>
 					))}

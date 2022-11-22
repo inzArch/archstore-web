@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState } from 'react';
 import './index.css';
 
 import rightArrowIcon from '../../../assets/images/header/arrow-right.svg';

@@ -30,7 +30,7 @@ const Footer = () => {
             {
                 FooterContent.options.map((option,i)=>(
                 <Accordion.Item  eventKey={`${i}`}>
-                    <Accordion.Header className='accordion-header'>{option.name}</Accordion.Header>
+                    <Accordion.Header>{option.name}</Accordion.Header>
                     <Accordion.Body>
                     {option.content.map((option,i)=>(
                         <p>{option.name}</p>
