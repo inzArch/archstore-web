@@ -1,0 +1,103 @@
+
+.trending-moodboards-container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.trending-moodboards-heading > h1{
+    font-family: 'Outfit', sans-serif;
+    color: #782A2A;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    position: relative;
+    padding: 15px;
+}
+
+.trending-moodboards-container > .trending-moodboards-heading-container > .trending-moodboards-view-all-button{
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.trending-moodboards-container > .trending-moodboards-heading-container > .trending-moodboards-view-all-button > button{
+    font-size: 1.2rem;
+    width: 180px;
+    border: solid;
+    border-color: #364366;
+    border-width: thin;
+    border-radius: 4px;
+    color: #364366;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.trending-moodboards-heading > h1 > span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background: #F3E6E3;
+    z-index: -1;
+}
+
+.trending-moodboards-heading-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-moodboards-container > .trending-moodboards-view-all-button-responsive{
+    display: none;
+}
+
+.trending-moodboards-container > .trending-moodboards-view-all-button-responsive > button {
+    font-size: 1.5rem;
+    width: 120px;
+    height: 50px;
+    border: solid;
+    border-color: #364366;
+    border-width: thin;
+    border-radius: 4px;
+    columns: #364366;
+
+}
+
+.trending-moodboards-container > ::-webkit-scrollbar {
+	width: 5px;  
+	height: 5px;
+}
+
+.trending-moodboards-container >   ::-webkit-scrollbar-track {
+	background: #E3E3E3;
+	border-radius: 15px;
+	height: 1px;
+}
+
+.trending-moodboards-container >   ::-webkit-scrollbar-thumb {
+	background: #F2B28F;
+	border-radius: 10px;
+}
+
+@media (max-width:735px){
+    .trending-moodboards-heading > h1 > span{
+        display: none;
+    }
+    .trending-moodboards-heading > h1{
+        text-align: center;
+        font-size: 38px;
+    }
+    .trending-moodboards-container > .trending-moodboards-heading-container > .trending-moodboards-view-all-button{
+        display: none;
+    }
+    .trending-moodboards-container > .trending-moodboards-view-all-button-responsive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 736px) and (max-width:1135px){
+    .trending-moodboards-container > .trending-moodboards-heading-container > .trending-moodboards-view-all-button{
+        margin-top: 10px;
+    }
+}
