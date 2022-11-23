@@ -5,7 +5,7 @@ import HomeCarousel from '../../components/Home/HomeCarousel';
 // import HowItWorks from '../../components/Home/HowItWorks';
 // import Brands from '../../components/Home/Brands';
 import './index.css';
-import Subscribe from '../../components/Home/Subscribe';
+// import Subscribe from '../../components/Home/Subscribe';
 import Footer from '../../components/Footer';
 // import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
@@ -30,8 +30,8 @@ const Home = () => {
 				<WeeklyTrendsCarousel /> */}
 				{/* <Brands />
 				<Magazines /> */}
-				<Subscribe />
 				<TrendingMoodBoards />
+				{/* <Subscribe /> */}
 				<Footer />
 			</div>
 		</MenuItemActiveStatusContext.Provider>
