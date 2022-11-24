@@ -1,3 +1,8 @@
+/* 
+	.full-width is supposed to signify the 
+	.accordion-aside being full-screen on mobile 
+*/
+
 .accordion-aside.full-width {
 	display: block;
 	position: fixed;
@@ -17,51 +22,24 @@
 	font-size: 0.9rem;
 }
 
-.brands-listing input[type='checkbox']:focus {
-	box-shadow: none;
-	/* border-color: rgba(0, 0, 0, 0.25); */
-}
-
 .accordion-aside a:hover,
 .accordion-aside label:hover {
 	font-weight: 600;
 }
 
-.accordion-aside .accordion-button {
-	background-color: white;
-	color: black;
-}
-
-.accordion-aside .accordion-item {
-	border-radius: 0;
-}
-
-.accordion-aside .accordion-button:not(.collapsed),
-.accordion-aside .accordion-button:hover {
-	background-color: #f7f8fa;
-}
-
-.accordion-button:not(.collapsed)::after {
-	background-image: var(--bs-accordion-btn-icon);
-}
-
-.accordion-aside .accordion-button:focus {
-	box-shadow: none;
-}
-
-.accordion-aside .accordion-item {
-	border-right: none;
-	border-left: none;
-}
-
 .accordion-aside ul {
 	padding-left: 1rem;
-	/* margin: 0; */
 }
 
 .accordion-aside .outer-ul {
 	padding-left: 0;
 }
+
+.brands-listing input[type='checkbox']:focus {
+	box-shadow: none;
+}
+
+/* styles for the search-field in accordion-aside */
 
 .accordion-aside .searchfield-wrapper {
 	margin-bottom: 1rem;
@@ -80,6 +58,8 @@
 	outline: none;
 	border-color: #8c8c8c;
 }
+
+/* styles for the header and pagination buttons above the cards */
 
 .card-container > div:first-child > h2 {
 	margin-bottom: 1.5rem;
@@ -117,11 +97,15 @@
 	background-color: #ebebeb;
 }
 
+/* below applies to ul in accordion-body */
+
 .country-list,
 .categories {
-	max-height: 50vh;
+	max-height: 60vh;
 	overflow-y: scroll;
 }
+
+/* on mobile */
 
 .brands-listing {
 	padding: 1rem;
@@ -131,7 +115,6 @@
 
 .accordion-aside {
 	display: none;
-	/* border: thin solid #e4e5e7; */
 }
 
 .card-container-grid {
@@ -145,10 +128,7 @@
 	background-color: #f7f8fa;
 	border: thin solid #e4e5e7;
 
-	/*temporary*/
 	padding-inline: 1rem;
-
-	height: 380px;
 	transition: background-color 250ms ease-in-out;
 }
 
@@ -157,7 +137,7 @@
 }
 
 .brand-card > .brand-logo {
-	width: 50%;
+	width: 45%;
 }
 
 .product-img-container > .product-img {
@@ -172,16 +152,19 @@
 	object-fit: cover;
 }
 
+/* 2 cards & no accordion-aside */
+
 @media screen and (min-width: 500px) {
 	.card-container-grid {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
+/* 2 cards & accordion-aside */
+
 @media screen and (min-width: 768px) {
 	.accordion-aside {
 		display: block;
-		/* align-self: stretch; */
 	}
 
 	.brands-listing {
@@ -191,6 +174,8 @@
 		gap: 1rem;
 	}
 }
+
+/* 3 cards & accordion-aside */
 
 @media screen and (min-width: 992px) {
 	.card-container-grid {
@@ -202,4 +187,33 @@
 	.brands-listing {
 		grid-template-columns: 25% 1fr;
 	}
+}
+
+/* bootstrap accordion style reset */
+
+.accordion-aside .accordion-button {
+	background-color: white;
+	color: black;
+}
+
+.accordion-aside .accordion-item {
+	border-radius: 0;
+}
+
+.accordion-aside .accordion-button:not(.collapsed),
+.accordion-aside .accordion-button:hover {
+	background-color: #f7f8fa;
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: var(--bs-accordion-btn-icon);
+}
+
+.accordion-aside .accordion-button:focus {
+	box-shadow: none;
+}
+
+.accordion-aside .accordion-item {
+	border-right: none;
+	border-left: none;
 }

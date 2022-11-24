@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Accordion } from 'react-bootstrap';
 
 import ArtemideLogo from '../../assets/images/home/brands/artemide-logo.svg';
@@ -60,10 +60,7 @@ const countryList = [
 
 export default function BrandsListingPage() {
 	const [filtersOpen, setFiltersOpen] = useState(false);
-
-	function toggleFilters() {
-		setFiltersOpen(!filtersOpen);
-	}
+	const toggleFilters = useCallback(() => setFiltersOpen(v => !v));
 
 	return (
 		<div className='brands-listing'>
