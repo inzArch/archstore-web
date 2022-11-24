@@ -11,6 +11,7 @@ import Footer from '../../components/Footer';
 import MegaMenu from '../../components/Header/MegaMenu';
 // import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
 import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
+import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
 
 export const MenuItemActiveStatusContext = createContext(null);
 
@@ -31,6 +32,7 @@ const Home = () => {
 				{/* <Brands />
 				<Magazines /> */}
 				<TrendingMoodBoards />
+				<DesignOfTheMonth />
 				{/* <Subscribe /> */}
 				<Footer />
 			</div>
