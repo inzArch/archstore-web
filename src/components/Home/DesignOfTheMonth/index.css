@@ -4,7 +4,9 @@
     position: relative;
     align-items: center;
     background: linear-gradient(90deg, #F7F1EE 55%, #ffff 45%);
-    height: 79vh;
+    margin-inline: 10px;
+    height: 83vh;
+    padding-block: 20px;
 } 
 
 .design-of-the-month-details{
@@ -12,15 +14,18 @@
     top: 0;
     left: 0;
     bottom: 0;
-    padding-top: 60px;
-    padding-left: 40px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    padding: 10px;
 }
 .design-of-the-month-card{
     display: grid;
     width: 50%;
     /* margin-block: auto; */
-    margin-right: 65px;
+    margin-right: 80px;
     /* margin-top: -450px;
     height: 0%; */
     grid-template-columns: repeat(3,1fr);
@@ -44,39 +49,79 @@
 }
 
 .design-of-the-month-container > .design-of-the-month-details > h1{
-    width: 342px;
-   height: 152px;
-
 font-family: 'Philosopher';
 font-style: normal;
 font-weight: 700;
-font-size: 56px;
-line-height: 76px;
 color: #624934;
 }
 
 .design-of-the-month-container > .design-of-the-month-details > h3{
-width: 273px;
 
 
 font-family: 'Albra';
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
-
-text-align: center;
-
 color: #393939;
 }
 
 .design-of-the-month-container > .design-of-the-month-details > p{
-    width: 323px;
-
-
 font-family: 'Acumin Variable Concept';
 font-style: normal;
 font-weight: 400;
-font-size: 17px;
 
 color: #5B5E6A;
 }
+
+
+.design-of-the-month-container > .design-of-the-month-details > button{
+    display: flex;
+    justify-content: flex-start;
+    }
+
+@media screen and (max-width: 1110px) {
+    
+.design-of-the-month-details{
+    width: 400px;
+    margin-left: 60px;
+    padding: 10px;
+}
+.design-of-the-month-card{
+    width: 50%;
+    margin-right: 60px;
+}
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+    .design-of-the-month-details{
+        width: 400px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+    .design-of-the-month-card{
+        width: 50%;
+        margin-right: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 920px) {
+    .design-of-the-month-container {
+        height: 70vh;
+    } 
+    .design-of-the-month-container > .design-of-the-month-details > h1{
+        font-size: 25px;
+        }
+    
+    .design-of-the-month-details{
+        width: 300px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    .design-of-the-month-card{
+        width: 50%;
+        margin-right: 30px;
+    }
+    }
