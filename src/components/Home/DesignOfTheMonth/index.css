@@ -1,0 +1,141 @@
+.design-of-the-month-container {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	align-items: center;
+	background: linear-gradient(90deg, #f7f1ee 55%, #ffff 45%);
+	margin-inline: 10px;
+	/* height: 70vh; */
+	padding-block: 20px;
+}
+
+.design-of-the-month-details {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 80px;
+	padding: 15px;
+}
+.design-of-the-month-card {
+	display: grid;
+	margin-block: 20px;
+	width: 60%;
+	/* height: 50%; */
+	/* max-width: 40%; */
+	/* max-width: 700px; */
+	/* margin-right: 80px; */
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+	padding: 5px;
+}
+
+.design-of-the-month-item:nth-child(1) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.design-of-the-month-item > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.design-of-the-month-container > .design-of-the-month-details > h1 {
+	font-family: 'Philosopher';
+	font-style: normal;
+	font-weight: 700;
+	color: #624934;
+	font-size: 45px;
+	padding-bottom: 20px;
+}
+
+.design-of-the-month-container > .design-of-the-month-details > h3 {
+	font-family: 'Albra';
+	font-style: normal;
+	font-weight: 500;
+	color: #393939;
+	padding-bottom: 10px;
+}
+
+.design-of-the-month-container > .design-of-the-month-details > p {
+	font-family: 'Acumin Variable Concept';
+	font-style: normal;
+	font-weight: 400;
+
+	color: #5b5e6a;
+}
+
+.design-of-the-month-container > .design-of-the-month-details > button {
+	display: flex;
+	justify-content: flex-start;
+}
+
+@media screen and (max-width: 1111px) {
+	.design-of-the-month-details {
+		margin-left: 40px;
+	}
+	.design-of-the-month-card {
+		/* max-width: 600px; */
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 975px) {
+	.design-of-the-month-details {
+		margin-left: 40px;
+	}
+	.design-of-the-month-card {
+		max-width: 500px;
+	}
+
+	.design-of-the-month-container > .design-of-the-month-details > h1 {
+		font-size: 35px;
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.design-of-the-month-details {
+		margin-left: 20px;
+		width: 250px;
+		padding: 15px;
+	}
+	.design-of-the-month-card {
+		max-width: 450px;
+	}
+
+	.design-of-the-month-container > .design-of-the-month-details > h1 {
+		font-size: 28px;
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width: 730px) {
+	.design-of-the-month-details {
+		position: relative;
+		width: 100%;
+	}
+	.design-of-the-month-container {
+		flex-direction: column;
+		background: linear-gradient(180deg, #f7f1ee 55%, #ffff 45%);
+	}
+
+	.design-of-the-month-card {
+		width: 100%;
+	}
+
+	.design-of-the-month-item:nth-child(1) {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+}
