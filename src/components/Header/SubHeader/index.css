@@ -1,9 +1,9 @@
 .subheader-container{
     display: flex;
-    padding: 10px 10px;
-    max-width: 1350px;
+    padding: 5px 5px;
+    padding-bottom: 8px;
+    max-width: 1200px;
     margin: auto;
-    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08); */
     background: #ffffff;
 }
 
@@ -42,7 +42,7 @@
     display: flex;
     background: rgba(220, 223, 237, 0.14);
     border-radius: 30px;
-    padding: 10px 25px;
+    padding: 8px 15px;
     margin-left: 15px;
 }
 .subheader-searchbar > img{
@@ -83,14 +83,16 @@
     .subheader-options{
         display: none;
     }
-
+        
+    .subheader-searchbar{
+        margin-left: 0;
+    }
     .subheader-dropdown{
         display: flex;
     }
 
     .subheader-container{
         padding: 10px 20px;
-        padding-right: 5px;
     }
 }
 

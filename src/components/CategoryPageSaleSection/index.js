@@ -78,9 +78,9 @@ const CategoryPageSaleSection = () => {
   return (
     <div>
       <h2> On Sale</h2>
-      <EmblaCarousel>
+      {/* <EmblaCarousel>
 
-      </EmblaCarousel>
+      </EmblaCarousel> */}
     </div>
   )
 }
