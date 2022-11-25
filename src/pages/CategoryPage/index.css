@@ -47,9 +47,21 @@
 /* styles for selections and guides section */
 
 .sg {
-	padding-block: 3rem;
-	max-width: 1000px;
+	padding-top: 3rem;
+	max-width: 1300px;
 	margin-inline: auto;
+}
+
+.sg + div {
+	padding-bottom: 3rem;
+}
+
+.sg + div > button {
+	background-color: white;
+}
+
+.sg + div > button:hover {
+	background-color: #f5f5f5;
 }
 
 .sg .l-arrow-icon {

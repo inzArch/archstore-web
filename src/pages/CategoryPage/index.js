@@ -3,11 +3,9 @@ import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png
 import './index.css';
 
 export default function () {
-	return <SelectionsAndGuides />;
-
 	return (
 		<>
-			<div className='px-3 browse-brands'>
+			<div className='px-3 browse-brands mb-5'>
 				<h2 className='fw-bold fs-3 my-4'>Browse by Brand</h2>
 				<EmblaCarousel>
 					{brands.map(({ name, img: imgSrc }, i) => (
@@ -32,6 +30,7 @@ export default function () {
 					</button>
 				</div>
 			</div>
+			<SelectionsAndGuides />
 		</>
 	);
 }
@@ -71,6 +70,18 @@ function SelectionsAndGuides() {
 						))}
 					</div>
 				))}
+			</div>
+			<div className='d-flex justify-content-center mt-5'>
+				<button className='rounded-pill px-3 py-1 fw-bold'>
+					<span>View all</span>
+					<span className='d-inline-block l-arrow-icon ml-2'>
+						<img
+							src={leftArrowIcon}
+							alt='Left Arrow icon'
+							className='img-fluid'
+						/>
+					</span>
+				</button>
 			</div>
 		</div>
 	);
