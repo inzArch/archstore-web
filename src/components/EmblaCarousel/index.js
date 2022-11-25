@@ -4,7 +4,7 @@ import ClassNames from 'embla-carousel-class-names';
 import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png';
 import './index.css';
 
-export function EmblaCarousel({ children }) {
+export function EmblaCarousel({ children, hideControls }) {
 	const [emblaRef, emblaAPI] = useEmblaCarousel(
 		{
 			loop: true,
@@ -13,14 +13,20 @@ export function EmblaCarousel({ children }) {
 		},
 		[ClassNames()]
 	);
-	const scrollNext = useCallback(() => emblaAPI && emblaAPI.scrollNext());
-	const scrollPrev = useCallback(() => emblaAPI && emblaAPI.scrollPrev());
+	const scrollNext = useCallback(
+		() => emblaAPI && emblaAPI.scrollNext(),
+		[emblaAPI]
+	);
+	const scrollPrev = useCallback(
+		() => emblaAPI && emblaAPI.scrollPrev(),
+		[emblaAPI]
+	);
 
 	return (
 		<div className='embla'>
 			<div className='embla__viewport' ref={emblaRef}>
 				<div className='embla__container'>{children}</div>
-				<div className='embla__prev'>
+				<div className={`embla__prev ${hideControls ? 'd-none' : ''}`}>
 					<button
 						type='button'
 						className='embla__control__button'
@@ -29,7 +35,7 @@ export function EmblaCarousel({ children }) {
 						<img src={leftArrowIcon} alt='Left Arrow icon' />
 					</button>
 				</div>
-				<div className='embla__next'>
+				<div className={`embla__next ${hideControls ? 'd-none' : ''}`}>
 					<button
 						type='button'
 						className='embla__control__button'
@@ -74,17 +80,29 @@ const brands = [
 export default function () {
 	return (
 		<div className='px-3 browse-brands'>
-			<h2 className='fw-bold fs-4 mx-2 my-3'>Browse by Brand</h2>
+			<h2 className='fw-bold fs-3 my-4'>Browse by Brand</h2>
 			<EmblaCarousel>
 				{brands.map(({ name, img: imgSrc }, i) => (
 					<div className='brand-card' key={i}>
 						<div className='brand-img img-fluid'>
 							<img src={baseURL + imgSrc} alt={name} />
 						</div>
-						<div className='brand-name'>{name}</div>
+						<div className='brand-name text-dark'>{name}</div>
 					</div>
 				))}
 			</EmblaCarousel>
+			<div className='d-flex justify-content-center mt-4 mt-lg-5'>
+				<button className='border rounded-pill px-3 py-1 fw-bold'>
+					<span>View All</span>
+					<span className='d-inline-block l-arrow-icon ml-2'>
+						<img
+							src={leftArrowIcon}
+							alt='Left Arrow icon'
+							className='img-fluid'
+						/>
+					</span>
+				</button>
+			</div>
 		</div>
 	);
 }
