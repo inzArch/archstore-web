@@ -1,0 +1,98 @@
+
+.company-catalog-section{
+    max-width: 1300px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
+.company-catalog-card{
+    position: relative;
+    flex: 0 0 calc(75% - 0.7rem);
+	box-sizing: border-box;
+	margin-inline: 0.35rem;
+}
+.company-catalog-button{
+    border: solid;
+    border-color: #e4e5e7;
+    border-width: thin;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    margin-top: 24px;
+    font-weight: 500;
+}
+
+.company-catalog-button:hover {
+    background-color: #e4e5e7;
+}
+.company-catalog-img{
+	border: solid;
+    border-width: thin;
+    border-color: beige;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.company-catalog-pdf{
+    position: absolute;
+    top: 40px;
+    right: -5px;
+    background-color: #FF6363;
+    color: #ffff;
+    display: inline-block;
+    padding-inline: 12px;
+    border-radius: 0.23rem;
+}
+
+.company-catalog-image > img {
+    border-radius: 0.45rem;
+    transform: scale(1);
+	transition: transform 200ms ease-in-out;
+}
+
+.company-catalog-image:hover > img {
+    transform: scale(1.05);
+}
+
+.company-catalog-heading{
+    display: flex;
+    justify-content:space-between;
+    font-family: "Roboto",Arial,sans-serif;
+}
+
+.company-catalog-name{
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+@media screen and (min-width: 320px) and (max-width:499px){
+    .company-catalog-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 400;
+    }   
+}
+@media screen and (min-width: 500px) {
+	.company-catalog-card {
+		flex: 0 0 calc(33.33% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.company-catalog-card {
+		flex: 0 0 calc(25% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.company-catalog-card  {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.company-catalog-card  {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}
