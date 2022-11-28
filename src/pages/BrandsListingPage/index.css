@@ -1,63 +1,7 @@
-/* 
-	.full-width is supposed to signify the 
-	.accordion-aside being full-screen on mobile 
-*/
-
-.accordion-aside.full-width {
-	display: block;
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background-color: white;
-
-	padding: 1rem;
-}
-
-.accordion-aside a,
-.accordion-aside label {
-	color: #454545;
-	text-decoration-color: transparent;
-	font-size: 0.9rem;
-}
-
-.accordion-aside a:hover,
-.accordion-aside label:hover {
-	font-weight: 600;
-}
-
-.accordion-aside ul {
-	padding-left: 1rem;
-}
-
-.accordion-aside .outer-ul {
-	padding-left: 0;
-}
-
-.brands-listing input[type='checkbox']:focus {
-	box-shadow: none;
-}
-
-/* styles for the search-field in accordion-aside */
-
-.accordion-aside .searchfield-wrapper {
-	margin-bottom: 1rem;
-}
-
-.accordion-aside .searchfield-wrapper > input {
-	border: thin solid #bfbfbf;
-	border-radius: 0.25rem;
-	display: block;
-	width: 100%;
-
-	padding: 0.45rem 0.65rem;
-}
-
-.accordion-aside .searchfield-wrapper > input:focus {
-	outline: none;
-	border-color: #8c8c8c;
-}
+@import url(./bs-accordion-reset.css);
+@import url(./bs-checkbox-reset.css);
+@import url(./bs-textfield-reset.css);
+@import url(./accordion-aside.css);
 
 /* styles for the header and pagination buttons above the cards */
 
@@ -187,33 +131,4 @@
 	.brands-listing {
 		grid-template-columns: 25% 1fr;
 	}
-}
-
-/* bootstrap accordion style reset */
-
-.accordion-aside .accordion-button {
-	background-color: white;
-	color: black;
-}
-
-.accordion-aside .accordion-item {
-	border-radius: 0;
-}
-
-.accordion-aside .accordion-button:not(.collapsed),
-.accordion-aside .accordion-button:hover {
-	background-color: #f7f8fa;
-}
-
-.accordion-button:not(.collapsed)::after {
-	background-image: var(--bs-accordion-btn-icon);
-}
-
-.accordion-aside .accordion-button:focus {
-	box-shadow: none;
-}
-
-.accordion-aside .accordion-item {
-	border-right: none;
-	border-left: none;
 }
