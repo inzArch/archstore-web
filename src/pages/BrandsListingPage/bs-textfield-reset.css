@@ -1,0 +1,4 @@
+input[type='text'].form-control:focus {
+	border-color: #8c8c8c;
+	box-shadow: none;
+}
