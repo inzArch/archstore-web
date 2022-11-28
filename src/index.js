@@ -9,6 +9,7 @@ import App from './App';
  import RecentlyViewedSection from './components/RecentlyViewedSection';
 import CompanyCatalogueSection from './components/CompanyCatalogueSection';
 import CategoryPageSaleSection from './components/CategoryPageSaleSection';
+import AboutUsPage from './components/AboutUsPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,9 +17,10 @@ root.render(
 		{/* <App /> */}
 		{/* <CoverPage /> */}
 		{/* <BrandsListingPage /> */}
-		<Carousel />
+		{/* <Carousel />
 		<RecentlyViewedSection />
 		<CompanyCatalogueSection />
-		<CategoryPageSaleSection />
+		<CategoryPageSaleSection /> */}
+		<AboutUsPage />
 	</React.StrictMode>
 );

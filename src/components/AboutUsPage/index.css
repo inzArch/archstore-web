@@ -1,0 +1,26 @@
+.video-wrapper{
+    position: relative;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.video-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.about-us-details{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
