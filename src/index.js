@@ -13,7 +13,7 @@ import CategoryPageSaleSection from './components/CategoryPageSaleSection';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<App />
+		{/* <App /> */}
 		{/* <CoverPage /> */}
 		{/* <BrandsListingPage /> */}
 		<Carousel />

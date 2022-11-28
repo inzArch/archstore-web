@@ -24,17 +24,17 @@ const Home = () => {
 		>
 			<div className='Home-container'>
 				<Header />
-				<MegaMenu />
-				<HomeCarousel />
+				{/* <MegaMenu /> */}
+				{/* <HomeCarousel />
 				<HowItWorks />
 				<CustomersFav />
-				<WeeklyTrendsCarousel />
+				<WeeklyTrendsCarousel /> */}
 				{/* <Brands /> */}
-				<Magazines />
+				{/* <Magazines /> */}
 				{/* <TrendingMoodBoards />
 				<DesignOfTheMonth /> */}
 				{/* <Subscribe /> */}
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 		</MenuItemActiveStatusContext.Provider>
 	);
