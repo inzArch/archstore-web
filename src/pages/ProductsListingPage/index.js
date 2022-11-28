@@ -58,7 +58,7 @@ export default function ProductsListingPage() {
 
 						{/* <div className='ml-auto'> */}
 						{/* <span className='fw-bold'>297 Products</span> */}
-						<span className='d-inline-flex align-items-center ml-5 ml-auto'>
+						<span className='d-inline-flex align-items-center ml-auto'>
 							<span className='text-secondary'>Sort by: </span>
 							<DropdownButton
 								id='sort-by-dropdown'
