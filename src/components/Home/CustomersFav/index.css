@@ -1,8 +1,12 @@
-.customersFav-container{
-    max-width: 1350px;
-    margin: 0 auto;
+.customersFav-outerContainer{
     background: #F5F5F5;
-    padding: 60px 0;
+
+}
+
+.customersFav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .customersFav-heading{
@@ -26,7 +30,7 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0;
-    height: 100px;
+    height: 44px;
 }
 
 .customersFav-categories > span{
@@ -71,7 +75,7 @@
 
 
 .CustomersFav-viewall-btn{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

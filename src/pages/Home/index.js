@@ -1,17 +1,17 @@
 import React, { useState, createContext } from 'react';
-// import CustomersFav from '../../components/Home/CustomersFav';
+import CustomersFav from '../../components/Home/CustomersFav';
 import Header from '../../components/Header';
 import HomeCarousel from '../../components/Home/HomeCarousel';
-// import HowItWorks from '../../components/Home/HowItWorks';
+import HowItWorks from '../../components/Home/HowItWorks';
 // import Brands from '../../components/Home/Brands';
 import './index.css';
 // import Subscribe from '../../components/Home/Subscribe';
 import Footer from '../../components/Footer';
-// import Magazines from '../../components/Home/Magazines';
+import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
-// import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
-import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
-import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
+import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
+// import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
+// import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
 
 export const MenuItemActiveStatusContext = createContext(null);
 
@@ -26,13 +26,13 @@ const Home = () => {
 				<Header />
 				<MegaMenu />
 				<HomeCarousel />
-				{/* <HowItWorks />
+				<HowItWorks />
 				<CustomersFav />
-				<WeeklyTrendsCarousel /> */}
-				{/* <Brands />
-				<Magazines /> */}
-				<TrendingMoodBoards />
-				<DesignOfTheMonth />
+				<WeeklyTrendsCarousel />
+				{/* <Brands /> */}
+				<Magazines />
+				{/* <TrendingMoodBoards />
+				<DesignOfTheMonth /> */}
 				{/* <Subscribe /> */}
 				<Footer />
 			</div>
