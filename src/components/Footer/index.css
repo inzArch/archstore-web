@@ -70,7 +70,7 @@
     font-size: 1.1rem;
 }
 
- .accordion-container{
+.footer-container   .accordion-container{
     visibility: hidden;
     display: none;
     width: 80%;
@@ -78,21 +78,21 @@
     margin: auto;
 } 
 
-.accordion-header > button{
+.footer-container .accordion-header > button{
   color: #ffffff !important;
   background-color: #1B1D27 !important;
 }
 
-.accordion-body{
+.footer-container .accordion-body{
     background-color: #989BA8 !important;
 }
 
- .accordion-header > button::after{
+.footer-container .accordion-header > button::after{
     background-image: var(--bs-accordion-btn-active-icon) !important;
   }
 
 @media (max-width: 800px){
-     .accordion-container{
+    .footer-container  .accordion-container{
         visibility: visible;
         display: block;
     }
