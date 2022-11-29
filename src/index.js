@@ -19,8 +19,8 @@ root.render(
 		{/* <BrandsListingPage /> */}
 		{/* <Carousel />
 		<RecentlyViewedSection />
-		<CompanyCatalogueSection />
-		<CategoryPageSaleSection /> */}
+		<CompanyCatalogueSection />*/}
+		{/* <CategoryPageSaleSection />  */}
 		<AboutUsPage />
 	</React.StrictMode>
 );
