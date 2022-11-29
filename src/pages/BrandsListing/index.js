@@ -1,8 +1,8 @@
 import { useCallback, useState } from 'react';
 import { Accordion, Form } from 'react-bootstrap';
 
-import closeIcon from '../ProductsListingPage/close-icon.png';
-import filterIcon from '../ProductsListingPage/filter-icon.png';
+import filterIcon from '../../assets/icons/filter-icon.png';
+import closeIcon from '../../assets/icons/close-icon.png';
 
 import ArtemideLogo from '../../assets/images/home/brands/artemide-logo.svg';
 import BenchAccounting from '../../assets/images/home/WeeklyTrendsCarousel/bench-accounting.png';
@@ -61,7 +61,7 @@ const countryList = [
 	'Vietnam',
 ];
 
-export default function BrandsListingPage() {
+export default function BrandsListing() {
 	const [filtersOpen, setFiltersOpen] = useState(false);
 	const toggleFilters = useCallback(() => setFiltersOpen(v => !v), []);
 

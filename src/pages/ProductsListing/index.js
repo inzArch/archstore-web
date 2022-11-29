@@ -1,17 +1,17 @@
 import { Accordion, Form, DropdownButton, Dropdown } from 'react-bootstrap';
 
 import './index.css';
-import placeholderImg from './placeholder-picture.png';
-import filterIcon from './filter-icon.png';
-import closeIcon from './close-icon.png';
-import heartOutlinedIcon from './heart-outline.png';
-import heartFilledIcon from './heart-filled.png';
+import placeholderImg from '../../assets/icons/placeholder.png';
+import filterIcon from '../../assets/icons/filter-icon.png';
+import closeIcon from '../../assets/icons/close-icon.png';
+import heartOutlinedIcon from '../../assets/icons/heart-outlined.png';
+import heartFilledIcon from '../../assets/icons/heart-filled.png';
 
 import MenuContent from '../../components/Header/MenuContent';
 import { products } from './products';
 import { useState, useCallback } from 'react';
 
-export default function ProductsListingPage() {
+export default function ProductsListing() {
 	const [filtersOpen, setFiltersOpen] = useState(false);
 	const [sortBy, setSortBy] = useState('Relevance');
 	const toggleFilters = useCallback(() => setFiltersOpen(v => !v), []);

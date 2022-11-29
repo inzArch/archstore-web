@@ -1,7 +1,7 @@
-@import url(../BrandsListingPage/bs-accordion-reset.css);
-@import url(../BrandsListingPage/accordion-aside.css);
-@import url(../BrandsListingPage/bs-textfield-reset.css);
-@import url(../BrandsListingPage/bs-checkbox-reset.css);
+@import url(../BrandsListing/bs-accordion-reset.css);
+@import url(../BrandsListing/accordion-aside.css);
+@import url(../BrandsListing/bs-textfield-reset.css);
+@import url(../BrandsListing/bs-checkbox-reset.css);
 
 .products-listing {
 	padding: 1rem;
@@ -63,6 +63,8 @@
 	position: relative;
 	transition: all ease-in-out 0.3s;
 	padding-bottom: 1.5rem;
+	border-radius: 0.25rem;
+	overflow: hidden;
 }
 
 .product-card > .product-details {
@@ -99,6 +101,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+
+	border-top-left-radius: 0.25rem;
 }
 
 .collections,
