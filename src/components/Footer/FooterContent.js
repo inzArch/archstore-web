@@ -1,4 +1,4 @@
-import Logo from '../../assets/images/header/Logo_Blue.png';
+import Logo from '../../assets/images/header/Logo_White.png';
 
 export const FooterContent = {
     img: Logo,

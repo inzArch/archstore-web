@@ -38,3 +38,40 @@
     bottom: 0;
     right: 0;
 }
+
+@media screen and (max-width: 555px) {
+        
+    .topLeaf{
+        display: none;
+    }
+
+    .moodboard > span{
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .moodboard{
+        height: 90px;
+    }
+
+    .moodboard-container {
+        bottom: -40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .moodboard{
+        height: 80px;
+    }
+
+    .bottomLeaf{
+        display: none;
+    }
+        
+    .moodboard > span{
+        font-size: 18px;
+        color: #949AB2;
+        word-spacing: 5px;
+        text-align: center;
+    }
+}
