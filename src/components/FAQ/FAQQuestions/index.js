@@ -5,6 +5,7 @@ import './index.css';
 const FAQQuestions = () => {
 
   const [questions, setQuestions] =  useState('shop');
+  
 
   return (
     <div className='faq-section-right'>

@@ -16,6 +16,7 @@
 
 .embla__container {
 	display: flex;
+	align-items: flex-start;
 }
 
 .embla__prev,
@@ -67,74 +68,54 @@
 	}
 }
 
-/* remove below styles later (these are for Browse By Brands Carousel) */
+/* remove below styles later (these styles are for company-video-section) */
 
-.browse-brands {
+.company-video-section .play-icon-wrapper > img {
+	width: 48px;
+	height: 48px;
+}
+
+.company-video-section {
 	max-width: 1300px;
 	margin-inline: auto;
 }
 
-.brand-card {
-	flex: 0 0 calc(50% - 0.7rem);
-	box-sizing: border-box;
+.company-video-section .video-card {
+	flex: 0 0 calc(80% - 0.7rem);
 	margin-inline: 0.35rem;
-}
 
-.brand-img {
-	aspect-ratio: 11 / 16;
-	border-radius: 0.45rem;
-	overflow: hidden;
 	cursor: pointer;
 }
 
-.brand-img > img {
-	transform: scale(1);
-	transition: transform 200ms ease-in-out;
+.company-video-section .video-thumb-img {
+	opacity: 1;
+	transition: opacity 200ms ease-in-out;
 }
 
-.brand-img:hover > img {
-	transform: scale(1.05);
-}
-
-.brand-name {
-	font-weight: bold;
-	font-size: 1.1rem;
-}
-
-.browse-brands button {
-	font-size: 1.1rem;
-}
-
-.browse-brands button:hover {
-	background-color: #f5f5f5;
-}
-
-.browse-brands .l-arrow-icon {
-	width: 12px;
-	height: 12px;
-	transform: rotateZ(180deg);
+.company-video-section .video-thumb-img:hover {
+	opacity: 0.75;
 }
 
 @media screen and (min-width: 500px) {
-	.brand-card {
-		flex: 0 0 calc(33.33% - 0.7rem);
+	.company-video-section .video-card {
+		flex: 0 0 calc(50% - 0.7rem);
 	}
 }
 
 @media screen and (min-width: 768px) {
-	.brand-card {
-		flex: 0 0 calc(25% - 0.7rem);
+	.company-video-section .video-card {
+		flex: 0 0 calc(33.33% - 0.7rem);
 	}
 }
 
 @media screen and (min-width: 992px) {
-	.brand-card {
-		flex: 0 0 calc(20% - 0.7rem);
+	.company-video-section .video-card {
+		flex: 0 0 calc(25% - 0.7rem);
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.brand-card {
-		flex: 0 0 calc(16.66% - 0.7rem);
+	.company-video-section .video-card {
+		flex: 0 0 calc(20% - 0.7rem);
 	}
 }

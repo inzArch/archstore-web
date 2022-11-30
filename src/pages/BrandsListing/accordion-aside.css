@@ -1,0 +1,64 @@
+/* 
+	.full-width is supposed to signify the 
+	.accordion-aside being full-screen on mobile 
+*/
+
+.accordion-aside.full-width {
+	display: block;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: white;
+
+	padding: 1rem;
+}
+
+.accordion-aside a,
+.accordion-aside label {
+	color: #454545;
+	text-decoration-color: transparent;
+	font-size: 0.9rem;
+}
+
+.accordion-aside a:hover,
+.accordion-aside label:hover {
+	font-weight: 600;
+}
+
+.accordion-aside ul {
+	padding-left: 1rem;
+}
+
+/* 
+	styles for close and filter button 
+	appearing on Brands/Products Listing Page 
+*/
+
+.close-btn,
+.filter-btn {
+	transition: all 250ms ease-in-out;
+}
+
+.close-btn {
+	opacity: 0.65;
+	padding-inline: 0.9rem;
+}
+
+.close-btn:hover,
+.close-btn:active {
+	opacity: 1;
+}
+
+.filter-btn {
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.25rem;
+	background-color: #ebebeb;
+}
+
+.filter-btn:hover,
+.filter-btn:active {
+	background-color: #f7f8fa;
+}

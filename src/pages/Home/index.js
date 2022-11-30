@@ -1,11 +1,11 @@
 import React, { useState, createContext } from 'react';
+import './index.css';
 import CustomersFav from '../../components/Home/CustomersFav';
 import Header from '../../components/Header';
 import HomeCarousel from '../../components/Home/HomeCarousel';
 import HowItWorks from '../../components/Home/HowItWorks';
-// import Brands from '../../components/Home/Brands';
-import './index.css';
-// import Subscribe from '../../components/Home/Subscribe';
+import Brands from '../../components/Home/Brands';
+import Subscribe from '../../components/Home/Subscribe';
 import Footer from '../../components/Footer';
 import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';

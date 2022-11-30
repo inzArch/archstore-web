@@ -1,5 +1,8 @@
 import { useCallback, useState } from 'react';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Form } from 'react-bootstrap';
+
+import filterIcon from '../../assets/icons/filter-icon.png';
+import closeIcon from '../../assets/icons/close-icon.png';
 
 import ArtemideLogo from '../../assets/images/home/brands/artemide-logo.svg';
 import BenchAccounting from '../../assets/images/home/WeeklyTrendsCarousel/bench-accounting.png';
@@ -58,9 +61,9 @@ const countryList = [
 	'Vietnam',
 ];
 
-export default function BrandsListingPage() {
+export default function BrandsListing() {
 	const [filtersOpen, setFiltersOpen] = useState(false);
-	const toggleFilters = useCallback(() => setFiltersOpen(v => !v));
+	const toggleFilters = useCallback(() => setFiltersOpen(v => !v), []);
 
 	return (
 		<div className='brands-listing'>
@@ -70,10 +73,15 @@ export default function BrandsListingPage() {
 						<span className='fw-bold fs-5'>Filters / Orders</span>
 						<button
 							type='button'
-							className='btn btn-outline-dark btn-sm fs-6'
+							className='close-btn'
 							onClick={toggleFilters}
 						>
-							Close
+							<img
+								src={closeIcon}
+								alt='Close Icon'
+								width='15'
+								height='15'
+							/>
 						</button>
 					</div>
 				)}
@@ -82,30 +90,28 @@ export default function BrandsListingPage() {
 
 			<div className='card-container'>
 				<div className='d-md-flex justify-content-between align-items-start'>
-					<h2>Manufacturers</h2>
+					<h2 className='fs-3 fw-bold'>Manufacturers</h2>
 					<div className='d-flex justify-content-start mb-4'>
 						<button
 							type='button'
-							className='d-md-none mr-4 btn btn-outline-dark btn-sm fs-6'
+							className='d-md-none d-inline-flex align-items-center filter-btn mr-4'
 							onClick={toggleFilters}
 						>
-							Filters
+							<img
+								src={filterIcon}
+								alt='Filter Icon'
+								width='22'
+								height='22'
+							/>
+							<span className='ml-2'>Filters</span>
 						</button>
 
 						<div className='for-sale-checkbox-pill rounded-pill'>
-							<div className='form-check'>
-								<input
-									className='form-check-input'
-									type='checkbox'
-									id='for-sale-checkbox'
-								/>
-								<label
-									className='form-check-label'
-									htmlFor='for-sale-checkbox'
-								>
-									For Sale
-								</label>
-							</div>
+							<Form.Check
+								type='checkbox'
+								label='For Sale'
+								id='for-sale-checkbox'
+							/>
 						</div>
 					</div>
 				</div>
@@ -165,7 +171,7 @@ function AccordionAside() {
 			<Accordion.Item eventKey='0'>
 				<Accordion.Header>Categories</Accordion.Header>
 				<Accordion.Body>
-					<ul className='outer-ul categories'>
+					<ul className='ps-0 categories'>
 						<li>
 							<a href='#'>All Categories</a>
 							<ul>
@@ -201,29 +207,19 @@ function AccordionAside() {
 				<Accordion.Header>Countries</Accordion.Header>
 				<Accordion.Body>
 					<>
-						<div className='searchfield-wrapper'>
-							<input
-								type='search'
-								className='search-input'
-								placeholder='Search Country'
-							/>
-						</div>
-						<ul className='outer-ul country-list'>
+						<Form.Control
+							type='text'
+							placeholder='Search Country'
+							className='mb-3'
+						/>
+						<ul className='ps-0 country-list'>
 							{countryList.map((country, i) => (
 								<li key={i}>
-									<div className='form-check'>
-										<input
-											className='form-check-input'
-											type='checkbox'
-											id={`${country}-check`}
-										/>
-										<label
-											className='form-check-label'
-											htmlFor={`${country}-check`}
-										>
-											{country}
-										</label>
-									</div>
+									<Form.Check
+										type='checkbox'
+										id={`${country}-check`}
+										label={country}
+									/>
 								</li>
 							))}
 						</ul>

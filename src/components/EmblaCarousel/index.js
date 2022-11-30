@@ -2,21 +2,24 @@ import { useCallback } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import ClassNames from 'embla-carousel-class-names';
 import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png';
+import playIcon from '../../assets/images/home/carousel/play-button.png';
 import './index.css';
 
-export function EmblaCarousel({ children, hideControls }) {
+export function EmblaCarousel({ children, hideControls, dragFree }) {
 	const [emblaRef, emblaAPI] = useEmblaCarousel(
 		{
 			loop: true,
 			align: 'start',
-			dragFree: true,
+			dragFree,
 		},
 		[ClassNames()]
 	);
+
 	const scrollNext = useCallback(
 		() => emblaAPI && emblaAPI.scrollNext(),
 		[emblaAPI]
 	);
+
 	const scrollPrev = useCallback(
 		() => emblaAPI && emblaAPI.scrollPrev(),
 		[emblaAPI]
@@ -49,60 +52,54 @@ export function EmblaCarousel({ children, hideControls }) {
 	);
 }
 
-const baseURL = 'https://cdn.archilovers.com/people/';
-const brands = [
-	{ name: 'Moroso', img: '67b17ebc-a8a0-45c6-a686-4aaf9507e4ec-brand.jpg' },
-	{ name: 'Zanotta', img: 'c34c6013-8565-4a33-827e-9bb5d802f57a-brand.jpg' },
-	{ name: 'De Padova', img: 'a816adc7-4e78-488d-9390-a962dda833de-brand.jpg' },
-	{ name: 'Wittman', img: '3782add0-6803-4087-a75c-531eb97a1835-brand.jpg' },
-	{ name: 'Thonet', img: '2d7e82ee-53f6-4356-9831-75a4d27f0fd7-brand.jpg' },
+const videos = [
 	{
-		name: 'Roche Bobois',
-		img: '62416f2a-ebed-407a-b6f2-953965243fbd-brand.jpg',
+		img: 'https://i.ytimg.com/vi/0DAB2inYKPo/mqdefault.jpg',
+		title: 'Philippe Starck presents the new Donald crystal tables',
 	},
 	{
-		name: 'B&B Italia',
-		img: '0459ff2a-ff45-41ad-88f5-be302b75e2e5-brand.jpg',
-	},
-	{ name: 'Poliform', img: '77689527-b35a-4490-afc0-52e783e2fb7a-brand.jpg' },
-	{ name: 'Flexform', img: 'ffdd6fe1-d33b-42ab-92df-0039a993ef78-brand.jpg' },
-	{
-		name: 'Molteni & C',
-		img: '7426a81f-1bc5-4639-8a6d-66b449fc36ae-brand.jpg',
+		img: 'https://i.ytimg.com/vi/UhEXlpjcc9c/mqdefault.jpg',
+		title: 'Fuorisalone 2022 | EDRA - Francesco Binfaré presents the new Standalto sofa',
 	},
 	{
-		name: 'Minotti',
-		img: 'ba78af94-75a1-48c5-b3e1-ab0a29f12efe-brand.jpg',
+		img: 'https://i.ytimg.com/vi/dyNBceD80hI/mqdefault.jpg',
+		title: 'CEO Roberto Banditelli presents new furnishings and accessories',
 	},
-	{ name: 'Hay', img: 'f94a6d78-a288-4da6-83b1-4006e928be67-brand.jpg' },
+	{
+		img: 'https://i.ytimg.com/vi/_ViTGz6dyO4/mqdefault.jpg',
+		title: 'Studio Zaven presents the new Za:Za sofa.',
+	},
+	{
+		img: 'https://i.ytimg.com/vi/H6XE8wZiaY8/mqdefault.jpg',
+		title: 'Gabriele Salvatori presents the furnishings in marble, wood, leather',
+	},
+	{
+		img: 'https://i.ytimg.com/vi/dJBenyXd19I/mqdefault.jpg',
+		title: 'Henry Walther presents Nappa and New Century',
+	},
+	{
+		img: 'https://i.ytimg.com/vi/Jr0mXevV180/mqdefault.jpg',
+		title: 'Coverings, the Secret Gardens collection',
+	},
 ];
 
 export default function () {
 	return (
-		<div className='px-3 browse-brands'>
-			<h2 className='fw-bold fs-3 my-4'>Browse by Brand</h2>
+		<div className='company-video-section px-3'>
+			<h2 className='fw-bold fs-3 my-4'>Video B&B Italia</h2>
 			<EmblaCarousel>
-				{brands.map(({ name, img: imgSrc }, i) => (
-					<div className='brand-card' key={i}>
-						<div className='brand-img img-fluid'>
-							<img src={baseURL + imgSrc} alt={name} />
+				{videos.map(({ img: imgSrc, title }, i) => (
+					<div className='video-card border' key={i}>
+						<div className='video-thumb-img position-relative'>
+							<img src={imgSrc} alt={title} className='img-fluid' />
+							<div className='play-icon-wrapper position-absolute top-0 start-0 bottom-0 end-0 d-flex align-items-center justify-content-center'>
+								<img src={playIcon} alt='Play Icon' />
+							</div>
 						</div>
-						<div className='brand-name text-dark'>{name}</div>
+						<div className='video-title py-2 px-3 pb-3'>{title}</div>
 					</div>
 				))}
 			</EmblaCarousel>
-			<div className='d-flex justify-content-center mt-4 mt-lg-5'>
-				<button className='border rounded-pill px-3 py-1 fw-bold'>
-					<span>View All</span>
-					<span className='d-inline-block l-arrow-icon ml-2'>
-						<img
-							src={leftArrowIcon}
-							alt='Left Arrow icon'
-							className='img-fluid'
-						/>
-					</span>
-				</button>
-			</div>
 		</div>
 	);
 }
