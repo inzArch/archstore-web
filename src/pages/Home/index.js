@@ -29,8 +29,8 @@ const Home = () => {
 				<HowItWorks />
 				<CustomersFav />
 				<WeeklyTrendsCarousel />
-				<Brands />
 				<Magazines />
+				<Brands />
 				<TrendingMoodBoards />
 				<DesignOfTheMonth />
 				<Subscribe />
