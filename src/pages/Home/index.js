@@ -34,7 +34,7 @@ const Home = () => {
 				{/* <TrendingMoodBoards />
 				<DesignOfTheMonth /> */}
 				{/* <Subscribe /> */}
-				{/* <Footer /> */}
+				<Footer />
 			</div>
 		</MenuItemActiveStatusContext.Provider>
 	);
