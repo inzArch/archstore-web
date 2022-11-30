@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import SubscribeBgImg from '../../../assets/images/home/subscribe/Subscribe.svg';
+import SubscribeBgImg from '../../../assets/images/home/subscribe/Subscribe.png';
 
 const Subscribe = () => {
   return (

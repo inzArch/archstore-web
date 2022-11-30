@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Logo from '../../assets/images/header/Logo_Blue.svg';
+import Logo from '../../assets/images/header/Logo_Blue.png';
 import MenuContent from './MenuContent.js';
 import { Bell, Heart, Profile } from './MenuContent.js';
 import MenuIcon from '../../assets/images/header/MenuIcon.svg';
