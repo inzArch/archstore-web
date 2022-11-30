@@ -6,6 +6,9 @@ import DownArrowIcon from '../../../assets/images/About Us Page/VideoWrapper/dow
 const AboutUsCommunity = () => {
   return (
     <div className='about-us-community'>
+      <div className='about-us-community-background'>
+        <img src='https://business.archiproducts.com/wp-content/uploads/2022/01/ambassador-archiproducts-milano-future-habitat_51632619151_o.jpg' />
+      </div>
         <div className='about-us-community-content'>
         <div className='about-us-community-image'>
           <img
