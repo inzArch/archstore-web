@@ -11,7 +11,7 @@ import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
 import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
 import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
-// import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
+import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
 
 export const MenuItemActiveStatusContext = createContext(null);
 
@@ -24,16 +24,16 @@ const Home = () => {
 		>
 			<div className='Home-container'>
 				<Header />
-				{/* <MegaMenu /> */}
-				{/* <HomeCarousel />
+				<MegaMenu />
+				<HomeCarousel />
 				<HowItWorks />
 				<CustomersFav />
-				<WeeklyTrendsCarousel /> */}
-				{/* <Brands /> */}
-				{/* <Magazines /> */}
+				<WeeklyTrendsCarousel />
+				<Brands />
+				<Magazines />
 				<TrendingMoodBoards />
-				{/* <DesignOfTheMonth /> */}
-				{/* <Subscribe /> */}
+				<DesignOfTheMonth />
+				<Subscribe />
 				<Footer />
 			</div>
 		</MenuItemActiveStatusContext.Provider>

@@ -122,7 +122,7 @@
 @media screen and (max-width: 730px) {
 	.design-of-the-month-details {
 		position: relative;
-		width: 100%;
+		width: 80%;
 	}
 	.design-of-the-month-container {
 		flex-direction: column;
