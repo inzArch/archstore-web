@@ -1,17 +1,21 @@
 import React, { useState, createContext } from 'react';
+<<<<<<< HEAD
 // import CustomersFav from '../../components/Home/CustomersFav';
+=======
+import './index.css';
+import CustomersFav from '../../components/Home/CustomersFav';
+>>>>>>> 095bcd84ff551070da7e71ba4815c8c797eca4af
 import Header from '../../components/Header';
 // import HomeCarousel from '../../components/Home/HomeCarousel';
 import HowItWorks from '../../components/Home/HowItWorks';
-// import Brands from '../../components/Home/Brands';
-import './index.css';
-// import Subscribe from '../../components/Home/Subscribe';
-// import Footer from '../../components/Footer';
-// import Magazines from '../../components/Home/Magazines';
+import Brands from '../../components/Home/Brands';
+import Subscribe from '../../components/Home/Subscribe';
+import Footer from '../../components/Footer';
+import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
-// import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
-// import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
-// import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
+import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
+import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
+import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
 
 export const MenuItemActiveStatusContext = createContext(null);
 
@@ -27,14 +31,14 @@ const Home = () => {
 				<MegaMenu />
 				{/* <HomeCarousel /> */}
 				<HowItWorks />
-				{/* <CustomersFav /> */}
-				{/* <WeeklyTrendsCarousel /> */}
-				{/* <Brands /> */}
-				{/* <Magazines /> */}
-				{/* <TrendingMoodBoards />
-				<DesignOfTheMonth /> */}
-				{/* <Subscribe /> */}
-				{/* <Footer /> */}
+				<CustomersFav />
+				<WeeklyTrendsCarousel />
+				<TrendingMoodBoards />
+				<DesignOfTheMonth />
+				<Magazines />
+				<Brands />
+				<Subscribe />
+				<Footer />
 			</div>
 		</MenuItemActiveStatusContext.Provider>
 	);

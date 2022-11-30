@@ -1,6 +1,7 @@
 import React from 'react';
 import SideBar from './SideBar';
 import FAQQuestions from './FAQQuestions';
+
 import './index.css';
 const FAQ = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import topLeaf from '../../../../assets/images/home/moodboard/topLeaf.svg';
 import bottomLeaf from '../../../../assets/images/home/moodboard/bottomLeaf.svg';
-import MyMoodBoard from './MyMoodBoard';
+// import MyMoodBoard from './MyMoodBoard';
 
 const MoodBoard = () => {
   return (

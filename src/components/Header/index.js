@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React, { useCallback, useContext } from 'react';
 import Logo from '../../assets/images/header/Logo_Blue.svg';
+=======
+import React, { useContext } from 'react';
+import Logo from '../../assets/images/header/Logo_Blue.png';
+>>>>>>> 095bcd84ff551070da7e71ba4815c8c797eca4af
 import MenuContent from './MenuContent.js';
 import { Bell, Heart, Profile } from './MenuContent.js';
 import MenuIcon from '../../assets/images/header/MenuIcon.svg';

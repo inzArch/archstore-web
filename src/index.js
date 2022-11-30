@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 // import BrandsListing from './pages/BrandsListing';
-// import ProductsListing from './pages/ProductsListing';
+// import ProductsListingPage from './pages/ProductsListing';
 // import WishlistPage from './pages/WishlistPage';
 // import CategoryPage from './pages/CategoryPage';
 // import Carousel from './components/EmblaCarousel';
@@ -16,9 +16,8 @@ root.render(
 	<React.StrictMode>
 		<App />
 		{/* <CoverPage /> */}
-		{/* <BrandsListing /> */}
-		{/* <ProductsListing /> */}
-		{/* <WishlistPage /> */}
+		{/* <BrandsListingPage /> */}
+		{/* <ProductsListingPage /> */}
 		{/* <CategoryPage /> */}
 		{/* <Carousel /> */}
 	</React.StrictMode>

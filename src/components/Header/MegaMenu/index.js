@@ -1,15 +1,15 @@
 import './index.css';
 import arrowRightIcon from '../../../assets/images/header/arrow-right.svg';
 import arrowRightDarkIcon from '../../../assets/images/header/arrow-right-dark.svg';
-import retailersIcon from '../../../assets/images/header/retailers.svg';
-import designersIcon from '../../../assets/images/header/designers.svg';
+import retailersIcon from '../../../assets/images/header/retailers.png';
+import designersIcon from '../../../assets/images/header/designers.png';
 import longRightArrowIcon from '../../../assets/images/header/long-right-arrow.svg';
-import chairImg from '../../../assets/images/header/chair.svg';
+import chairImg from '../../../assets/images/header/chair.png';
 
-import urbanLadderLogo from '../../../assets/images/header/urban-ladder-logo.svg';
-import pepperfryLogo from '../../../assets/images/header/pepperfry-logo.svg';
-import godrejInterioLogo from '../../../assets/images/header/godrej-interio-logo.svg';
-import EvokLogo from '../../../assets/images/header/evok-logo.svg';
+import urbanLadderLogo from '../../../assets/images/header/urban-ladder-logo.png';
+import pepperfryLogo from '../../../assets/images/header/pepperfry-logo.png';
+import godrejInterioLogo from '../../../assets/images/header/godrej-interio-logo.png';
+import EvokLogo from '../../../assets/images/header/evok-logo.png';
 
 import MenuContent from '../MenuContent';
 import { MenuItemActiveStatusContext } from '../../../pages/Home';
