@@ -4,7 +4,7 @@ import arrowRightDarkIcon from '../../../assets/images/header/arrow-right-dark.s
 import retailersIcon from '../../../assets/images/header/retailers.png';
 import designersIcon from '../../../assets/images/header/designers.png';
 import longRightArrowIcon from '../../../assets/images/header/long-right-arrow.svg';
-import chairImg from '../../../assets/images/header/chair.png';
+import chairImg from '../../../assets/images/header/chair.svg';
 
 import urbanLadderLogo from '../../../assets/images/header/urban-ladder-logo.png';
 import pepperfryLogo from '../../../assets/images/header/pepperfry-logo.png';

@@ -1,12 +1,8 @@
 import React, { useState, createContext } from 'react';
-<<<<<<< HEAD
-// import CustomersFav from '../../components/Home/CustomersFav';
-=======
 import './index.css';
 import CustomersFav from '../../components/Home/CustomersFav';
->>>>>>> 095bcd84ff551070da7e71ba4815c8c797eca4af
 import Header from '../../components/Header';
-// import HomeCarousel from '../../components/Home/HomeCarousel';
+import HomeCarousel from '../../components/Home/HomeCarousel';
 import HowItWorks from '../../components/Home/HowItWorks';
 import Brands from '../../components/Home/Brands';
 import Subscribe from '../../components/Home/Subscribe';
@@ -29,7 +25,7 @@ const Home = () => {
 			<div className='Home-container'>
 				<Header />
 				<MegaMenu />
-				{/* <HomeCarousel /> */}
+				<HomeCarousel />
 				<HowItWorks />
 				<CustomersFav />
 				<WeeklyTrendsCarousel />
