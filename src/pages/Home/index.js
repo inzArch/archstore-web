@@ -1,15 +1,15 @@
 import React, { useState, createContext } from 'react';
-import CustomersFav from '../../components/Home/CustomersFav';
+// import CustomersFav from '../../components/Home/CustomersFav';
 import Header from '../../components/Header';
-import HomeCarousel from '../../components/Home/HomeCarousel';
+// import HomeCarousel from '../../components/Home/HomeCarousel';
 import HowItWorks from '../../components/Home/HowItWorks';
 // import Brands from '../../components/Home/Brands';
 import './index.css';
 // import Subscribe from '../../components/Home/Subscribe';
-import Footer from '../../components/Footer';
-import Magazines from '../../components/Home/Magazines';
+// import Footer from '../../components/Footer';
+// import Magazines from '../../components/Home/Magazines';
 import MegaMenu from '../../components/Header/MegaMenu';
-import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
+// import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
 // import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
 // import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
 
@@ -25,16 +25,16 @@ const Home = () => {
 			<div className='Home-container'>
 				<Header />
 				<MegaMenu />
-				<HomeCarousel />
+				{/* <HomeCarousel /> */}
 				<HowItWorks />
-				<CustomersFav />
-				<WeeklyTrendsCarousel />
+				{/* <CustomersFav /> */}
+				{/* <WeeklyTrendsCarousel /> */}
 				{/* <Brands /> */}
-				<Magazines />
+				{/* <Magazines /> */}
 				{/* <TrendingMoodBoards />
 				<DesignOfTheMonth /> */}
 				{/* <Subscribe /> */}
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 		</MenuItemActiveStatusContext.Provider>
 	);
