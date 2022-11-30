@@ -4,8 +4,13 @@
     align-items: center;
     position: relative;
     background: #f1f1f1;
-    max-width: 1350px;
+    max-width: 1200px;
     margin-inline: auto;
+}
+
+.Subscribe-outer-container{
+    background-color: #f1f1f1;
+    background: linear-gradient(to right, #f1f1f1,#ebebed);
 }
 
 .Subscribe-content-section{

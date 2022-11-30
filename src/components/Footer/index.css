@@ -2,27 +2,32 @@
     background-color: #1B1D27;
     color: #ffffff;
     box-sizing: border-box;
-    max-width: 1350px;
+    max-width: 1200px;
     margin: auto;
 }
 
+.footer-outer-container{
+    background-color: #1B1D27;
+}
 .upper-footer{
     display: flex;
 }
 .footer-details-options{
     display: flex;
-    padding-left: 20px;
+    gap: 40px;
     padding-top: 80px;
     font-size: 0.8rem;
 }
+
 
 .footer-details > p{
     display: flex;
 }
 
 .footer-logo-address{
-    padding-top: 80px;
-    padding-left: 80px;
+    padding-top: 110px;
+    padding-left: 60px;
+    padding-right: 30px;
     width: 30%;
 }
 
@@ -33,7 +38,7 @@
 }
 
 .footer-logo-address > img{
-    width: 40%;
+    width: 50%;
 }
 
 .footer-detail-column{
@@ -57,13 +62,19 @@
 }
 
 .fdc-name{
+    font-style: normal;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding-top: 15px;
+    color: #BDC0CD;
 }
 
 .fdc-content{
     font-weight: 200;
     color: #989BA8;
+    line-height: 17px;
+    font-size: 14px;
 }
 
 .address{

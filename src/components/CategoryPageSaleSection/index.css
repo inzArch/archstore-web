@@ -1,0 +1,154 @@
+.category-page-sale-section{
+    max-width: 1300px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+.category-page-sale-section-card-upper{
+    transition: all ease-in-out 0.3s;
+}
+
+.category-page-sale-section-card-upper:hover {
+    box-shadow: 0px 16px 24px rgba(52, 52, 52, 0.12);
+    transform: translateY(-5px);
+}
+
+
+.category-page-sale-section-heart-icon {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 100px;
+    padding: 0.75rem;
+    transition: all 250ms ease-in-out 0.3ms;
+    opacity: 0;
+}
+
+.category-page-sale-section-heart-icon > img {
+    width: 20px;
+    height: 20px;
+}
+
+.category-page-sale-section-heart-icon > .heart-filled{
+    display: none;
+}
+
+.category-page-sale-section-heart-icon:hover > .heart-filled{
+    display: block;
+}
+
+.category-page-sale-section-heart-icon:hover > .heart-outline{
+    display: none;
+}
+
+
+.category-page-sale-section-card-upper:hover > .category-page-sale-section-heart-icon{
+    opacity: 1;
+}
+.category-page-sale-section-card{
+    position: relative;
+    flex: 0 0 calc(75% - 0.7rem);
+	box-sizing: border-box;
+	margin-inline: 0.35rem;
+    padding: 5px;
+}
+
+
+.category-page-sale-section-button:hover {
+    background-color: #e4e5e7;
+}
+.cart-hover{
+    display: none;
+}
+
+.category-page-sale-section-categories:hover > .cart-image > .cart-hover{
+    display: block;
+}
+
+.category-page-sale-section-categories:hover > .cart-image > .cart-colored{
+    display: none;
+}
+
+
+.category-page-sale-section .l-arrow-icon {
+	width: 12px;
+	height: 12px;
+	transform: rotateZ(180deg);
+}
+.category-page-sale-section-image{
+	border: solid;
+    border-width: thin;
+    border-color: beige;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	overflow: hidden;
+	cursor: pointer;
+    background-color: #f7f8fa;
+}
+.category-page-sale-section-discount{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #FF6363;
+    color: #ffff;
+    display: inline-block;
+    padding-inline: 12px;
+}
+
+.category-page-sale-section-bimcad{
+    position: absolute;
+    top: 240px;
+    right: 2px;
+    color: #ffff;
+    display: inline-block;
+    padding-inline: 12px;
+}
+
+.category-page-sale-section-image > img {
+    background-color: #f7f8fa;
+    transform: scale(1);
+	transition: transform 200ms ease-in-out;
+}
+
+.category-page-sale-section-image:hover > img {
+    transform: scale(1.05);
+}
+
+.category-page-sale-section-image{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7f8fa;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:499px){
+    .category-page-sale-section-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 400;
+    }   
+}
+@media screen and (min-width: 500px) {
+	.category-page-sale-section-card {
+		flex: 0 0 calc(33.33% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.category-page-sale-section-card {
+		flex: 0 0 calc(25% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.category-page-sale-section-card  {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.category-page-sale-section-card  {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}

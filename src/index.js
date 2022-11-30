@@ -4,12 +4,12 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
-// import BrandsListing from './pages/BrandsListing';
-// import ProductsListingPage from './pages/ProductsListing';
-// import WishlistPage from './pages/WishlistPage';
-// import CategoryPage from './pages/CategoryPage';
-// import Carousel from './components/EmblaCarousel';
-// import CoverPage from './pages/CoverPage';
+// import BrandsListingPage from './pages/BrandsListingPage';
+ import Carousel from './components/EmblaCarousel';
+ import RecentlyViewedSection from './components/RecentlyViewedSection';
+import CompanyCatalogueSection from './components/CompanyCatalogueSection';
+import CategoryPageSaleSection from './components/CategoryPageSaleSection';
+import AboutUsPage from './components/AboutUsPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,8 +17,10 @@ root.render(
 		<App />
 		{/* <CoverPage /> */}
 		{/* <BrandsListingPage /> */}
-		{/* <ProductsListingPage /> */}
-		{/* <CategoryPage /> */}
-		{/* <Carousel /> */}
+		{/* <Carousel />
+		<RecentlyViewedSection />
+		<CompanyCatalogueSection />*/}
+		{/* <CategoryPageSaleSection />  */}
+		{/* <AboutUsPage /> */}
 	</React.StrictMode>
 );

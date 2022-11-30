@@ -1,0 +1,111 @@
+.about-us-community{
+    background-image: url(https://business.archiproducts.com/wp-content/uploads/2022/01/ambassador-archiproducts-milano-future-habitat_51632619151_o.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-inline: auto;
+    height: 100%;
+}
+
+
+.about-us-community-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-inline: 20px;
+    background: transparent;
+    color: #ffff;
+}
+
+.about-us-community{
+    width: 100%;
+    margin-inline: auto;
+}
+
+.about-us-community-image{
+    margin-top: 50px;
+}
+
+.right-arrow-white{
+    width: 20px;
+    height: 20px;
+    rotate: -90deg;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.about-us-community-details{
+    margin-top: 30px;
+}
+
+.about-us-community-details > h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.about-us-community-details > p{
+    font-size: 22px;
+    font-family: Ubuntu;
+    padding-top: 20px;
+}
+
+.about-us-community-details > button{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (min-width:768px){
+    .about-us-community{
+        padding-inline: 60px;
+    }
+
+    .about-us-community-details > button{
+        padding-bottom: 15px;
+    }
+    .about-us-community-details > h2{
+        font-size: 42px;
+    }
+    .about-us-community-image{
+        height: 500px;
+        width: 500px;
+       margin-inline: auto;
+    }
+    
+}
+
+@media (min-width: 1440px){
+    .about-us-community-content{
+        flex-direction: row;
+    }
+
+    .about-us-community-image{
+        height: 600px;
+        width: 600px;
+       margin-inline: auto;
+    }
+    .about-us-community-details{
+        padding-left:50px;
+        padding-top: 50px;
+    }
+
+    .about-us-community-details > h2{
+       width: 420px;
+    }
+    
+    .about-us-community-details > p{
+        width: 600px;
+        font-size: 24px;
+    }
+    .about-us-community-image{
+        padding-left: 0px;
+    }
+    .about-us-community-details > button{
+        padding-top: 25px;
+    }
+    .about-us-community-image > p{
+        padding-top: 50px;
+    }
+}

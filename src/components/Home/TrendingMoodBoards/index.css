@@ -63,7 +63,7 @@
 
 }
 
-.trending-moodboards-container > ::-webkit-scrollbar {
+/* .trending-moodboards-container > ::-webkit-scrollbar {
 	width: 5px;  
 	height: 5px;
 }
@@ -77,7 +77,7 @@
 .trending-moodboards-container >   ::-webkit-scrollbar-thumb {
 	background: #F2B28F;
 	border-radius: 10px;
-}
+} */
 
 @media (max-width:735px){
     .trending-moodboards-heading > h1 > span{

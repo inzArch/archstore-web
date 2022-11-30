@@ -4,6 +4,7 @@ import SubscribeBgImg from '../../../assets/images/home/subscribe/Subscribe.png'
 
 const Subscribe = () => {
   return (
+    <div className='Subscribe-outer-container'>
     <div className='Subscribe-container'>
         <div className="Subscribe-content-section">
             <h1>Subscribe to our newsletter</h1>
@@ -14,6 +15,7 @@ const Subscribe = () => {
             </div>
         </div>
         <img src={SubscribeBgImg} alt="subscribe" />
+    </div>
     </div>
   )
 }

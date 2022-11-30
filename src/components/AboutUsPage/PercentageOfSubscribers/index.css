@@ -1,0 +1,40 @@
+.percentage-of-subscribers{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.percentage-of-subscribers > img {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.percentage-of-subscribers > p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+} 
+
+.percentage-of-subscribers-image-responsive{
+    display: none;
+}
+
+@media (max-width:425px){
+    .percentage-of-subscribers-image-responsive{
+        display: block;
+    }
+    
+    .percentage-of-subscribers-image{
+        display: none;
+    }
+
+    .percentage-of-subscribers > p{
+        font-size: 14px;
+    } 
+}
+
+@media (max-width:1024px){
+    .percentage-of-subscribers > p{
+        font-size: 20px;
+    } 
+}
