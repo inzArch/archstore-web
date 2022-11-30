@@ -184,3 +184,17 @@
 		width: 90px;
 	}
 }
+
+@media screen and (max-width: 350px) {
+		
+	.header-logo-section {
+		min-width: 110px;
+	}
+	
+	.header-menu-icon {
+		margin-right: 3px;
+		display: block;
+		min-width: 28px;
+		padding: 0 6px;
+	}
+}

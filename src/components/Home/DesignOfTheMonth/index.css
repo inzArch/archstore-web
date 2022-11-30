@@ -43,11 +43,26 @@
 	grid-row-start: 1;
 	grid-row-end: 4;
 }
+.design-of-the-month-item:nth-child(2) {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
 
 .design-of-the-month-item > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.design-of-the-month-img {
+	margin-block: 20px;
+}
+.design-of-the-month-img:first-child {
+	margin-top: 0px;
+}.design-of-the-month-img:last-child {
+	margin-bottom: 0px;
 }
 
 .design-of-the-month-container > .design-of-the-month-details > h1 {
@@ -138,5 +153,24 @@
 		grid-column-end: 4;
 		grid-row-start: 1;
 		grid-row-end: 3;
+	}
+	.design-of-the-month-item:nth-child(2) {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		display: flex;
+		overflow-x: scroll;
+		padding-bottom: 50px;
+	}
+	.design-of-the-month-img:first-child {
+		margin-block: 0px;
+	}.design-of-the-month-img:last-child {
+		margin-block: 0px;
+	}
+	.design-of-the-month-img {
+		margin-block: 0px;
+		min-width: 70%;
+		margin-right: 10px;
 	}
 }

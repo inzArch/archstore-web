@@ -18,9 +18,11 @@ const DesignOfTheMonth = () => {
         </div>
         <div className='design-of-the-month-card'>
             <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage1} alt="design"></img></div>
-            <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage2} alt="design"></img></div>
-            <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage3} alt="design"></img></div>
-            <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage4} alt="design"></img></div>
+            <div className='design-of-the-month-item'>
+            <div className='design-of-the-month-img'><img src={DesignOfTheMonthImage2} alt="design"></img></div>
+            <div className='design-of-the-month-img'><img src={DesignOfTheMonthImage3} alt="design"></img></div>
+            <div className='design-of-the-month-img'><img src={DesignOfTheMonthImage4} alt="design"></img></div>
+            </div>
         </div>
     </div>
   )
