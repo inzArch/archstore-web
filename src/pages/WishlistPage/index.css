@@ -1,17 +1,12 @@
-.wishlist {
-	padding: 1rem;
-}
+@import url('./wishlist-aside.css');
 
-.card-container-grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 1rem;
-}
+/* Product Card Styles */
 
 .product-card {
 	position: relative;
 	transition: all ease-in-out 0.3s;
 	padding-bottom: 1.5rem;
+	border: thin solid #f1f1f1;
 	border-radius: 0.25rem;
 	overflow: hidden;
 }
@@ -28,6 +23,7 @@
 
 .product-card > .product-details {
 	padding: 0.75rem;
+	padding-bottom: 0;
 }
 
 .product-card .product-name {
@@ -39,4 +35,93 @@
 	color: #ff6363;
 	font-size: 0.85rem;
 	font-weight: 600;
+}
+
+/* -------------------------------- */
+
+.wishlist {
+	max-width: 1300px;
+	margin-inline: auto;
+	padding: 1rem;
+}
+
+.card-container-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+.wishlist .main-content > .aside {
+	display: none;
+}
+
+#order-by-dropdown {
+	background-color: transparent;
+	color: initial;
+	border-color: transparent;
+	font-weight: 700;
+	text-align: start;
+}
+
+#order-by-dropdown + .dropdown-menu {
+	border-radius: 0;
+}
+
+#order-by-dropdown + .dropdown-menu .dropdown-item:active {
+	background-color: grey;
+}
+
+@media screen and (min-width: 450px) {
+	.card-container-grid > .span-cols {
+		grid-column: 1 / span 2;
+	}
+
+	.card-container-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.card-container-grid > .span-cols {
+		grid-column: 1 / span 3;
+	}
+
+	.card-container-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.wishlist .main-content > .aside {
+		display: block;
+		margin-top: 4.5rem;
+	}
+
+	.wishlist .main-content {
+		display: grid;
+		grid-template-columns: 33.333% 1fr;
+		gap: 1.25rem;
+	}
+
+	.card-container-grid > .span-cols {
+		grid-column: 1 / span 2;
+	}
+
+	.card-container-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.wishlist .main-content {
+		grid-template-columns: 25% 1fr;
+	}
+
+	.card-container-grid > .span-cols {
+		grid-column: 1 / span 3;
+	}
+
+	.card-container-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }

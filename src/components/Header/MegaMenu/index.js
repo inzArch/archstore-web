@@ -4,13 +4,14 @@ import arrowRightDarkIcon from '../../../assets/images/header/arrow-right-dark.s
 import retailersIcon from '../../../assets/images/header/retailers.png';
 import designersIcon from '../../../assets/images/header/designers.png';
 import longRightArrowIcon from '../../../assets/images/header/long-right-arrow.svg';
-import chairImg from '../../../assets/images/header/chair.png';
+import chairImg from '../../../assets/images/header/chair.svg';
 
 import urbanLadderLogo from '../../../assets/images/header/urban-ladder-logo.png';
 import pepperfryLogo from '../../../assets/images/header/pepperfry-logo.png';
 import godrejInterioLogo from '../../../assets/images/header/godrej-interio-logo.png';
 import EvokLogo from '../../../assets/images/header/evok-logo.png';
 
+import MenuContent from '../MenuContent';
 import { MenuItemActiveStatusContext } from '../../../pages/Home';
 import { useContext, useState } from 'react';
 
@@ -22,6 +23,10 @@ export default function MegaMenu() {
 
 	if (!activeMenuItem) return null;
 
+	const { categories } = MenuContent.find(
+		({ name }) => name === activeMenuItem
+	);
+
 	return (
 		<div className='megamenu-container'>
 			<div
@@ -30,13 +35,15 @@ export default function MegaMenu() {
 			>
 				<div className='megamenu-left'>
 					<ul>
-						{Object.keys(dummyData['Living Room']).map((k, i) => (
+						{categories.map(({ name }, i) => (
 							<li
 								key={i}
-								onMouseOver={() => setActiveCategory(k)}
-								className={activeCategory === k ? 'active' : 'inactive'}
+								onMouseOver={() => setActiveCategory(name)}
+								className={
+									activeCategory === name ? 'active' : 'inactive'
+								}
 							>
-								<span>{k}</span>
+								<span>{name}</span>
 								<img
 									src={arrowRightIcon}
 									alt='Right arrow icon'
@@ -79,11 +86,12 @@ export default function MegaMenu() {
 				<div className='megamenu-right'>
 					<div className='mmt'>
 						<div className='multi-col-container'>
-							{dummyData['Living Room'][
-								activeCategory ? activeCategory : 'Seating'
-							].map(v => (
-								<div>
-									<a href='#'>{v}</a>
+							{(activeCategory
+								? categories.find(({ name }) => name === activeCategory)
+								: categories[0]
+							).products.map(({ name }, i) => (
+								<div key={i}>
+									<a href='#'>{name}</a>
 								</div>
 							))}
 						</div>
@@ -109,80 +117,3 @@ export default function MegaMenu() {
 		</div>
 	);
 }
-
-const dummyData = {
-	'Living Room': {
-		Seating: [
-			'Sofas',
-			'Sectionals',
-			'Sofette Sectionals',
-			'Sofette',
-			'Armchairs',
-			'Stools',
-			'Ottoman',
-			'Poufs',
-			'Sofas',
-			'Sectionals',
-			'Sofette Sectionals',
-			'Sofette',
-			'Armchairs',
-			'Stools',
-			'Ottoman',
-			'Poufs',
-			'Sofas',
-			'Sectionals',
-			'Sofette Sectionals',
-			'Sofette',
-		],
-		Tables: [
-			'Chairs',
-			'Stools',
-			'Coffee Tables',
-			'Indoor Benches',
-			'Console Tables',
-			'Gaming Chairs',
-			'Writing Desks',
-			'Secretary Desks',
-			'Console Tables',
-			'Gaming Chairs',
-			'Writing Desks',
-			'Secretary Desks',
-		],
-		Storage: [
-			'Bookcases',
-			'Tv Cabinets',
-			'Highboards',
-			'Display Cabinets',
-			'Hallway units',
-			'Wall mounted units',
-			'Bookcases',
-			'Tv Cabinets',
-			'Highboards',
-			'Display Cabinets',
-			'Hallway units',
-			'Wall mounted units',
-		],
-		Decor: [
-			'Sofas',
-			'Sectionals',
-			'Sofette Sectionals',
-			'Sofette',
-			'Armchairs',
-			'Stools',
-			'Ottoman',
-			'Poufs',
-			'Sofas',
-			'Sectionals',
-			'Sofette Sectionals',
-			'Sofette',
-			'Armchairs',
-			'Stools',
-			'Ottoman',
-			'Poufs',
-			'Sofas',
-			'Sectionals',
-			'Sofette Sectionals',
-			'Sofette',
-		],
-	},
-};

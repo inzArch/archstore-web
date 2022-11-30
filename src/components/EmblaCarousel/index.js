@@ -5,14 +5,19 @@ import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png
 import playIcon from '../../assets/images/home/carousel/play-button.png';
 import './index.css';
 
-export function EmblaCarousel({ children, hideControls, dragFree }) {
+export function EmblaCarousel({
+	children,
+	hideControls,
+	dragFree,
+	plugins = [],
+}) {
 	const [emblaRef, emblaAPI] = useEmblaCarousel(
 		{
 			loop: true,
 			align: 'start',
 			dragFree,
 		},
-		[ClassNames()]
+		[ClassNames(), ...plugins]
 	);
 
 	const scrollNext = useCallback(

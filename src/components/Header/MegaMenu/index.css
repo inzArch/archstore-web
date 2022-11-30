@@ -21,7 +21,8 @@
 
 .megamenu-container li:hover,
 .megamenu-container .active {
-	background-color: #de988a;
+	/* background-color: #de988a; */
+	background-color: var(--quarternary-color);
 	border-radius: 5px;
 	color: #fffefd;
 }
@@ -46,7 +47,8 @@
 }
 
 .megamenu-inner-container {
-	background-color: #fff4ee;
+	/* background-color: #fff4ee; */
+	background-color: var(--primary-color);
 	border-radius: 0 0 10px 10px;
 	max-width: 1200px;
 	/* height: 300px; */
@@ -66,7 +68,8 @@
 .megamenu-left {
 	width: 25%;
 
-	border-right: thin solid #f6ddd0;
+	/* border-right: thin solid #f6ddd0; */
+	border-right: thin solid var(--tertiary-color);
 	padding-right: 2rem;
 }
 
@@ -77,7 +80,8 @@
 
 .megamenu-container .img-btn {
 	display: flex;
-	background-color: rgba(242, 178, 143, 0.2);
+	/* background-color: rgba(242, 178, 143, 0.2); */
+	background-color: var(--secondary-color);
 	border-radius: 5px;
 	padding: 0.75rem 1rem;
 }
@@ -116,7 +120,8 @@
 }
 
 .megamenu-container .img-btn:hover {
-	background-color: rgba(242, 178, 143, 0.3);
+	/* background-color: rgba(242, 178, 143, 0.3); */
+	background-color: var(--tertiary-color);
 }
 
 .megamenu-container .img-btn:hover .browse-all > span:first-child {
@@ -135,7 +140,8 @@
 .mmt {
 	display: flex;
 	padding-block: 1rem;
-	border-bottom: thin solid #f6ddd0;
+	/* border-bottom: thin solid #f6ddd0; */
+	border-bottom: thin solid var(--tertiary-color);
 	height: 265px;
 }
 

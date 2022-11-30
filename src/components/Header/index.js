@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useCallback } from 'react';
 import Logo from '../../assets/images/header/Logo_Blue.png';
 import MenuContent from './MenuContent.js';
 import { Bell, Heart, Profile } from './MenuContent.js';
@@ -9,7 +9,18 @@ import SubHeader from './SubHeader';
 import { MenuItemActiveStatusContext } from '../../pages/Home';
 
 const Header = () => {
-	const { setActiveMenuItem } = useContext(MenuItemActiveStatusContext);
+	const { activeMenuItem, setActiveMenuItem } = useContext(
+		MenuItemActiveStatusContext
+	);
+	const mouseOverHandler = useCallback(name_ => {
+		setActiveMenuItem(name_);
+		const { colors } = MenuContent.find(({ name }) => name === name_);
+		const root = document.documentElement;
+
+		for (let [k, v] of Object.entries(colors)) {
+			root.style.setProperty(`--${k}-color`, v);
+		}
+	}, []);
 
 	return (
 		<nav className='main-header-container'>
@@ -21,8 +32,12 @@ const Header = () => {
 				<div className='header-menu-items'>
 					{MenuContent.map((content, i) => (
 						<div
-							className='header-menu-item'
-							onMouseOver={() => setActiveMenuItem(content.name)}
+							className={`header-menu-item ${
+								activeMenuItem === content.name
+									? 'opacity-100'
+									: 'opacity-75'
+							}`}
+							onMouseOver={() => mouseOverHandler(content.name)}
 						>
 							<img src={content.icon} alt='livingroom' />
 							<p>{content.name}</p>
