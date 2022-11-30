@@ -3,7 +3,7 @@
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 30px;
-    height: 500px;
+    height: 420px;
 }
 
 .howitworks-contents{
@@ -12,6 +12,13 @@
 
 .howitworks-contents > div{
     width: 50%;
+    height: 100%;
+}
+
+.howitworks-rightSection {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .howitworks-leftSection{
@@ -19,6 +26,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.howitworks-leftSection > img {
+    width: 80%;
 }
 
 .howitworks-rightSection-cards{
