@@ -12,6 +12,12 @@ const TrendingCards = () => {
     <Card />
     <Card />
     <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
     </EmblaCarousel>
     </div>
   )

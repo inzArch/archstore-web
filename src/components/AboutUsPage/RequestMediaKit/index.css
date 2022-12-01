@@ -12,7 +12,29 @@
     font-size: 18px;
 }
 .request-medit-kit-form{
-    display: grid;
     text-align: center;
     padding-inline: 40px;
+}
+
+@media (min-width:768px){
+    .request-medit-kit-form > Form{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .form-question{
+        grid-column: 1/3;
+    }
+}
+
+@media (min-width:1024px){
+    .request-media-kit{
+        padding-inline: 100px;
+    }
+}
+
+@media (min-width:1440px){
+    .request-media-kit{
+        padding-inline: 400px;
+    }
 }

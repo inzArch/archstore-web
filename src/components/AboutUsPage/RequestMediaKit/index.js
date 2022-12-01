@@ -23,45 +23,45 @@ const RequestMediaKit = () => {
       </div>
       <div className="request-medit-kit-form">
         <Form>
-          <Form.Group className="mb-3">
-            <Form.Control type="input" placeholder="Enter Full Name" />
+          <Form.Group className="mb-3 ml-2">
+            <Form.Control type="text" placeholder="Enter Full Name" />
           </Form.Group>
 
-          <Form.Group className="mb-3">
-            <Form.Control type="input" placeholder="Company/Studio Name" />
+          <Form.Group className="mb-3 ml-2">
+            <Form.Control type="text" placeholder="Company/Studio Name" />
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formGridEmail">
+          <Form.Group className="mb-3 ml-2" controlId="formGridEmail">
             <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>
 
-          <Form.Group className="mb-3">
-            <Form.Control type="tel" placeholder="Phone" />
+          <Form.Group className="mb-3 ml-2">
+            <Form.Control type="text" placeholder="Phone" />
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formGridEmail">
-            <Form.Control type="input" placeholder="Website" />
+          <Form.Group className="mb-3 ml-2">
+            <Form.Control type="text" placeholder="Website" />
           </Form.Group>
 
-          <Form.Group className="mb-3">
-            <Form.Control type="" placeholder="Country" />
+          <Form.Group className="mb-3 ml-2">
+            <Form.Control type="text" placeholder="Country" />
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formGridEmail">
-            <Form.Control type="input" placeholder="How did you hear about us?" />
+          <Form.Group className="mb-3 ml-2 form-question">
+            <Form.Control type="text" placeholder="How did you hear about us?" />
           </Form.Group>
 
-          <Form.Group className="mb-3" >
-            <Form.Control type="" placeholder="Reason for request" />
+          <Form.Group className="mb-3 ml-2 form-question" >
+            <Form.Control type="text" placeholder="Reason for request" />
           </Form.Group>
 
-          * These fields are mandatory.
+          <p className="form-question ml-2">* These fields are mandatory.</p>
 
-          <Form.Group className="mb-3" id="formGridCheckbox">
+          <Form.Group className="mb-3 ml-2 form-question" id="formGridCheckbox">
             <Form.Check type="checkbox" label="I declare that I have read and accept the privacy policy" />
           </Form.Group>
 
-          <Button className="mb-3" variant="primary" type="submit">
+          <Button className="mb-3 ml-2 form-question" variant="primary" type="submit">
             Send Request
           </Button>
         </Form>
