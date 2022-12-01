@@ -1,9 +1,9 @@
 
 import './index.css';
-import TrendingImage1 from '../../../../../assets/images/home/TrendingMoodboards/trendingmoodboard1.png';
-import TrendingImage2 from '../../../../../assets/images/home/TrendingMoodboards/trendingmoodboard2.png';
-import TrendingImage3 from '../../../../../assets/images/home/TrendingMoodboards/trendingmoodboard3.png';
-import TrendingUser1 from '../../../../../assets/images/home/TrendingMoodboards/trendingmoodboarduser1.png';
+import TrendingImage1 from 'assets/images/home/TrendingMoodboards/trendingmoodboard1.png';
+import TrendingImage2 from 'assets/images/home/TrendingMoodboards/trendingmoodboard2.png';
+import TrendingImage3 from 'assets/images/home/TrendingMoodboards/trendingmoodboard3.png';
+import TrendingUser1 from 'assets/images/home/TrendingMoodboards/trendingmoodboarduser1.png';
 const TrendingCard = () => {
 
   return (

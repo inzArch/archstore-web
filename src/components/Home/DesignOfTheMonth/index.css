@@ -174,3 +174,28 @@
 		margin-right: 10px;
 	}
 }
+
+
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+	.design-of-the-month-container {
+		max-width: 1400px;
+	}
+}
+
+
+@media screen and (min-width: 1875px) {
+	.design-of-the-month-container {
+		max-width: 1600px;
+	}
+}
+
+
+@media screen and (min-width: 2210px) {
+	.design-of-the-month-container {
+		max-width: 2100px;
+	}
+}

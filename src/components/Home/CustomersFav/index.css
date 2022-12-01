@@ -1,5 +1,6 @@
 .customersFav-outerContainer{
     background: #F5F5F5;
+    padding: 60px 10px;
 
 }
 
@@ -106,4 +107,30 @@
         display: none;
     }
 
+}
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+
+    .customersFav-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+
+    .customersFav-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+
+    .customersFav-container{
+        max-width: 2100px;
+    }
 }

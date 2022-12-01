@@ -1,10 +1,10 @@
 import React from 'react';
 import "./index.css";
-import DesignOfTheMonthImage1 from "../../../assets/images/home/DesignOfTheMonth/DOTM1.png";
-import DesignOfTheMonthImage2 from "../../../assets/images/home/DesignOfTheMonth/DOTM2.png";
-import DesignOfTheMonthImage3 from "../../../assets/images/home/DesignOfTheMonth/DOTM3.png";
-import DesignOfTheMonthImage4 from "../../../assets/images/home/DesignOfTheMonth/DOTM4.png";
-import DesignOfTheMonthImage5 from "../../../assets/images/home/DesignOfTheMonth/DOTM5.svg";
+import DesignOfTheMonthImage1 from "assets/images/home/DesignOfTheMonth/DOTM1.png";
+import DesignOfTheMonthImage2 from "assets/images/home/DesignOfTheMonth/DOTM2.png";
+import DesignOfTheMonthImage3 from "assets/images/home/DesignOfTheMonth/DOTM3.png";
+import DesignOfTheMonthImage4 from "assets/images/home/DesignOfTheMonth/DOTM4.png";
+import DesignOfTheMonthImage5 from "assets/images/home/DesignOfTheMonth/DOTM5.svg";
 
 const DesignOfTheMonth = () => {
   return (

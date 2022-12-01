@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import HeartIcon from '../../../../../assets/images/home/customersfav/HeartIcon.svg';
+import HeartIcon from 'assets/images/home/customersfav/HeartIcon.svg';
 
 const CustomersFavCard = ({cardDetail:{img,logo,name,description}}) => {
   return (

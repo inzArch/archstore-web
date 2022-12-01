@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import './index.css';
 
-import rightArrowIcon from '../../../assets/images/header/arrow-right.svg';
-import rArrowControlIcon from '../../../assets/images/home/WeeklyTrendsCarousel/r-arrow.svg';
-import lArrowControlIcon from '../../../assets/images/home/WeeklyTrendsCarousel/l-arrow.svg';
+import rightArrowIcon from 'assets/images/header/arrow-right.svg';
+import rArrowControlIcon from 'assets/images/home/WeeklyTrendsCarousel/r-arrow.svg';
+import lArrowControlIcon from 'assets/images/home/WeeklyTrendsCarousel/l-arrow.svg';
 
-import fancyKitchen from '../../../assets/images/home/WeeklyTrendsCarousel/fancy-kitchen.png';
-import fancyLivingRoom from '../../../assets/images/home/WeeklyTrendsCarousel/fancy-living-room.png';
-import fancyBlackKitchen from '../../../assets/images/home/WeeklyTrendsCarousel/fancy-black-kitchen.png';
-import fancyBenchAccounting from '../../../assets/images/home/WeeklyTrendsCarousel/bench-accounting.png';
+import fancyKitchen from 'assets/images/home/WeeklyTrendsCarousel/fancy-kitchen.png';
+import fancyLivingRoom from 'assets/images/home/WeeklyTrendsCarousel/fancy-living-room.png';
+import fancyBlackKitchen from 'assets/images/home/WeeklyTrendsCarousel/fancy-black-kitchen.png';
+import fancyBenchAccounting from 'assets/images/home/WeeklyTrendsCarousel/bench-accounting.png';
 
 /*
 	data --> Array<{ title: <string>, subtitle: <string>, link: <string>, imgSrc: <string> }>

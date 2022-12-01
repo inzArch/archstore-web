@@ -205,3 +205,25 @@
 		display: none;
 	}
 }
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+	.megamenu-inner-container {
+		max-width: 1400px;
+	} 
+}
+
+
+@media screen and (min-width: 1875px) {
+	.megamenu-inner-container {
+		max-width: 1600px;
+	} 
+}
+
+
+@media screen and (min-width: 2210px) {
+	.megamenu-inner-container {
+		max-width: 2100px;
+	} 
+}

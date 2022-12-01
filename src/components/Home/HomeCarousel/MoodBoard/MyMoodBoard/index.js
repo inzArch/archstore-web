@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import MyMoodBoardIcon from '../../../../../assets/images/home/moodboard/MyMoodBoardIcon.svg';
+import MyMoodBoardIcon from 'assets/images/home/moodboard/MyMoodBoardIcon.svg';
 import { MyMoodBoardData } from './MyMoodBoardData';
 
 const MyMoodBoard = () => {
