@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import ClassNames from 'embla-carousel-class-names';
 import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png';
@@ -10,11 +10,13 @@ export function EmblaCarousel({
 	hideControls,
 	dragFree,
 	plugins = [],
+	align = 'start',
+	reqAPI,
 }) {
 	const [emblaRef, emblaAPI] = useEmblaCarousel(
 		{
 			loop: true,
-			align: 'start',
+			align,
 			dragFree,
 		},
 		[ClassNames(), ...plugins]
@@ -29,6 +31,9 @@ export function EmblaCarousel({
 		() => emblaAPI && emblaAPI.scrollPrev(),
 		[emblaAPI]
 	);
+
+	// expecting a ref object as reqAPI parameter
+	useEffect(() => reqAPI && (reqAPI.current = emblaAPI), [emblaAPI, reqAPI]);
 
 	return (
 		<div className='embla'>

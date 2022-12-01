@@ -34,7 +34,7 @@ export default function Brands() {
 				dragFree
 				plugins={[
 					Autoplay({
-						delay: 1500,
+						delay: 1250,
 						playOnInit: true,
 						stopOnInteraction: false,
 					}),
