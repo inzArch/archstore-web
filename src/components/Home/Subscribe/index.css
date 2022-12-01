@@ -161,3 +161,27 @@
     }
     
 } */
+
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .Subscribe-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+    .Subscribe-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+    .Subscribe-container{
+        max-width: 2100px;
+    }
+}

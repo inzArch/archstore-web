@@ -5,11 +5,11 @@
     justify-content: flex-end;
     align-items: center;
     margin-block: 60px;
-    height: 500px;
+    aspect-ratio: 16/9;
+    padding: 60px 5px;
 }
 
 .Magazines-section{
-    padding: 20px;
     margin: 5px 30px;
     position: relative;
     width: 40%;
@@ -205,4 +205,27 @@
         padding-left: 20px;
     }
 
+}
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .Magazines-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+    .Magazines-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+    .Magazines-container{
+        max-width: 2100px;
+    }
 }

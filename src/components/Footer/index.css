@@ -153,3 +153,26 @@
         padding-left: 40px;
     }
 }
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .footer-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+    .footer-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+    .footer-container{
+        max-width: 2100px;
+    }
+}
