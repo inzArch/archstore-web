@@ -3,7 +3,8 @@
 .wishlist .group:hover,
 #add-group-btn:hover,
 #add-product-btn:hover,
-#not-assigned-btn:hover {
+#not-assigned-btn:hover,
+.wl-btn:hover {
 	border-color: grey !important;
 }
 
@@ -11,7 +12,8 @@
 .wishlist .group,
 #add-group-btn,
 #add-product-btn,
-#not-assigned-btn {
+#not-assigned-btn,
+.wl-btn {
 	border: thin solid #ddd;
 	padding: 1rem;
 	font-weight: 600;
@@ -26,7 +28,8 @@
 	border: 2px dashed #ddd !important;
 }
 
-#add-product-btn {
+#add-product-btn,
+.wl-btn {
 	padding-block: 0.85rem;
 }
 
