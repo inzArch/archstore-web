@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './TrendingCard';
 import './index.css';
-import {EmblaCarousel} from '../../../EmblaCarousel';
+import {EmblaCarousel} from 'components/EmblaCarousel';
 const TrendingCards = () => {
   return (
     <div className='trending-moodboard-cards-section'>

@@ -1,10 +1,10 @@
 import React from 'react';
 import "./index.css";
-import DesignOfTheMonthImage1 from "../../../assets/images/home/DesignOfTheMonth/DOTM1.png";
-import DesignOfTheMonthImage2 from "../../../assets/images/home/DesignOfTheMonth/DOTM2.png";
-import DesignOfTheMonthImage3 from "../../../assets/images/home/DesignOfTheMonth/DOTM3.png";
-import DesignOfTheMonthImage4 from "../../../assets/images/home/DesignOfTheMonth/DOTM4.png";
-import DesignOfTheMonthImage5 from "../../../assets/images/home/DesignOfTheMonth/DOTM5.svg";
+import DesignOfTheMonthImage1 from "assets/images/home/DesignOfTheMonth/DOTM1.png";
+import DesignOfTheMonthImage2 from "assets/images/home/DesignOfTheMonth/DOTM2.png";
+import DesignOfTheMonthImage3 from "assets/images/home/DesignOfTheMonth/DOTM3.png";
+import DesignOfTheMonthImage4 from "assets/images/home/DesignOfTheMonth/DOTM4.png";
+import DesignOfTheMonthImage5 from "assets/images/home/DesignOfTheMonth/DOTM5.svg";
 
 const DesignOfTheMonth = () => {
   return (
@@ -18,9 +18,11 @@ const DesignOfTheMonth = () => {
         </div>
         <div className='design-of-the-month-card'>
             <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage1} alt="design"></img></div>
-            <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage2} alt="design"></img></div>
-            <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage3} alt="design"></img></div>
-            <div className='design-of-the-month-item'><img src={DesignOfTheMonthImage4} alt="design"></img></div>
+            <div className='design-of-the-month-item'>
+            <div className='design-of-the-month-img'><img src={DesignOfTheMonthImage2} alt="design"></img></div>
+            <div className='design-of-the-month-img'><img src={DesignOfTheMonthImage3} alt="design"></img></div>
+            <div className='design-of-the-month-img'><img src={DesignOfTheMonthImage4} alt="design"></img></div>
+            </div>
         </div>
     </div>
   )

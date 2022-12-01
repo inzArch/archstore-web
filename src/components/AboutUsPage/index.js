@@ -14,7 +14,7 @@ const AboutUsPage = () => {
       <PercentageOfSubscribers/>
       <AboutUsandBrands />
       <AboutUsCommunity />
-      {/* <AboutUsSocialMedia /> */}
+      <AboutUsSocialMedia />
     </div>
   );
 };

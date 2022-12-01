@@ -1,14 +1,14 @@
-import { EmblaCarousel } from '../../EmblaCarousel';
+import { EmblaCarousel } from 'components/EmblaCarousel';
 import Autoplay from 'embla-carousel-autoplay';
 
 import './index.css';
-import artemide from '../../../assets/images/home/brands/artemide-logo.png';
-import boffi from '../../../assets/images/home/brands/boffi-logo.png';
-import hermanMiller from '../../../assets/images/home/brands/hermanmiller-logo.png';
-import moroso from '../../../assets/images/home/brands/moroso-logo.png';
-import salvatori from '../../../assets/images/home/brands/salvatori-logo.png';
-import vitra from '../../../assets/images/home/brands/vitra-logo.png';
-import zanotta from '../../../assets/images/home/brands/zanotta-logo.png';
+import artemide from 'assets/images/home/brands/artemide-logo.png';
+import boffi from 'assets/images/home/brands/boffi-logo.png';
+import hermanMiller from 'assets/images/home/brands/hermanmiller-logo.png';
+import moroso from 'assets/images/home/brands/moroso-logo.png';
+import salvatori from 'assets/images/home/brands/salvatori-logo.png';
+import vitra from 'assets/images/home/brands/vitra-logo.png';
+import zanotta from 'assets/images/home/brands/zanotta-logo.png';
 
 const logos = [
 	[artemide, boffi],

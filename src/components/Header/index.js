@@ -1,12 +1,12 @@
 import React, { useContext, useCallback } from 'react';
-import Logo from '../../assets/images/header/Logo_Blue.png';
+import Logo from 'assets/images/header/Logo_Blue.png';
 import MenuContent from './MenuContent.js';
 import { Bell, Heart, Profile } from './MenuContent.js';
-import MenuIcon from '../../assets/images/header/MenuIcon.svg';
+import MenuIcon from 'assets/images/header/MenuIcon.svg';
 import './index.css';
 import SubHeader from './SubHeader';
 
-import { MenuItemActiveStatusContext } from '../../pages/Home';
+import { MenuItemActiveStatusContext } from 'pages/Home';
 
 const Header = () => {
 	const { activeMenuItem, setActiveMenuItem } = useContext(

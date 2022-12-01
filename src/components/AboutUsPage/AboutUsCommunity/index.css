@@ -1,14 +1,11 @@
-.about-us-community{
-    background-image: url(https://business.archiproducts.com/wp-content/uploads/2022/01/ambassador-archiproducts-milano-future-habitat_51632619151_o.jpg);
+.about-us-community-background{
+    position:absolute;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: top left;
     background-attachment: fixed;
-    background-size: cover;
-    margin-inline: auto;
-    height: 100%;
+    opacity: 0.8;
 }
-
-
 .about-us-community-content{
     display: flex;
     flex-direction: column;
@@ -18,15 +15,23 @@
     padding-inline: 20px;
     background: transparent;
     color: #ffff;
+    position:relative;
 }
-
 .about-us-community{
+    position:relative;
     width: 100%;
     margin-inline: auto;
+    padding-bottom: 50px;
 }
 
 .about-us-community-image{
     margin-top: 50px;
+    transform: scale(1);
+    transition:all 250ms ease-in-out;
+}
+
+.about-us-community-image:hover{
+    transform: scale(1.05);
 }
 
 .right-arrow-white{
@@ -78,7 +83,7 @@
 
 @media (min-width: 1440px){
     .about-us-community-content{
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     .about-us-community-image{
