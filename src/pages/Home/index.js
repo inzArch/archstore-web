@@ -22,7 +22,6 @@ const Home = () => {
 		<MenuItemActiveStatusContext.Provider
 			value={{ activeMenuItem, setActiveMenuItem }}
 		>
-			{/* comment */}
 			<div className='Home-container'>
 				<Header />
 				<MegaMenu />
