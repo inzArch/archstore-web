@@ -1,5 +1,5 @@
 .carousel-container{
-    height: 500px;
+    aspect-ratio: 16 / 6;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -21,4 +21,27 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .carousel-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+    .carousel-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+    .carousel-container{
+        max-width: 2100px;
+    }
 }

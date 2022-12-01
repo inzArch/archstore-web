@@ -205,3 +205,27 @@
 		width: 50%;
 	}
 }
+
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+	.weekly-trends {
+		max-width: 1400px;
+	}
+}
+
+
+@media screen and (min-width: 1875px) {
+	.weekly-trends {
+		max-width: 1600px;
+	}
+}
+
+
+@media screen and (min-width: 2210px) {
+	.weekly-trends {
+		max-width: 2100px;
+	}
+}

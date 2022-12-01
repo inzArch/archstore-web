@@ -1,7 +1,7 @@
 .subheader-container{
     display: flex;
-    padding: 5px 5px;
-    padding-bottom: 8px;
+    padding: 3px 5px;
+    padding-bottom: 3px;
     max-width: 1200px;
     margin: auto;
     background: #ffffff;
@@ -42,7 +42,7 @@
     display: flex;
     background: rgba(220, 223, 237, 0.14);
     border-radius: 30px;
-    padding: 8px 15px;
+    padding: 4px 15px;
     margin-left: 15px;
 }
 .subheader-searchbar > img{
@@ -113,4 +113,27 @@
     .subheader-searchbar > input{
         width: 30%;
     }
+}
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .subheader-container{
+        max-width: 1400px;
+    }   
+}
+
+
+@media screen and (min-width: 1875px) {
+    .subheader-container{
+        max-width: 1600px;
+    }   
+}
+
+
+@media screen and (min-width: 2210px) {
+    .subheader-container{
+        max-width: 2100px;
+    }   
 }
