@@ -1,3 +1,4 @@
+import React from 'react';
 import BusinessCardImg from '../../assets/images/BusinessCard/archstore-coming-soon.png';
 import './index.css';
 
