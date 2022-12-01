@@ -1,14 +1,14 @@
-import LivingRoom from '../../assets/images/header/LivingRoom.png';
-import BedRoom from '../../assets/images/header/BedRoom.png';
-import Kitchen from '../../assets/images/header/Kitchen.png';
-import BathRoom from '../../assets/images/header/BathRoom.png';
-import Fabric from '../../assets/images/header/Fabric.png';
-import Office from '../../assets/images/header/Office.png';
-import Planters from '../../assets/images/header/Planters.png';
+import LivingRoom from 'assets/images/header/LivingRoom.png';
+import BedRoom from 'assets/images/header/BedRoom.png';
+import Kitchen from 'assets/images/header/Kitchen.png';
+import BathRoom from 'assets/images/header/BathRoom.png';
+import Fabric from 'assets/images/header/Fabric.png';
+import Office from 'assets/images/header/Office.png';
+import Planters from 'assets/images/header/Planters.png';
 
-import Heart from '../../assets/images/header/Heart.png';
-import Profile from '../../assets/images/header/Profile.png';
-import Bell from '../../assets/images/header/Bell.png';
+import Heart from 'assets/images/header/Heart.png';
+import Profile from 'assets/images/header/Profile.png';
+import Bell from 'assets/images/header/Bell.png';
 
 const MenuContent = [
 	{

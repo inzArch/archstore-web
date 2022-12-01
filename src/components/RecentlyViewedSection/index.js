@@ -1,4 +1,4 @@
-import {EmblaCarousel} from "../EmblaCarousel";
+import {EmblaCarousel} from "components/EmblaCarousel";
 import React from 'react';
 import './index.css';
 

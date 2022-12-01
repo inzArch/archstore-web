@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.css';
 import { SubHeaderOptions } from './SubHeaderOptions';
-import DownArrow from '../../../assets/images/header/DownArrow.svg';
-import Search from '../../../assets/images/header/search.svg';
+import DownArrow from 'assets/images/header/DownArrow.svg';
+import Search from 'assets/images/header/search.svg';
 
 const SubHeader = () => {
   return (
