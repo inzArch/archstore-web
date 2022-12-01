@@ -1,5 +1,10 @@
 .about-us-community-background{
     position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('https://business.archiproducts.com/wp-content/uploads/2022/01/ambassador-archiproducts-milano-future-habitat_51632619151_o.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top left;

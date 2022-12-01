@@ -21,10 +21,9 @@ const AboutUsSocialMedia = () => {
     </button>
   </div>
   <div className='d-flex about-us-social-media-image'>
-    <img
+    <img 
       src="https://business.archiproducts.com/wp-content/uploads/2022/04/04-2204-Social@2x.png"
     />
-    {/* <img src='https://business.archiproducts.com/wp-content/uploads/2022/02/Social-page-hands@2x.png' /> */}
   </div>
   </div>
   )

@@ -1,0 +1,18 @@
+.request-media-kit{
+    background-color: #f5f4f4;
+    padding-block: 50px;
+}
+
+.request-media-kit-details{
+    text-align: center;
+    padding-inline: 1.5rem;
+}
+
+.request-media-kit-details > p {
+    font-size: 18px;
+}
+.request-medit-kit-form{
+    display: grid;
+    text-align: center;
+    padding-inline: 40px;
+}
