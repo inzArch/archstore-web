@@ -20,7 +20,7 @@ const Header = () => {
 		for (let [k, v] of Object.entries(colors)) {
 			root.style.setProperty(`--${k}-color`, v);
 		}
-	}, []);
+	}, [setActiveMenuItem]);
 
 	return (
 		<nav className='main-header-container'>

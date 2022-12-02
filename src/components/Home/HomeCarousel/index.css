@@ -1,5 +1,5 @@
 .carousel-container{
-    aspect-ratio: 16 / 6;
+    height: 60vh;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
