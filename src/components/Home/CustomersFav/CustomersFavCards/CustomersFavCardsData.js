@@ -1,62 +1,50 @@
-import MorsoLogo from 'assets/images/home/customersfav/MorsoLogo.png';
-import ArtemideLogo from 'assets/images/home/customersfav/ArtemideLogo.png';
-import SalvatoriLogo from 'assets/images/home/customersfav/SalvatoriLogo.png';
-import VitraLogo from 'assets/images/home/customersfav/VitraLogo.png';
-import VitraChair from 'assets/images/home/customersfav/VitraChair.png';
-import VitraChair2 from 'assets/images/home/customersfav/VitraChair2.png';
-import ArtemideChair from 'assets/images/home/customersfav/ArtemideChair.png';
-import ArtemideChair2 from 'assets/images/home/customersfav/ArtemideChair2.png';
-import MorsoChair from 'assets/images/home/customersfav/MorsoChair.png';
-import MorsoChair2 from 'assets/images/home/customersfav/MorsoChair2.png';
-import SalvatoriChair from 'assets/images/home/customersfav/SalvatoriChair.png';
-import SalvatoriChair2 from 'assets/images/home/customersfav/SalvatoriChair2.png';
 
 export const CustomersFavCardsData = [
     {
-        logo: MorsoLogo,
-        img: MorsoChair,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/moroso-logo.d8df13f43a40ef8561fede099a7e7ab9.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/MorsoChair.88ef48cb0a16b584449d.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit.",
     },
     {
-        logo: ArtemideLogo,
-        img: ArtemideChair,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/artemide-logo.40ad9e188a9b4e400f86a94096d6a467.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/ArtemideChair.0b482f0660f787104a88.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
     {
-        logo: VitraLogo,
-        img: VitraChair,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/vitra-logo.622c7149baba9a744a34f16a2a2b99eb.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/VitraChair.e0dc1a23ead0187245b7.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
     {
-        logo: SalvatoriLogo,
-        img: SalvatoriChair,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/salvatori-logo.3f76145bc4f27080a4b69002607ccc93.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/SalvatoriChair.8a965cf17542d5b87a5a.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
     {
-        logo: ArtemideLogo,
-        img: ArtemideChair2,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/artemide-logo.40ad9e188a9b4e400f86a94096d6a467.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/ArtemideChair2.4b67c812141e07abfb6f.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
     {
-        logo: SalvatoriLogo,
-        img: SalvatoriChair2,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/salvatori-logo.3f76145bc4f27080a4b69002607ccc93.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/SalvatoriChair2.1791504cb72558e9f698.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
     {
-        logo: MorsoLogo,
-        img: MorsoChair2,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/moroso-logo.d8df13f43a40ef8561fede099a7e7ab9.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/MorsoChair2.c1a13d4c5e7a2880334a.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
     {
-        logo: VitraLogo,
-        img: VitraChair2,
+        logo: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/vitra-logo.622c7149baba9a744a34f16a2a2b99eb.svg",
+        img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/VitraChair2.2a3b110ebf6d77712049.png",
         name: "Armchair",
         description: "Lorem ipsum dolor sit amet, conseasstetur adipderiscing elit."
     },
