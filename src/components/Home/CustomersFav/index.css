@@ -55,11 +55,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 10px 0px;
+    padding-bottom: 30px;
 }
 
 .customersFav-type-options > span{
-    padding: 5px 15px;
+    padding: 5px 25px;
     margin: 0 12px;
     background: rgba(230, 222, 212, 0.44);
     border-radius: 4px;
@@ -76,7 +77,7 @@
 
 
 .CustomersFav-viewall-btn{
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

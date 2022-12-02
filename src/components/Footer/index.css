@@ -14,7 +14,7 @@
 }
 .footer-details-options{
     display: flex;
-    gap: 40px;
+    gap: 35px;
     padding-top: 80px;
     font-size: 0.8rem;
 }
@@ -150,8 +150,19 @@
 
 @media (min-width: 800px) and (max-width: 1150px){
     .footer-logo-address{
-        padding-left: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+    .footer-detail-column{
+        padding-left: 0px;
+    }
+    .footer-detail-column:last-child{
+        padding-right: 20px;
+    }
+    .footer-details-options{
+        gap: 20px;
+    }
+    
 }
 
 

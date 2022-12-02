@@ -2729,5 +2729,6 @@ const MenuContent = [
 	},
 ];
 
-export { Bell, Heart, Profile };
+
 export default MenuContent;
+export { Bell, Heart, Profile };

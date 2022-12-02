@@ -4,9 +4,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-block: 60px;
     aspect-ratio: 16/9;
-    padding: 60px 5px;
+    padding: 30px 5px;
 }
 
 .Magazines-section{
