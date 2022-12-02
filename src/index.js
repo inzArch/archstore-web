@@ -5,17 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 //import BrandsListingPage from './pages/BrandsListingPage';
-import Carousel from './components/EmblaCarousel';
-import RecentlyViewedSection from './components/RecentlyViewedSection';
-import CompanyCatalogueSection from './components/CompanyCatalogueSection';
-import CategoryPageSaleSection from './components/CategoryPageSaleSection';
-import AboutUsPage from './components/AboutUsPage';
-import WishlistPage from 'pages/WishlistPage';
+// import Carousel from './components/EmblaCarousel';
+// import RecentlyViewedSection from './components/RecentlyViewedSection';
+// import CompanyCatalogueSection from './components/CompanyCatalogueSection';
+// import CategoryPageSaleSection from './components/CategoryPageSaleSection';
+// import AboutUsPage from './components/AboutUsPage';
+// import WishlistPage from 'pages/WishlistPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		{/* <App /> */}
+		<App />
 		{/* <CoverPage />
 		<BrandsListingPage />
 		<Carousel />
@@ -23,6 +23,6 @@ root.render(
 		<CompanyCatalogueSection />
 		<CategoryPageSaleSection />  */}
 		{/* <WishlistPage /> */}
-		<AboutUsPage />
+		{/* <AboutUsPage /> */}
 	</React.StrictMode>
 );
