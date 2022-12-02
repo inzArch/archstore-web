@@ -39,7 +39,7 @@
 
 .megamenu-container {
 	position: fixed;
-	top: 115px;
+	top: 100px;
 	z-index: 19;
 	width: 100%;
 
@@ -211,19 +211,17 @@
 @media screen and (min-width: 1580px) {
 	.megamenu-inner-container {
 		max-width: 1400px;
-	} 
+	}
 }
-
 
 @media screen and (min-width: 1875px) {
 	.megamenu-inner-container {
 		max-width: 1600px;
-	} 
+	}
 }
-
 
 @media screen and (min-width: 2210px) {
 	.megamenu-inner-container {
 		max-width: 2100px;
-	} 
+	}
 }

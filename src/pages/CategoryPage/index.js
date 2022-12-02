@@ -2,9 +2,97 @@ import { EmblaCarousel } from '../../components/EmblaCarousel';
 import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png';
 import './index.css';
 
+const furniture = [
+	{
+		name: 'Sofas and Armchairs',
+		products: ['Sofas', 'Armchairs', 'Easy Chairs', 'Chaise Longues'],
+		imgURL: 'https://www.archiproducts.com/images/category-b/779@2x.jpg',
+	},
+	{
+		name: 'Tables and Chairs',
+		products: ['Chairs', 'Stools', 'Indoor Benches', 'Tables'],
+		imgURL: 'https://www.archiproducts.com/images/category-b/1394@2x.jpg',
+	},
+	{
+		name: 'Storage Systems and units',
+		products: ['Bookcases', 'Storage Walls', 'Sideboards', 'Tv Cabinets'],
+		imgURL: 'https://www.archiproducts.com/images/category-b/1395@2x.jpg',
+	},
+	{
+		name: 'Sleeping Area and Childrens bedrooms',
+		products: ['Beds', 'Bedside Tables', 'Wardrobes', 'Chests of Drawers'],
+		imgURL: 'https://www.archiproducts.com/images/category-b/1396@2x.jpg',
+	},
+	{
+		name: 'Kids Furniture',
+		products: [
+			'Kids Bedroom',
+			'Kids Bedroom accessories',
+			'Kids Tables and Chairs',
+			'Kids TableWare',
+		],
+		imgURL: 'https://www.archiproducts.com/images/category-b/749@2x.jpg',
+	},
+	{
+		name: 'Furniture Components and Hardware',
+		products: ['Drawers', 'Cabinet Doors', 'Table tops', 'Table bases'],
+		imgURL: 'https://www.archiproducts.com/images/category-b/1558@2x.jpg',
+	},
+];
+
+function Category() {
+	return (
+		<>
+			<div className='category-header-wrapper'>
+				<div className='category-header py-5 d-flex justify-content-between gap-5'>
+					<div>
+						<h2 className='fw-bold'>Furniture</h2>
+						<p>
+							From the hallway to the bedroom, each room of our home
+							speaks volumes about us, makes our tastes visible and
+							conveys our style through the choices we make with regards
+							to furnishing. From the hallway to the bedroom, each room
+							of our home speaks volumes about us, makes our tastes
+							visible and conveys our style through the choices we make
+							with regards to furnishing.
+						</p>
+					</div>
+					<div className='category-logo flex-shrink-0 d-none d-lg-block'>
+						<img
+							src='https://www.archiproducts.com/images/category/1390.png'
+							alt='Furniture Logo'
+						/>
+					</div>
+				</div>
+			</div>
+			<div className='category'>
+				{furniture.map(({ name, products, imgURL }) => (
+					<div className='category-card'>
+						<div>
+							<img src={imgURL} alt={name} />
+						</div>
+						<span>{name}</span>
+						<ul className='pl-0 mt-2'>
+							{products.map((v, i) => (
+								<li key={i} className='my-1'>
+									<a href='#'>{v}</a>
+								</li>
+							))}
+							<li>
+								<a href='#'>View all...</a>
+							</li>
+						</ul>
+					</div>
+				))}
+			</div>
+		</>
+	);
+}
+
 export default function () {
 	return (
 		<>
+			<Category />
 			<div className='px-3 browse-brands mb-5'>
 				<h2 className='fw-bold fs-3 my-4'>Browse by Brand</h2>
 				<EmblaCarousel>
