@@ -1,5 +1,5 @@
 .brands {
-	/* max-width: 1200px; */
+	max-width: 1200px;
 	margin-inline: auto;
 	padding-inline: 1rem;
 	margin-bottom: 5rem;
@@ -49,8 +49,6 @@
 	}
 }
 
-
-
 /* Media queries for bigger screens */
 
 @media screen and (min-width: 1580px) {
@@ -59,13 +57,11 @@
 	}
 }
 
-
 @media screen and (min-width: 1875px) {
 	.brands {
 		/* max-width: 1600px; */
 	}
 }
-
 
 @media screen and (min-width: 2210px) {
 	.brands {
