@@ -8,8 +8,14 @@ import AboutUsCommunity from "./AboutUsCommunity";
 import AboutUsSocialMedia from "./AboutUsSocialMedia";
 import AboutUsTestimonials from "./AboutUsTestimonials";
 import RequestMediaKit from "./RequestMediaKit";
+import AboutUsHeader from "./AboutUsHeader";
+import Footer from "components/Footer";
 const AboutUsPage = () => {
   return (
+    <>
+    <div>
+      <AboutUsHeader />
+    </div>
     <div className="about-us">
       <VideoWrapper />
       <UserStatistics />
@@ -19,7 +25,9 @@ const AboutUsPage = () => {
       <AboutUsandBrands />
       <AboutUsTestimonials />
       <RequestMediaKit />
+      <Footer />
     </div>
+    </>
   );
 };
 

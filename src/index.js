@@ -10,17 +10,19 @@ import RecentlyViewedSection from './components/RecentlyViewedSection';
 import CompanyCatalogueSection from './components/CompanyCatalogueSection';
 import CategoryPageSaleSection from './components/CategoryPageSaleSection';
 import AboutUsPage from './components/AboutUsPage';
+import WishlistPage from 'pages/WishlistPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		{/* <App /> */}
+		<App />
 		{/* <CoverPage />
 		<BrandsListingPage />
 		<Carousel />
 		<RecentlyViewedSection />
 		<CompanyCatalogueSection />
 		<CategoryPageSaleSection />  */}
-		<AboutUsPage />
+		{/* <WishlistPage /> */}
+		{/* <AboutUsPage /> */}
 	</React.StrictMode>
 );
