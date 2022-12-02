@@ -1,7 +1,7 @@
 hr{
   width: 40%;
   margin: auto;
-  margin-block: 80px;
+  margin-block: 40px;
 }
 
 .about-us-and-brands {
@@ -74,11 +74,17 @@ hr{
   .about-us-and-brands-carousel-card {
     flex: 0 0 calc(33.33% - 0.7rem);
   }
+  .hr{
+    margin-block: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .about-us-and-brands-carousel-card {
     flex: 0 0 calc(25% - 0.7rem);
+  }
+  .hr{
+    margin-block: 60px;
   }
 }
 
@@ -86,12 +92,18 @@ hr{
   .about-us-and-brands-carousel-card {
     flex: 0 0 calc(20% - 0.7rem);
   }
+  .hr{
+    margin-block: 70px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
 	.about-us-and-brands-carousel-card  {
 		flex: 0 0 calc(16.66% - 0.7rem);
 	}
+  .hr{
+    margin-block: 80px;
+  }
 }
 
 @media (min-width: 768px) {

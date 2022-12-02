@@ -4,8 +4,8 @@
     margin-bottom: 5px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
-    column-gap: 3px;
-    row-gap: 1px;
+    column-gap: 15px;
+    row-gap: 10px;
 }
 
 .CustomersFavCards-section{

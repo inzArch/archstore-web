@@ -7,7 +7,7 @@ import { AboutUsHeaderContent } from './AboutUsHeaderContent.js';
 const AboutUsHeader = () => {
   return (
     <div className='about-us-navbar'>
-        <Navbar fixed="top" expand="lg" bg="white">
+        <Navbar fixed="top" expand="lg" bg="white" variant='white'>
             <Container>
                 <Navbar.Brand>
                     <img 
@@ -22,14 +22,28 @@ const AboutUsHeader = () => {
                 <Nav className='me-auto'>
                     {AboutUsHeaderContent.map((option,i)=>(
                         <NavDropdown title={option.name}  id="navbarScrollingDropdown-expand">
-                            <NavDropdown.Item>
-                                {option.content}
-                            </NavDropdown.Item>
+                            {
+                                option.content.map((content,i)=>(
+                                    <>
+                                        {
+                                            Object.keys(content).includes("category") ? <NavDropdown title={content.item}>
+                                                {
+                                                    content.category.map((category,i)=>(
+                                                        <NavDropdown.Item className='inner-dropdown'>
+                                                            {category.subitem}
+                                                        </NavDropdown.Item>
+                                                    ))
+                                                }
+                                            </NavDropdown> : <NavDropdown.Item>{content.item}</NavDropdown.Item>
+                                        }
+                                    </>
+                                ))
+                            }
                         </NavDropdown>
 
                     ))}
 
-                        <Nav.Link>
+                        <Nav.Link className='about-us-header-link'>
                             Web Traffic & Community
                         </Nav.Link>
                 </Nav>

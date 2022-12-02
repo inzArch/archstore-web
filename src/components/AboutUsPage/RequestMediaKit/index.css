@@ -29,6 +29,11 @@
     box-shadow: none !important;
 }
 
+.request-media-kit-h4{
+    font-size: 20px;
+}
+
+
 @media (min-width:768px){
     .request-medit-kit-form > Form{
         display: grid;

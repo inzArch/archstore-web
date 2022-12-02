@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import DownArrowIcon from '../../../assets/images/About Us Page/VideoWrapper/down-arrow.png';
+import DownArrowIcon from '../../../assets/images/AboutUsPage/VideoWrapper/down-arrow.png';
 
 
 const AboutUsCommunity = () => {

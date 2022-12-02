@@ -7,13 +7,12 @@ const RequestMediaKit = () => {
     <div className="request-media-kit">
       <div className="request-media-kit-details">
         <h4>CONTACT US</h4>
-        <span className="border-black"></span>
         <h2>Need our media kit, more information or a customized campaign?</h2>
         <p className="align-items-center justify-content-center">
           <span>
             <a className="btn link is-primary" target="_blank" rel="noopener">
               <span>
-                <h4>BOOK A DEMO</h4>
+                <h4 className="request-media-kit-h4">BOOK A DEMO</h4>
               </span>
             </a>
           </span>{" "}

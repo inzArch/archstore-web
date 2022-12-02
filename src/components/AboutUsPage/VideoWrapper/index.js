@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import TransparentVideoFooter from '../../../assets/images/About Us Page/VideoWrapper/transparentvideofooter.svg';
-import DownArrowIcon from '../../../assets/images/About Us Page/VideoWrapper/down-arrow.png';
+import TransparentVideoFooter from '../../../assets/images/AboutUsPage/VideoWrapper/transparentvideofooter.svg';
+import DownArrowIcon from '../../../assets/images/AboutUsPage/VideoWrapper/down-arrow.png';
 const VideoWrapper = () => {
   return (
     <div className="video-wrapper" style={{marginBottom:'120px'}}>
@@ -11,9 +11,6 @@ const VideoWrapper = () => {
         type="video/mp4"
       />
     </video>
-    <div className="video-footer">
-      <img src={TransparentVideoFooter} />
-    </div>
 
     <div className="about-us-details">
       <h5>Web traffic & Community</h5>
