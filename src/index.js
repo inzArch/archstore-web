@@ -16,11 +16,11 @@ import CategoryPage from 'pages/CategoryPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		{/* <App /> */}
+		<App />
 		{/* <CoverPage /> */}
-		<BrandsListingPage />
+		{/* <BrandsListingPage /> */}
 		{/* <Carousel /> */}
-		<CategoryPage />
+		{/* <CategoryPage /> */}
 		{/* <RecentlyViewedSection />
 		<CompanyCatalogueSection /> */}
 		{/* <CategoryPageSaleSection />  */}
