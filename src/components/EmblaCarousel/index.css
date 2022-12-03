@@ -1,0 +1,121 @@
+.embla {
+	position: relative;
+}
+
+.embla__viewport {
+	overflow: hidden;
+}
+
+.embla__viewport.is-draggable {
+	cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+	cursor: grabbing;
+}
+
+.embla__container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.embla__prev,
+.embla__next {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 30px;
+
+	align-items: center;
+	display: none;
+}
+
+.embla__next {
+	right: 10px;
+}
+
+.embla__next > .embla__control__button {
+	transform: rotateZ(180deg);
+}
+
+.embla__prev {
+	left: 10px;
+}
+
+.embla__control__button {
+	background-color: #fff;
+	opacity: 0.6;
+	border-radius: 5px;
+	padding: 10px 6px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: opacity 200ms ease-in-out;
+}
+
+.embla__control__button:hover {
+	opacity: 1;
+}
+
+/* hide carousel control buttons on md screens */
+
+@media screen and (min-width: 768px) {
+	.embla__prev,
+	.embla__next {
+		display: flex;
+	}
+}
+
+/* remove below styles later (these styles are for company-video-section) */
+
+.company-video-section .play-icon-wrapper > img {
+	width: 48px;
+	height: 48px;
+}
+
+.company-video-section {
+	max-width: 1300px;
+	margin-inline: auto;
+}
+
+.company-video-section .video-card {
+	flex: 0 0 calc(80% - 0.7rem);
+	margin-inline: 0.35rem;
+
+	cursor: pointer;
+}
+
+.company-video-section .video-thumb-img {
+	opacity: 1;
+	transition: opacity 200ms ease-in-out;
+}
+
+.company-video-section .video-thumb-img:hover {
+	opacity: 0.75;
+}
+
+@media screen and (min-width: 500px) {
+	.company-video-section .video-card {
+		flex: 0 0 calc(50% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.company-video-section .video-card {
+		flex: 0 0 calc(33.33% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.company-video-section .video-card {
+		flex: 0 0 calc(25% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.company-video-section .video-card {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}

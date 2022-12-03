@@ -1,0 +1,9 @@
+.faq-section{
+    display: flex;
+}
+
+@media (max-width:800px) {
+    .faq-section{
+        display:block;
+    }   
+}

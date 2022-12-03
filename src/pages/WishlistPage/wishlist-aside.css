@@ -1,0 +1,99 @@
+.wishlist .active,
+#all-products-btn:hover,
+.wishlist .group:hover,
+#add-group-btn:hover,
+#add-product-btn:hover,
+#not-assigned-btn:hover,
+.wl-btn:hover {
+	border-color: grey !important;
+}
+
+#all-products-btn,
+.wishlist .group,
+#add-group-btn,
+#add-product-btn,
+#not-assigned-btn,
+.wl-btn {
+	border: thin solid #ddd;
+	padding: 1rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+	text-align: left;
+	width: 100%;
+	border-radius: 0.25rem;
+	letter-spacing: 0.5px;
+}
+
+.b-dashed {
+	border: 2px dashed #ddd !important;
+}
+
+#add-product-btn,
+.wl-btn {
+	padding-block: 0.85rem;
+}
+
+.wishlist .group {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.95rem;
+	padding-block: 0.75rem;
+}
+
+.wishlist .group > * {
+	flex-shrink: 0;
+	margin-right: 1rem;
+}
+
+.wishlist .group > input {
+	min-width: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.wishlist .group > input:focus {
+	outline: none;
+}
+
+.wishlist .group > button {
+	border: thin solid #f1f1f1;
+	border-radius: 0.25rem;
+	width: 30px;
+	height: 30px;
+
+	background-color: transparent;
+	transition: all 200ms ease-in-out;
+}
+
+.wishlist .group > button:hover {
+	background-color: #f1f1f1;
+	border-color: #ddd;
+}
+
+.wishlist .delete-icon,
+.wishlist .check-icon {
+	padding: 0.35rem;
+	margin-right: 0.75rem;
+}
+
+.wishlist .edit-icon,
+.wishlist .cancel-icon {
+	padding: 0.45rem;
+	margin-right: 0;
+}
+
+.wishlist .search-field {
+	width: 225px;
+}
+
+.wishlist .search-field > .search-icon {
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#not-assigned-btn + h3 {
+	font-weight: 600;
+	font-size: 0.85rem;
+	margin: 2rem 0 0.75rem;
+}

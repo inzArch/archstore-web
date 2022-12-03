@@ -1,0 +1,148 @@
+hr{
+  width: 40%;
+  margin: auto;
+  margin-block: 40px;
+}
+
+.about-us-and-brands {
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-inline: 20px;
+}
+
+.right-arrow {
+  width: 10px;
+  height: 10px;
+  rotate: 180deg;
+  margin-left: 10px;
+}
+
+.about-us-and-brands-image > p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.about-us-and-brands-details > h2 {
+  font-size: 32px;
+}
+
+.about-us-and-brands-details > p {
+  font-size: 22px;
+  color: rgba(80, 80, 91, 1);
+}
+
+.about-us-and-brands-details > button {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-us-and-brands-carousel {
+  max-width: 1300px;
+  margin-inline: auto;
+  /* padding: 1rem; */
+  padding-left: 40px;
+}
+
+.about-us-and-brands-carousel-card {
+  position: relative;
+  flex: 0 0 calc(50% - 0.7rem);
+  box-sizing: border-box;
+  margin-inline: 0.35rem;
+  border-radius: 0.45rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.about-us-and-brands-carousel-card > img {
+  width: 140px;
+  height: 160px;
+  border-radius: 0.45rem;
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+.about-us-and-brands-carousel-card:hover > img {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 500px) {
+  .about-us-and-brands-carousel-card {
+    flex: 0 0 calc(33.33% - 0.7rem);
+  }
+  .hr{
+    margin-block: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-and-brands-carousel-card {
+    flex: 0 0 calc(25% - 0.7rem);
+  }
+  .hr{
+    margin-block: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-us-and-brands-carousel-card {
+    flex: 0 0 calc(20% - 0.7rem);
+  }
+  .hr{
+    margin-block: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+	.about-us-and-brands-carousel-card  {
+		flex: 0 0 calc(16.66% - 0.7rem);
+	}
+  .hr{
+    margin-block: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us-and-brands {
+    padding-inline: 60px;
+  }
+
+  .about-us-and-brands-details > button {
+    padding-bottom: 15px;
+  }
+  .about-us-and-brands-details > h2 {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-us-and-brands {
+    flex-direction: row;
+  }
+
+  .about-us-and-brands-details {
+    padding-left: 50px;
+  }
+
+  .about-us-and-brands-details > h2 {
+    width: 420px;
+  }
+
+  .about-us-and-brands-details > p {
+    width: 600px;
+    font-size: 24px;
+  }
+  .about-us-and-brands-image {
+    padding-left: 0px;
+  }
+  .about-us-and-brands-details > button {
+    padding-top: 25px;
+  }
+  .about-us-and-brands-image > p {
+    padding-top: 50px;
+  }
+}
