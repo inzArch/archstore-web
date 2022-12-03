@@ -1,78 +1,67 @@
-
-.inner-dropdown {
-    left: 200px;
-    top: 0px;
-}
-
 .about-us-navbar > nav > .container > button > .navbar-toggler-icon {
-    background-image: url('../../../assets/images/AboutUsPage/VideoWrapper/more.png') !important;
-    background-size: 80%;
+	background-image: url('../../../assets/images/AboutUsPage/VideoWrapper/more.png') !important;
+	background-size: 80%;
 }
 
-.about-us-navbar > nav > .container > button:focus{
-    box-shadow: none !important;
-    border-color: gray;
+.about-us-navbar > nav > .container > button:focus {
+	box-shadow: none !important;
+	border-color: gray;
 }
 
-.nav-link{
-    color: black;
+.nav-link {
+	color: black;
 }
 
-.dropdown-menu > div > div {
-    left: 200px !important;
-    top: 0 !important;
+.about-us-navbar > nav > div > div > div > div > div > div > div {
+	left: 200px !important;
+	top: 0 !important;
 }
 
-.dropdown-menu > div > a {
-    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x) !important;
+.about-us-navbar > nav > div > div > div > div > div > div > a {
+	padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x) !important;
+	font-size: initial;
 }
 
-.dropdown-menu > div > a::after {
-    transform: rotate(270deg);
+.about-us-navbar > nav > div > div > div > div > div > div > a::after {
+	transform: rotate(270deg);
 }
 
-/* .nav-item{
-    margin-inline: 50px;
-} */
+@media (min-width: 1024px) {
+	.navbar-brand {
+		margin-left: 80px;
+	}
 
-@media (min-width:1024px){
-    .navbar-brand{
-        margin-left: 80px;
-    }
-    
-    #basic-navbar-nav{
-        margin-left: 80px;
-    }
-
+	#basic-navbar-nav {
+		margin-left: 80px;
+	}
 }
 
-@media (min-width:1440px){
+@media (min-width: 1440px) {
+	.nav-item > a {
+		font-size: 20px;
+	}
 
-    .nav-item > a {
-        font-size: 20px;
-    }
-    
-    .navbar-brand{
-        margin-block: 10px;
-        margin-left: 150px;
-    }
-    
-    #basic-navbar-nav{
-        margin-left: 80px;
-        margin-block: 10px;
-    }
-    
-    .dropdown > a {
-        margin-inline: 10px;
-    }
-    
-    .about-us-header-link{
-        font-size: 20px;
-        margin-inline: 10px;
-    }
-    
-    .dropdown-menu .dropdown-item {
-        font-size: 20px;
-        margin-inline: 10px;
-    }
+	.navbar-brand {
+		margin-block: 10px;
+		margin-left: 150px;
+	}
+
+	#basic-navbar-nav {
+		margin-left: 80px;
+		margin-block: 10px;
+	}
+
+	.inner-dropdown > .dropdown > a {
+		margin-inline: 10px;
+	}
+
+	.about-us-header-link {
+		font-size: 20px;
+		margin-inline: 10px;
+	}
+
+	.inner-dropdown > .dropdown-menu .dropdown-item {
+		font-size: 20px;
+		margin-inline: 10px;
+	}
 }

@@ -2,7 +2,12 @@
 	max-width: 1200px;
 	margin-inline: auto;
 	padding-inline: 1rem;
+<<<<<<< HEAD
 	margin-block: 3rem;
+=======
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+>>>>>>> 01819c22cbf93f088a48945a2398987cf99faf8a
 }
 
 .brands > h2 + div::after {

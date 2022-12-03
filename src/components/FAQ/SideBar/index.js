@@ -1,51 +1,62 @@
 import React from 'react';
 import { FooterContent } from '../../Footer/FooterContent.js';
-import {Accordion} from 'react-bootstrap';
+import { Accordion } from 'react-bootstrap';
 import './index.css';
 const SideBar = () => {
-  console.log("footer conrent", FooterContent.options)
-  return (
-    <div>
-      <div className='left-section-faq'>
-      {
-        FooterContent.options.map((option,i)=> 
-            {
-              <>
-                {option.rows.map((row,i)=>{
-                  // console.log("rows", row)
-                  if (row.name === "Shop") {
-                    return 
-                    (
-                        <div className='list-items'>
-                         <p>{option.name}</p> 
-                       {option.content.map((option,i)=>(
-                        <p className='fdc-content'>{option.name}</p>
-                        ))} 
-                    </div>
-                    )
-                  }
-                })}
-              </>
-            }
-        )
-        }
-        </div>
-        <Accordion className='accordion-left-section-faq'>
-          {
-             FooterContent.options.map((option,i)=>{
-              if(option.name === "Shop"){
-                return(
-                  <Accordion.Item eventKey="0">
-                        <Accordion.Header>{option.name}</Accordion.Header>
-                        {option.content.map((option,i)=>(
-                          <Accordion.Body>{option.name}</Accordion.Body>
-                        ))}
-                      </Accordion.Item>
-                )}})
-             }
-          </Accordion>
-        </div>
-  )
-}
+	return (
+		<div>
+			<div className='left-section-faq'>
+				{FooterContent.options.map((option, i) => {
+					return (
+						<>
+							{option.rows.map((category, i) => {
+								return (
+									<>
+										{category.name === 'Shop' ? (
+											<div className='list-items'>
+												<p>{category.name}</p>
+												{category.content.map((subcategory, i) => (
+													<p className='fdc-content'>
+														{subcategory.name}
+													</p>
+												))}
+											</div>
+										) : null}
+									</>
+								);
+							})}
+						</>
+					);
+				})}
+			</div>
+			<Accordion className='accordion-left-section-faq'>
+				{FooterContent.options.map((option, i) => {
+					return (
+						<>
+							{option.rows.map((category, i) => {
+								return (
+									<>
+										{category.name === 'Shop' ? (
+											<Accordion.Item eventKey='0'>
+												<Accordion.Header>
+													{category.name}
+												</Accordion.Header>
+												{category.content.map((subcategory, i) => (
+													<Accordion.Body>
+														{subcategory.name}
+													</Accordion.Body>
+												))}
+											</Accordion.Item>
+										) : null}
+									</>
+								);
+							})}
+						</>
+					);
+				})}
+			</Accordion>
+		</div>
+	);
+};
 
-export default SideBar
+export default SideBar;

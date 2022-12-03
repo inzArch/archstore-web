@@ -10,21 +10,19 @@ import WeeklyTrendsCarousel from '../../components/Home/WeeklyTrendsCarousel';
 import TrendingMoodBoards from '../../components/Home/TrendingMoodBoards';
 import DesignOfTheMonth from '../../components/Home/DesignOfTheMonth';
 
-
 const Home = () => {
-
 	return (
-			<div className='Home-container'>
-				<HomeCarousel />
-				<HowItWorks />
-				<CustomersFav />
-				<WeeklyTrendsCarousel />
-				<Magazines />
-				<Brands />
-				<TrendingMoodBoards />
-				<DesignOfTheMonth />
-				<Subscribe />
-			</div>
+		<div className='Home-container'>
+			<HomeCarousel />
+			<HowItWorks />
+			<CustomersFav />
+			<WeeklyTrendsCarousel />
+			<TrendingMoodBoards />
+			<DesignOfTheMonth />
+			<Magazines />
+			<Brands />
+			<Subscribe />
+		</div>
 	);
 };
 
