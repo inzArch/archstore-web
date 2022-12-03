@@ -8,6 +8,7 @@
 	max-width: 1200px;
 	/* height: 70vh; */
 	padding-block: 20px;
+	margin-bottom: 40px;
 }
 
 .design-of-the-month-details {
@@ -103,6 +104,10 @@
 		/* max-width: 600px; */
 		width: 50%;
 	}
+	.design-of-the-month-container > .design-of-the-month-details > h1{
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 @media screen and (max-width: 975px) {
@@ -122,7 +127,7 @@
 @media screen and (max-width: 870px) {
 	.design-of-the-month-details {
 		margin-left: 20px;
-		width: 250px;
+		width: 300px;
 		padding: 15px;
 	}
 	.design-of-the-month-card {
@@ -175,7 +180,27 @@
 	}
 }
 
-
+@media (min-width:730px) and (max-width:949px){
+	.design-of-the-month-details{
+		top: 20px;	
+		margin-left: 40px;
+	}
+	.design-of-the-month-container{
+		padding-block: 40px;
+	}
+	.design-of-the-month-container > .design-of-the-month-details > h1{
+		padding-bottom: 5px;
+	}
+	.design-of-the-month-container > .design-of-the-month-details > h3{
+		padding-bottom: 0px;
+	}
+	.design-of-the-month-details > h3{
+		padding-top: 0px;
+	}
+	.design-of-the-month-container > .design-of-the-month-details > p{
+		margin-bottom: 0.5rem;
+	}
+}
 
 
 /* Media queries for bigger screens */

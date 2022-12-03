@@ -19,10 +19,10 @@ const Home = () => {
 				<HowItWorks />
 				<CustomersFav />
 				<WeeklyTrendsCarousel />
-				<Magazines />
-				<Brands />
 				<TrendingMoodBoards />
 				<DesignOfTheMonth />
+				<Magazines />
+				<Brands />
 				<Subscribe />
 			</div>
 	);

@@ -4,7 +4,7 @@
     padding-right: 60px;
     border-right: 1px solid beige;
 }
-/* 
+
 .accordion-left-section-faq{
     display: none;
     margin-top: 40px;
@@ -13,7 +13,7 @@
 }
 .left-section-faq > .accordion-left-section-faq > .accordion-header > button::after{
     background-image: var(--bs-accordion-btn-icon) !important;
-  } */
+  }
 
 @media (max-width: 800px){
     .accordion-left-section-faq{

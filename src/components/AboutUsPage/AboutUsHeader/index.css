@@ -1,8 +1,4 @@
 
-.inner-dropdown {
-    left: 200px;
-    top: 0px;
-}
 
 .about-us-navbar > nav > .container > button > .navbar-toggler-icon {
     background-image: url('../../../assets/images/AboutUsPage/VideoWrapper/more.png') !important;
@@ -18,22 +14,20 @@
     color: black;
 }
 
-.dropdown-menu > div > div {
+.about-us-navbar > nav > div > div > div > div > div > div > div {
     left: 200px !important;
     top: 0 !important;
 }
 
-.dropdown-menu > div > a {
+.about-us-navbar > nav > div > div > div > div > div > div > a {
     padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x) !important;
+    font-size: initial;
 }
 
-.dropdown-menu > div > a::after {
+.about-us-navbar > nav > div > div > div > div > div > div > a::after {
     transform: rotate(270deg);
 }
 
-/* .nav-item{
-    margin-inline: 50px;
-} */
 
 @media (min-width:1024px){
     .navbar-brand{
@@ -62,7 +56,7 @@
         margin-block: 10px;
     }
     
-    .dropdown > a {
+    .inner-dropdown > .dropdown > a {
         margin-inline: 10px;
     }
     
@@ -71,7 +65,7 @@
         margin-inline: 10px;
     }
     
-    .dropdown-menu .dropdown-item {
+    .inner-dropdown > .dropdown-menu .dropdown-item {
         font-size: 20px;
         margin-inline: 10px;
     }

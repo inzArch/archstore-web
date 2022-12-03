@@ -34,7 +34,7 @@ const AboutUsHeader = () => {
                                                         </NavDropdown.Item>
                                                     ))
                                                 }
-                                            </NavDropdown> : <NavDropdown.Item>{content.item}</NavDropdown.Item>
+                                            </NavDropdown> : <NavDropdown.Item className='inner-dropdown'>{content.item}</NavDropdown.Item>
                                         }
                                     </>
                                 ))
