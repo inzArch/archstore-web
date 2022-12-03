@@ -67,7 +67,11 @@ export default function BrandsListing() {
 
 	return (
 		<div className='brands-listing'>
-			<div className={`accordion-aside ${filtersOpen ? 'full-width' : ''}`}>
+			<div
+				className={`accordion-aside ${
+					filtersOpen ? 'd-block full-width' : ''
+				}`}
+			>
 				{filtersOpen && (
 					<div className='d-flex justify-content-between align-items-center mb-3 mx-2'>
 						<span className='fw-bold fs-5'>Filters / Orders</span>
@@ -137,8 +141,8 @@ export default function BrandsListing() {
 
 function Card() {
 	return (
-		<div className='brand-card d-flex flex-col justify-content-evenly'>
-			<div className='brand-logo mx-auto'>
+		<div className='bl-brand-card d-flex flex-col justify-content-evenly'>
+			<div className='bl-brand-logo mx-auto'>
 				<img src={ArtemideLogo} alt='A brand Logo' />
 			</div>
 

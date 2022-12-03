@@ -33,7 +33,9 @@ export function EmblaCarousel({
 	);
 
 	// expecting a ref object as reqAPI parameter
-	useEffect(() => reqAPI && (reqAPI.current = emblaAPI), [emblaAPI, reqAPI]);
+	useEffect(() => {
+		if (reqAPI) reqAPI.current = emblaAPI;
+	}, [emblaAPI, reqAPI]);
 
 	return (
 		<div className='embla'>
