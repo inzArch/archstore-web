@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import Logo_Blue from 'assets/images/header/Logo_Blue.png';
 import { AboutUsHeaderContent } from './AboutUsHeaderContent.js';
 
+const Logo_Blue = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Logo_Blue.png";
 const AboutUsHeader = () => {
   return (
     <div className='about-us-navbar'>

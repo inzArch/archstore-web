@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Home from './pages/Home';
-// import FAQ from './components/FAQ';
+import FAQ from './components/FAQ';
 // import {
 //   createBrowserRouter,
 //   createRoutesFromElements,
@@ -25,6 +25,7 @@ function App() {
       <div className='main-page-container'>
         {/* <RouterProvider router={router} /> */}
         <Home />
+        {/* <FAQ /> */}
       </div>
   );
 }

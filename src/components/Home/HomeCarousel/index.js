@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import { CarouselContent } from './CarouselContent';
+import { CarouselContent } from './CarouselContent.js';
 import './index.css';
 import MoodBoard from './MoodBoard';
 

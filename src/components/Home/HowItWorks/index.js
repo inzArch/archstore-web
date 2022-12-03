@@ -1,17 +1,18 @@
 import React from 'react';
-import CreateMoodBoardImg from 'assets/images/home/howitworks/CreateMoodBoardImg.png';
-import InspirationsImg from 'assets/images/home/howitworks/InspirationsImg.png';
-import OrderProductsImg from 'assets/images/home/howitworks/OrderProductsImg.png';
-import ConnectVendorsImg from 'assets/images/home/howitworks/ConnectVendorsImg.png';
-import HowItWorksImg from 'assets/images/home/howitworks/HowItWorksImg.png';
+// import CreateMoodBoardImg from 'assets/images/home/howitworks/CreateMoodBoardImg.png';
+// import InspirationsImg from 'assets/images/home/howitworks/InspirationsImg.png';
+// import OrderProductsImg from 'assets/images/home/howitworks/OrderProductsImg.png';
+// import ConnectVendorsImg from 'assets/images/home/howitworks/ConnectVendorsImg.png';
+// import HowItWorksImg from 'assets/images/home/howitworks/HowItWorksImg.png';
 import './index.css';
+import { HowItWorksData } from './HowItWorksData.js';
 
 const HowItWorks = () => {
   return (
     <div className='howitworks-container'>
         <div className="howitworks-contents">
             <div className="howitworks-leftSection">
-                <img src={HowItWorksImg} alt="how it works" />
+                <img src={ HowItWorksData.HowItWorksImg} alt="how it works" />
             </div>
             <div className="howitworks-rightSection">
                 <div className="howitworks-headings">
@@ -21,28 +22,28 @@ const HowItWorks = () => {
                 <div className="howitworks-rightSection-cards">
                     <div className="howitworks-card">
                         <div className="howitworks-card-header">
-                            <img src={CreateMoodBoardImg} alt="create mood board" />
+                            <img src={ HowItWorksData.CreateMoodBoardImg} alt="create mood board" />
                             <p>Create Moodboard</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
                     </div>
                     <div className="howitworks-card">
                         <div className="howitworks-card-header">
-                            <img src={InspirationsImg} alt="create mood board" />
+                            <img src={ HowItWorksData.InspirationsImg} alt="create mood board" />
                             <p>Add Inspirations</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
                     </div>
                     <div className="howitworks-card">
                         <div className="howitworks-card-header">
-                            <img src={ConnectVendorsImg} alt="create mood board" />
+                            <img src={ HowItWorksData.ConnectVendorsImg} alt="create mood board" />
                             <p>Connect with vendors</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
                     </div>
                     <div className="howitworks-card">
                         <div className="howitworks-card-header">
-                            <img src={OrderProductsImg} alt="create mood board" />
+                            <img src={ HowItWorksData.OrderProductsImg} alt="create mood board" />
                             <p>Order Products</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>

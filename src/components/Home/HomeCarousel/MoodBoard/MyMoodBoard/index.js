@@ -1,7 +1,8 @@
 import React from 'react';
 import './index.css';
-import MyMoodBoardIcon from 'assets/images/home/moodboard/MyMoodBoardIcon.svg';
-import { MyMoodBoardData } from './MyMoodBoardData';
+import { MyMoodBoardData } from './MyMoodBoardData.js';
+const MyMoodBoardIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/MyMoodBoardIcon.89ca0e04e01e26d7acaacf43a037f197.svg";
+
 
 const MyMoodBoard = () => {
   return (

@@ -1,7 +1,7 @@
-import Logo from '../../assets/images/header/Logo_White.png';
+
 
 export const FooterContent = {
-    img: Logo,
+    img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Logo_White.png",
     info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     address: "5/Madhav Bhuvan, 321/B, Deodhar Rd, Matunga(E), Mumbai 400019",
     copyright:"2022 Archstore |   All right reserved",
