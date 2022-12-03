@@ -6,6 +6,7 @@ import './index.css';
 import SubHeader from './SubHeader';
 import { MenuItemActiveStatusContext } from 'App.js';
 import MegaMenu from './MegaMenu/index.js';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	const { activeMenuItem, setActiveMenuItem } = useContext(
@@ -27,7 +28,7 @@ const Header = () => {
 			<div className='header-container'>
 				<div className='header-logo-section'>
 					<img className='header-menu-icon' src={MenuIcon} alt='' />
-					<img src={"https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Logo_Blue.png"} alt='logo' />
+					<Link to="/"><img src={"https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Logo_Blue.png"} alt='logo' /></Link>
 				</div>
 				<div className='header-menu-items'>
 					{MenuContent.map((content, i) => (
