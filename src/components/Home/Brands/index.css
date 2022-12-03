@@ -5,6 +5,22 @@
 	margin-block: 3rem;
 }
 
+.brands > h2 + div::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 1),
+		rgba(255, 255, 255, 0) 15% 85%,
+		rgba(255, 255, 255, 1)
+	);
+	pointer-events: none;
+}
+
 .brands-title {
 	text-align: center;
 	font-family: 'Philosopher', sans-serif;
@@ -22,7 +38,7 @@
 }
 
 .brand-card > .brand-logo > img {
-	width: 70%;
+	width: 75%;
 }
 
 @media screen and (min-width: 425px) {

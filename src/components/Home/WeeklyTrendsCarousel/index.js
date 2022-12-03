@@ -54,7 +54,7 @@ export default function WeeklyTrendsCarousel() {
 	const emblaRef = useRef(null);
 	const [c_ref, c_api] = use3DCarousel();
 
-	const [scrollHistory, setScrollHistory] = useState(null);
+	const [scrollHistory, setScrollHistory] = useState('left');
 	const scrollNext = useCallback(() => {
 		if (emblaRef.current) emblaRef.current.scrollNext();
 		setScrollHistory('right');

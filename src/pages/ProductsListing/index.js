@@ -18,7 +18,11 @@ export default function ProductsListing() {
 
 	return (
 		<div className='products-listing'>
-			<div className={`accordion-aside ${filtersOpen ? 'full-width' : ''}`}>
+			<div
+				className={`accordion-aside ${
+					filtersOpen ? 'd-block full-width' : ''
+				}`}
+			>
 				{filtersOpen && (
 					<div className='d-flex justify-content-between align-items-center mb-3 mx-2'>
 						<span className='fw-bold fs-5'>Filters / Orders</span>
@@ -38,7 +42,7 @@ export default function ProductsListing() {
 				)}
 				<AccordionAside />
 			</div>
-			<div className='card-container'>
+			<div className='pl-card-container'>
 				<div>
 					<h2 className='mb-3 fw-bold fs-3'>Products by Artemide</h2>
 					<div className='d-flex align-items-center mb-3'>
@@ -81,7 +85,7 @@ export default function ProductsListing() {
 					</div>
 				</div>
 
-				<div className='card-container-grid'>
+				<div className='pl-card-container-grid'>
 					{products.map(p => (
 						<Card key={p.id} product={p} />
 					))}
@@ -95,13 +99,15 @@ function Card({ product: { manufacturer, name, desc } }) {
 	const { random, round } = Math;
 
 	return (
-		<div className='product-card'>
+		<div className='pl-product-card'>
 			<div className='img-wrapper d-flex justify-content-center align-items-center'>
 				<img src={placeholderImg} alt={name} width='45' height='45' />
 			</div>
-			<div className='product-details'>
-				<div className='product-manufacturer fw-bold'>{manufacturer}</div>
-				<div className='product-name text-secondary'>
+			<div className='pl-product-details'>
+				<div className='pl-product-manufacturer fw-bold'>
+					{manufacturer}
+				</div>
+				<div className='pl-product-name text-secondary'>
 					{`${name} - ${desc}`}
 				</div>
 				<button type='button' className='request-info-btn fw-bold'>
