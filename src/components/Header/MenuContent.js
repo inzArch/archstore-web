@@ -1,19 +1,12 @@
-import LivingRoom from 'assets/images/header/LivingRoom.png';
-import BedRoom from 'assets/images/header/BedRoom.png';
-import Kitchen from 'assets/images/header/Kitchen.png';
-import BathRoom from 'assets/images/header/BathRoom.png';
-import Fabric from 'assets/images/header/Fabric.png';
-import Office from 'assets/images/header/Office.png';
-import Planters from 'assets/images/header/Planters.png';
 
-import Heart from 'assets/images/header/Heart.png';
-import Profile from 'assets/images/header/Profile.png';
-import Bell from 'assets/images/header/Bell.png';
+const Profile = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Profile.579a0c677fb089ec6817828162338c82.svg";
+const Heart = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Heart.a4cff6e42b1ceea445b31fb1bba80c2d.svg";
+const Bell = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Bell.706102b16333e8ac52e8db423aec7bf1.svg";
 
 const MenuContent = [
 	{
 		name: 'Living Room',
-		icon: LivingRoom,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/LivingRoom.png",
 		colors: {
 			primary: '#fff4ee',
 			secondary: '#f2b28f33',
@@ -401,7 +394,7 @@ const MenuContent = [
 	},
 	{
 		name: 'Bath Room',
-		icon: BathRoom,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/BathRoom.png",
 		colors: {
 			primary: '#e3ebe8',
 			secondary: '#d0ded9',
@@ -789,7 +782,7 @@ const MenuContent = [
 	},
 	{
 		name: 'Bed Room',
-		icon: BedRoom,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/BedRoom.png",
 		colors: {
 			primary: '#e7e7e7',
 			secondary: '#d7d7d7',
@@ -1177,7 +1170,7 @@ const MenuContent = [
 	},
 	{
 		name: 'Kitchen',
-		icon: Kitchen,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Kitchen.png",
 		colors: {
 			primary: '#e9ede1',
 			secondary: '#dbe2cd',
@@ -1565,7 +1558,7 @@ const MenuContent = [
 	},
 	{
 		name: 'Fabric',
-		icon: Fabric,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Fabric.png",
 		colors: {
 			primary: '#efe0e6',
 			secondary: '#e4cbd6',
@@ -1953,7 +1946,7 @@ const MenuContent = [
 	},
 	{
 		name: 'Office',
-		icon: Office,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Office.png",
 		colors: {
 			primary: '#dee5f0',
 			secondary: '#c9d4e6',
@@ -2341,7 +2334,7 @@ const MenuContent = [
 	},
 	{
 		name: 'Planters',
-		icon: Planters,
+		icon: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Planters.png",
 		colors: {
 			primary: '#e0eeea',
 			secondary: '#cce3dd',
@@ -2730,5 +2723,5 @@ const MenuContent = [
 ];
 
 
-export default MenuContent;
 export { Bell, Heart, Profile };
+export default MenuContent;

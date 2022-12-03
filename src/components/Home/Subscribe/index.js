@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import SubscribeBgImg from 'assets/images/home/subscribe/Subscribe.png';
+const SubscribeBgImg = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Subscribe.407a3b70a74baf1c92c2.png";
 
 const Subscribe = () => {
   return (

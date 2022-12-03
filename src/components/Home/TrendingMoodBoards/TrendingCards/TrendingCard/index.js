@@ -1,9 +1,10 @@
 
 import './index.css';
-import TrendingImage1 from 'assets/images/home/TrendingMoodboards/trendingmoodboard1.png';
-import TrendingImage2 from 'assets/images/home/TrendingMoodboards/trendingmoodboard2.png';
-import TrendingImage3 from 'assets/images/home/TrendingMoodboards/trendingmoodboard3.png';
-import TrendingUser1 from 'assets/images/home/TrendingMoodboards/trendingmoodboarduser1.png';
+const TrendingImage1 = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/trendingmoodboard1.1c669cb7f0713ae4f264.png';
+const TrendingImage2 = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/trendingmoodboard2.d80be694903efd9838d3.png';
+const TrendingImage3 = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/trendingmoodboard3.4b0e3ae6489843a52e44.png';
+const TrendingUser1 = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/trendingmoodboarduser1.54ac4fe8d0cddf2adaddbb2fead9cd6a.svg';
+
 const TrendingCard = () => {
 
   return (

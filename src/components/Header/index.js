@@ -1,5 +1,4 @@
 import React, { useContext, useCallback } from 'react';
-import Logo from 'assets/images/header/Logo_Blue.png';
 import MenuContent from './MenuContent.js';
 import { Bell, Heart, Profile } from './MenuContent.js';
 import MenuIcon from 'assets/images/header/MenuIcon.svg';
@@ -27,7 +26,7 @@ const Header = () => {
 			<div className='header-container'>
 				<div className='header-logo-section'>
 					<img className='header-menu-icon' src={MenuIcon} alt='' />
-					<img src={Logo} alt='logo' />
+					<img src={"https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Logo_Blue.png"} alt='logo' />
 				</div>
 				<div className='header-menu-items'>
 					{MenuContent.map((content, i) => (

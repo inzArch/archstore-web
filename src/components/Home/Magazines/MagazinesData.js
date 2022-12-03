@@ -1,31 +1,26 @@
-import MagazineImg from 'assets/images/home/Magazines/MagazineImg.png';
-import ExhibitionImg1 from 'assets/images/home/Magazines/ExhibitionImg1.png';
-import ExhibitionImg2 from 'assets/images/home/Magazines/ExhibitionImg2.png';
-import ExhibitionImg3 from 'assets/images/home/Magazines/ExhibitionImg3.png';
-import ExhibitionImg4 from 'assets/images/home/Magazines/ExhibitionImg4.png';
 
 export const MagazinesData = {
     magazines: [
         {
-            img: MagazineImg,
+            img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/MagazineImg.f6499346d3e6b8714865.png",
             id: "",
         }
     ],
     exhibitions: [
         {
-            img: ExhibitionImg1,
+            img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/ExhibitionImg1.059e168ed5b6e6bc65cb.png",
             id: ""
         },
         {
-            img: ExhibitionImg2,
+            img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/ExhibitionImg2.61d8dcac58f751785ba9.png",
             id: ""
         },
         {
-            img: ExhibitionImg3,
+            img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/ExhibitionImg3.ff4ea07d048e674b014e.png",
             id: ""
         },
         {
-            img: ExhibitionImg4,
+            img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/ExhibitionImg4.faa750442e92b3d9cb78.png",
             id: ""
         },
     ]

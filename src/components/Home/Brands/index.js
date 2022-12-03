@@ -2,13 +2,13 @@ import { EmblaCarousel } from 'components/EmblaCarousel';
 import Autoplay from 'embla-carousel-autoplay';
 
 import './index.css';
-import artemide from 'assets/images/home/brands/artemide-logo.png';
-import boffi from 'assets/images/home/brands/boffi-logo.png';
-import hermanMiller from 'assets/images/home/brands/hermanmiller-logo.png';
-import moroso from 'assets/images/home/brands/moroso-logo.png';
-import salvatori from 'assets/images/home/brands/salvatori-logo.png';
-import vitra from 'assets/images/home/brands/vitra-logo.png';
-import zanotta from 'assets/images/home/brands/zanotta-logo.png';
+const artemide = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/artemide-logo.png';
+const boffi = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/boffi-logo.png';
+const hermanMiller = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/hermanmiller-logo.png';
+const moroso = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/moroso-logo.png';
+const salvatori = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/salvatori-logo.png';
+const vitra = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/vitra-logo.png';
+const zanotta = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/zanotta-logo.png';
 
 const logos = [
 	[artemide, boffi],

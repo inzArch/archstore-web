@@ -1,19 +1,19 @@
 import './index.css';
-import arrowRightIcon from 'assets/images/header/arrow-right.svg';
-import arrowRightDarkIcon from 'assets/images/header/arrow-right-dark.svg';
-import retailersIcon from 'assets/images/header/retailers.png';
-import designersIcon from 'assets/images/header/designers.png';
-import longRightArrowIcon from 'assets/images/header/long-right-arrow.svg';
-import chairImg from 'assets/images/header/chair.svg';
-
-import urbanLadderLogo from 'assets/images/header/urban-ladder-logo.png';
-import pepperfryLogo from 'assets/images/header/pepperfry-logo.png';
-import godrejInterioLogo from 'assets/images/header/godrej-interio-logo.png';
-import EvokLogo from 'assets/images/header/evok-logo.png';
-
 import MenuContent from '../MenuContent';
 import { MenuItemActiveStatusContext } from 'pages/Home';
 import { useContext, useState } from 'react';
+
+const EvokLogo = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/evok-logo.1d6324a83018f152d4f49dc4283c7eb5.svg";
+const godrejInterioLogo = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/godrej-interio-logo.93160edd2de52dc89dff2be1c0c82ed6.svg";
+const pepperfryLogo = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/pepperfry-logo.f387e992c49667949af1e7bf1d6100d5.svg";
+const urbanLadderLogo = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/urban-ladder-logo.0d3382e8efd0a61399d0ac47d9b64761.svg";
+const arrowRightIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/arrow-right.acd632891a6a7552043e0b1ac1233bdc.svg";
+const arrowRightDarkIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/arrow-right-dark.5674e34f5ae487458385ce79798afb88.svg";
+const longRightArrowIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/long-right-arrow.59fe8229924a92779bde9a025cc7c2ad.svg";
+const chairImg = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/chair.ee14c960a363857579ee60074b574a44.svg";
+const designersIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/designers.00452872acc1c18d119dcb34471af8bc.svg";
+const retailersIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/retailers.00c10a2ffae6131f51ab0cf82c3e2753.svg";
+
 
 export default function MegaMenu() {
 	const [activeCategory, setActiveCategory] = useState(null);

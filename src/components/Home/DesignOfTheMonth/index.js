@@ -1,10 +1,10 @@
 import React from 'react';
 import "./index.css";
-import DesignOfTheMonthImage1 from "assets/images/home/DesignOfTheMonth/DOTM1.png";
-import DesignOfTheMonthImage2 from "assets/images/home/DesignOfTheMonth/DOTM2.png";
-import DesignOfTheMonthImage3 from "assets/images/home/DesignOfTheMonth/DOTM3.png";
-import DesignOfTheMonthImage4 from "assets/images/home/DesignOfTheMonth/DOTM4.png";
-import DesignOfTheMonthImage5 from "assets/images/home/DesignOfTheMonth/DOTM5.svg";
+const DesignOfTheMonthImage1 = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/DOTM1.659302aac1ee5e6dfa96.png";
+const DesignOfTheMonthImage2 = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/DOTM2.6b071460e0e72dddeb79.png";
+const DesignOfTheMonthImage3 = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/DOTM3.895c13e89b9871319ce7.png";
+const DesignOfTheMonthImage4 = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/DOTM4.014bda36ad7224899045.png";
+const DesignOfTheMonthImage5 = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/DOTM5.40f678591d5d8754a24710a1974b3121.svg";
 
 const DesignOfTheMonth = () => {
   return (

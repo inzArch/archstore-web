@@ -6,13 +6,13 @@ import Autoplay from 'embla-carousel-autoplay';
 import './index.css';
 import './3d-carousel-styles.css';
 
-import rightArrowIcon from '../../../assets/images/header/arrow-right.svg';
-import rArrowControlIcon from '../../../assets/images/home/WeeklyTrendsCarousel/r-arrow.svg';
+const rightArrowIcon = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/arrow-right.acd632891a6a7552043e0b1ac1233bdc.svg';
+const rArrowControlIcon = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/r-arrow.9a92afceee1fffdd6f26fb09aa4cd576.svg';
 
-import fancyKitchen from 'assets/images/home/WeeklyTrendsCarousel/fancy-kitchen.png';
-import fancyLivingRoom from 'assets/images/home/WeeklyTrendsCarousel/fancy-living-room.png';
-import fancyBlackKitchen from 'assets/images/home/WeeklyTrendsCarousel/fancy-black-kitchen.png';
-import fancyBenchAccounting from 'assets/images/home/WeeklyTrendsCarousel/bench-accounting.png';
+const fancyKitchen = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/fancy-kitchen.5989497136771fbe6fd4.png';
+const fancyLivingRoom = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/fancy-living-room.e77658bdee9306fb7798.png';
+const fancyBlackKitchen = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/fancy-black-kitchen.2f8f492154aca37c2ad5.png';
+const fancyBenchAccounting = 'https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/bench-accounting.732ffd2612c79130a1e5.png';
 
 /*
 	data --> Array<{ title: <string>, subtitle: <string>, link: <string>, imgSrc: <string> }>
