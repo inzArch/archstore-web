@@ -1,0 +1,139 @@
+.subheader-container{
+    display: flex;
+    padding: 3px 5px;
+    padding-bottom: 3px;
+    max-width: 1200px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.subheader-container > div:nth-child(1){
+    width: 550px;
+}
+
+.subheader-options{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subheader-options > span {
+    padding: 4px 14px;
+    margin: 0 4px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    align-items: center;
+    color: #7984AB;
+}
+
+.subheader-options > span:hover {
+    background: rgba(214, 220, 245, 0.4);
+    color: black;
+}
+
+.subheader-searchbar-container{
+    flex: 1;
+}
+
+.subheader-searchbar{
+    display: flex;
+    background: rgba(220, 223, 237, 0.14);
+    border-radius: 30px;
+    padding: 4px 15px;
+    margin-left: 15px;
+}
+.subheader-searchbar > img{
+    width: 20px;
+}
+.subheader-searchbar > input{
+    outline: none;
+    background: none;
+    margin: 0 10px;
+    flex: 1;
+}
+
+.subheader-dropdown{
+    position: relative;
+    border-left: 1px solid #D8DAE9;
+    padding: 0 20px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+    color: #263556;
+}
+
+.subheader-dropdown > img{
+    width: 15px;
+    margin: 0 10px;
+    margin-top: 3px;
+}
+
+.subheader-dropdown-items{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    .subheader-options{
+        display: none;
+    }
+        
+    .subheader-searchbar{
+        margin-left: 0;
+    }
+    .subheader-dropdown{
+        display: flex;
+    }
+
+    .subheader-container{
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .subheader-container{
+        padding: 10px 5px;
+    }
+
+    .subheader-searchbar{
+        padding: 10px 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    .subheader-searchbar > input{
+        width: 30%;
+    }
+}
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .subheader-container{
+        max-width: 1400px;
+    }   
+}
+
+
+@media screen and (min-width: 1875px) {
+    .subheader-container{
+        max-width: 1600px;
+    }   
+}
+
+
+@media screen and (min-width: 2210px) {
+    .subheader-container{
+        max-width: 2100px;
+    }   
+}

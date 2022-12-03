@@ -1,0 +1,10 @@
+input[type='checkbox'].form-check-input:focus {
+	box-shadow: none;
+}
+
+input[type='checkbox'].form-check-input + label.form-check-label {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}

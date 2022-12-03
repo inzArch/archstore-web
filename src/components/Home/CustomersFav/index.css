@@ -1,0 +1,137 @@
+.customersFav-outerContainer{
+    background: #F5F5F5;
+    padding: 60px 10px;
+
+}
+
+.customersFav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.customersFav-heading{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #373534;
+}
+
+.customersFav-heading > h1{
+    font-weight: 600;
+}
+
+.customersFav-heading > p{
+    font-size: 16px;
+}
+
+.customersFav-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    height: 44px;
+}
+
+.customersFav-categories > span{
+    padding: 5px 8px;
+    font-size: large;
+    margin: 0 12px;
+    color: #6B6868;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all ease-in-out 0.2s;
+}
+
+.customersFav-categories > span:hover{
+    color: #47311C;
+    font-weight: 600;
+    border-bottom: 3px solid #47311C;
+    margin-bottom: 5px;
+}
+
+.customersFav-type-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    padding-bottom: 30px;
+}
+
+.customersFav-type-options > span{
+    padding: 5px 25px;
+    margin: 0 12px;
+    background: rgba(230, 222, 212, 0.44);
+    border-radius: 4px;
+    font-size: large;
+    color: #6F685F;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.customersFav-type-options > span:hover{
+    background: rgba(171, 164, 155, 0.44);
+    color: #433e37;
+}
+
+
+.CustomersFav-viewall-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CustomersFav-viewall-btn > button{
+    border: 1px solid #364366;
+    border-radius: 4px;
+    width: 150px;
+    padding: 5px 5px;
+    color: #364366;
+    transition: all ease-in-out 0.3s;
+}
+
+.CustomersFav-viewall-btn > button:hover{
+    border: 1px solid #FFFFFF;
+    background: #364366;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 780px) {
+        
+    .customersFav-categories{
+        display: none;
+    }
+        
+    .customersFav-type-options{
+        display: none;
+    }
+
+}
+
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+
+    .customersFav-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+
+    .customersFav-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+
+    .customersFav-container{
+        max-width: 2100px;
+    }
+}

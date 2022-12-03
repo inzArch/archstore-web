@@ -1,0 +1,195 @@
+.weekly-trends > h2 + div {
+	max-width: 768px;
+	margin-inline: auto;
+}
+
+.weekly-trends > h2 {
+	text-align: center;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 500;
+	font-size: 2rem;
+	margin-block: 2rem;
+}
+
+.weekly-trends {
+	padding-inline: 1rem;
+	margin-block: 3rem;
+}
+
+.wt-card {
+	flex: 0 0 100%;
+	margin-inline: 1rem;
+}
+
+/* .wt-card-info {
+	display: none;
+} */
+
+.wt-card > h3,
+.wt-card > p {
+	text-align: center;
+}
+
+.wt-card h3 {
+	font-family: 'Crimson Text', serif;
+	font-size: 1.75rem;
+	margin-top: 0;
+}
+
+.wt-card > p {
+	font-family: 'Outfit', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-inline: 2rem;
+
+	height: 43px;
+	overflow-y: hidden;
+}
+
+.wt-card > .img-wrapper {
+	aspect-ratio: 16 / 9;
+	overflow: hidden;
+	border-radius: 8px;
+	position: relative;
+}
+
+.wt-card > .img-wrapper > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.wt-card .learn-more {
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+
+.wt-card .learn-more > span {
+	margin-right: 0.5rem;
+	letter-spacing: 0.05rem;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.wt-card > .img-wrapper > .learn-more {
+	padding: 0.25rem 0.75rem;
+
+	border-radius: 0 8px;
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(2.5px);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.weekly-trends > .carousel-control {
+	display: flex;
+	justify-content: center;
+	margin-block: 1.5rem;
+}
+
+.weekly-trends > .carousel-control > button:first-child {
+	transform: rotate(180deg);
+	margin-right: 1.5rem;
+}
+
+.weekly-trends > .carousel-control > button {
+	position: relative;
+	padding: 0.25rem;
+}
+
+.weekly-trends > .carousel-control > button > span {
+	display: inline-block;
+	position: absolute;
+	padding-right: 100%;
+	background-color: transparent;
+
+	top: 0;
+	bottom: 0;
+	right: -30%;
+	border-radius: 50%;
+	z-index: -1;
+
+	transform: scale(0);
+	transition: all 250ms ease-in-out;
+}
+
+.weekly-trends > .carousel-control > button > span.last-active {
+	background-color: rgba(250, 217, 192, 0.5);
+	transform: scale(1);
+}
+
+@media screen and (min-width: 992px) {
+	.weekly-trends > h2 + div {
+		display: none;
+	}
+}
+
+/* @media screen and (min-width: 768px) {
+	.wt-card {
+		position: relative;
+	}
+
+	.wt-card > h3,
+	.wt-card > p {
+		display: none;
+	}
+
+	.wt-card > .img-wrapper {
+		margin-top: 2rem;
+	}
+
+	.wt-card > .img-wrapper > .learn-more {
+		display: none;
+	}
+
+	.wt-card-info {
+		display: block;
+		position: absolute;
+
+		bottom: 0;
+		right: 0;
+		width: 70%;
+
+		background-color: rgba(0, 0, 0, 0.4);
+		border-radius: 3px;
+		backdrop-filter: blur(2.5px);
+
+		color: white;
+
+		padding: 1.2rem;
+		margin: 1rem;
+	}
+} */
+
+/* @media screen and (min-width: 800px) {
+	.wt-card > .img-wrapper {
+		aspect-ratio: 18 / 9;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.wt-card-info {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1580px) {
+	.weekly-trends {
+		max-width: 1400px;
+	}
+}
+
+@media screen and (min-width: 1875px) {
+	.weekly-trends {
+		max-width: 1600px;
+	}
+}
+
+@media screen and (min-width: 2210px) {
+	.weekly-trends {
+		max-width: 2100px;
+	}
+} */
