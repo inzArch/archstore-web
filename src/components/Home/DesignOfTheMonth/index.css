@@ -8,10 +8,7 @@
 	max-width: 1200px;
 	/* height: 70vh; */
 	padding-block: 20px;
-<<<<<<< HEAD
-=======
 	margin-bottom: 40px;
->>>>>>> 01819c22cbf93f088a48945a2398987cf99faf8a
 }
 
 .design-of-the-month-details {
@@ -65,7 +62,8 @@
 }
 .design-of-the-month-img:first-child {
 	margin-top: 0px;
-}.design-of-the-month-img:last-child {
+}
+.design-of-the-month-img:last-child {
 	margin-bottom: 0px;
 }
 
@@ -107,13 +105,10 @@
 		/* max-width: 600px; */
 		width: 50%;
 	}
-<<<<<<< HEAD
-=======
-	.design-of-the-month-container > .design-of-the-month-details > h1{
+	.design-of-the-month-container > .design-of-the-month-details > h1 {
 		padding-bottom: 0px;
 		margin-bottom: 0px;
 	}
->>>>>>> 01819c22cbf93f088a48945a2398987cf99faf8a
 }
 
 @media screen and (max-width: 975px) {
@@ -133,11 +128,7 @@
 @media screen and (max-width: 870px) {
 	.design-of-the-month-details {
 		margin-left: 20px;
-<<<<<<< HEAD
-		width: 250px;
-=======
 		width: 300px;
->>>>>>> 01819c22cbf93f088a48945a2398987cf99faf8a
 		padding: 15px;
 	}
 	.design-of-the-month-card {
@@ -180,7 +171,8 @@
 	}
 	.design-of-the-month-img:first-child {
 		margin-block: 0px;
-	}.design-of-the-month-img:last-child {
+	}
+	.design-of-the-month-img:last-child {
 		margin-block: 0px;
 	}
 	.design-of-the-month-img {
@@ -190,32 +182,27 @@
 	}
 }
 
-<<<<<<< HEAD
-
-=======
-@media (min-width:730px) and (max-width:949px){
-	.design-of-the-month-details{
-		top: 20px;	
+@media (min-width: 730px) and (max-width: 949px) {
+	.design-of-the-month-details {
+		top: 20px;
 		margin-left: 40px;
 	}
-	.design-of-the-month-container{
+	.design-of-the-month-container {
 		padding-block: 40px;
 	}
-	.design-of-the-month-container > .design-of-the-month-details > h1{
+	.design-of-the-month-container > .design-of-the-month-details > h1 {
 		padding-bottom: 5px;
 	}
-	.design-of-the-month-container > .design-of-the-month-details > h3{
+	.design-of-the-month-container > .design-of-the-month-details > h3 {
 		padding-bottom: 0px;
 	}
-	.design-of-the-month-details > h3{
+	.design-of-the-month-details > h3 {
 		padding-top: 0px;
 	}
-	.design-of-the-month-container > .design-of-the-month-details > p{
+	.design-of-the-month-container > .design-of-the-month-details > p {
 		margin-bottom: 0.5rem;
 	}
 }
->>>>>>> 01819c22cbf93f088a48945a2398987cf99faf8a
-
 
 /* Media queries for bigger screens */
 
@@ -225,13 +212,11 @@
 	}
 }
 
-
 @media screen and (min-width: 1875px) {
 	.design-of-the-month-container {
 		max-width: 1600px;
 	}
 }
-
 
 @media screen and (min-width: 2210px) {
 	.design-of-the-month-container {
