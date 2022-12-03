@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import LeftArrowIcon from '../../../assets/images/home/carousel/left-arrow-icon.png';
+const LeftArrowIcon =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/left-arrow-icon.png";
 const UserStatistics = () => {
   return (
     <div className="user-statistics">

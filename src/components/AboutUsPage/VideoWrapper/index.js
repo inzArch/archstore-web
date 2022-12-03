@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
-import TransparentVideoFooter from '../../../assets/images/AboutUsPage/VideoWrapper/transparentvideofooter.svg';
-import DownArrowIcon from '../../../assets/images/AboutUsPage/VideoWrapper/down-arrow.png';
+const DownArrowIcon =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/down-arrow.png";
 const VideoWrapper = () => {
   return (
     <div className="video-wrapper" style={{marginBottom:'120px'}}>

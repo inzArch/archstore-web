@@ -165,6 +165,13 @@
     
 }
 
+@media (min-width:1024px){
+    .footer-container > p{
+        justify-content: right;
+        margin-right: 120px;
+    }
+}
+
 
 /* Media queries for bigger screens */
 

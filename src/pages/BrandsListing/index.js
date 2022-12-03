@@ -3,15 +3,15 @@ import { Accordion, Form } from 'react-bootstrap';
 
 import filterIcon from '../../assets/icons/filter-icon.png';
 import closeIcon from '../../assets/icons/close-icon.png';
-
-import ArtemideLogo from '../../assets/images/home/brands/artemide-logo.svg';
-import BenchAccounting from '../../assets/images/home/WeeklyTrendsCarousel/bench-accounting.png';
-import FancyBlackKitchen from '../../assets/images/home/WeeklyTrendsCarousel/fancy-black-kitchen.png';
-import FancyKitchen from '../../assets/images/home/WeeklyTrendsCarousel/fancy-kitchen.png';
-import FancyLivingRoom from '../../assets/images/home/WeeklyTrendsCarousel/fancy-living-room.png';
 import MenuContent from '../../components/Header/MenuContent';
-
 import './index.css';
+
+const ArtemideLogo ="https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/artemide-logo.png";
+const BenchAccounting = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/bench-accounting.732ffd2612c79130a1e5.png";
+const FancyBlackKitchen ="https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/fancy-black-kitchen.2f8f492154aca37c2ad5.png";
+const FancyKitchen ="https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/fancy-kitchen.5989497136771fbe6fd4.png";
+const FancyLivingRoom ="https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/fancy-living-room.e77658bdee9306fb7798.png";
+
 
 const letters = ['*', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''), '0-9', '&@#'];
 const countryList = [

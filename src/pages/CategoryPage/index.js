@@ -1,6 +1,6 @@
 import { EmblaCarousel } from '../../components/EmblaCarousel';
-import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png';
 import './index.css';
+const leftArrowIcon =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/left-arrow-icon.png";
 
 const furniture = [
 	{

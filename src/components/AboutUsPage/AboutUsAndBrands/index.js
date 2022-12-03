@@ -1,8 +1,10 @@
 import React from "react";
 import "./index.css";
-import LeftArrowIcon from "../../../assets/images/home/carousel/left-arrow-icon.png";
+
 import { EmblaCarousel } from "../../EmblaCarousel";
 import Autoplay from 'embla-carousel-autoplay';
+
+const LeftArrowIcon =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/left-arrow-icon.png";
 
 const brandURL =
   "https://business.archiproducts.com/wp-content/uploads/2019/09/";

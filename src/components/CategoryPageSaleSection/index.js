@@ -1,14 +1,13 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import { EmblaCarousel } from '../EmblaCarousel';
 import './index.css';
-import leftArrowIcon from '../../assets/images/home/carousel/left-arrow-icon.png';
-import Cart from '../../assets/images/home/CategoryPageSale/shopping-cart.png';
-import CartColored from '../../assets/images/home/CategoryPageSale/shopping-cart-colored.png';
-import CartHover from '../../assets/images/home/CategoryPageSale/shopping-cart-hover.png';
-import Cube from '../../assets/images/home/CategoryPageSale/block.png';
-import HeartIcon from '../../assets/images/home/customersfav/HeartIcon.svg';
-import HeartHover from '../../assets/images/home/CategoryPageSale/heart.png';
+const leftArrowIcon =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/left-arrow-icon.png";
+const Cart = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/shopping-cart.png";
+const CartColored = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/shopping-cart-colored.png";
+const CartHover = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/shopping-cart-hover.png";
+const Cube = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/block.png";
+const HeartIcon = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/HeartIcon.svg";
+const HeartHover = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/heart.png";
 
 const imgURL = 'https://img.edilportale.com/product-thumbs/';
 const onSale = [

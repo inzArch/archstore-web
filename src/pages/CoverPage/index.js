@@ -1,6 +1,5 @@
-import BusinessCardImg from '../../assets/images/BusinessCard/archstore-coming-soon.png';
 import './index.css';
-
+const BusinessCardImg =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/archstore-coming-soon.png";
 export default function CoverPage() {
 	return (
 		<div className='ua-app mx-lg-auto'>
