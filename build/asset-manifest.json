@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b83bfc45.css",
+    "main.js": "/static/js/main.39a25cef.js",
+    "static/media/templateBgImg.png": "/static/media/templateBgImg.96c31b62d62ee6e698f8.png",
+    "static/media/HowItWorksImg.png": "/static/media/HowItWorksImg.a14972b9b02d58cbf533.png",
+    "static/media/topLeaf.svg": "/static/media/topLeaf.14f0077d5c47a3b91552da96b96ff2c8.svg",
+    "static/media/bottomLeaf.svg": "/static/media/bottomLeaf.eebd6eb2cccd0a1d0bae30d45483d01f.svg",
+    "index.html": "/index.html",
+    "static/media/MenuIcon.svg": "/static/media/MenuIcon.dbdeda9d1098c4b89c7e6b1d2c66be86.svg",
+    "static/media/HeartIcon.svg": "/static/media/HeartIcon.11d936158c5e62d927379d99bef75d65.svg",
+    "static/media/search.svg": "/static/media/search.d9e2264987501329948692fd9e343215.svg",
+    "static/media/DownArrow.svg": "/static/media/DownArrow.3b08190734beb6e5410548ec274895d3.svg",
+    "main.b83bfc45.css.map": "/static/css/main.b83bfc45.css.map",
+    "main.39a25cef.js.map": "/static/js/main.39a25cef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b83bfc45.css",
+    "static/js/main.39a25cef.js"
+  ]
+}

@@ -1,0 +1,145 @@
+.howitworks-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    aspect-ratio: 16/7;
+}
+
+.howitworks-contents{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.howitworks-contents > div{
+    width: 50%;
+}
+
+.howitworks-rightSection {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.howitworks-leftSection{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howitworks-leftSection > img {
+    width: 80%;
+}
+
+.howitworks-rightSection-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.howitworks-rightSection-cards > div{
+    width: 40%;
+}
+
+.howitworks-card{
+    margin: 10px 15px;
+}
+
+.howitworks-headings{
+    padding: 0 25px;
+}
+
+.howitworks-card-header{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.howitworks-card-header > img{
+    width: 50px;
+}
+
+.howitworks-card-header > p{
+    margin: 0;
+    padding: 0 8px;
+    font-weight: 500;
+    font-size: large;
+}
+
+@media screen and (max-width: 950px) {
+    .howitworks-container{
+        aspect-ratio: unset;
+    }
+
+    .howitworks-contents{
+        flex-direction: column;
+        padding-top: 150px;
+        position: relative;
+    }
+
+    .howitworks-contents > div{
+        width: 100%;
+    }
+
+    .howitworks-headings{
+        position: absolute;
+        top: 0;
+        text-align: center;
+        padding: 0 80px;
+    }
+
+    .howitworks-rightSection-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howitworks-rightSection-cards > div{
+        width: 60%;
+    }
+
+    .howitworks-card-header{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .howitworks-card{
+        text-align: center;
+    }
+
+    .howitworks-card > p{
+        font-size: larger;
+    }
+
+    .howitworks-card-header > img{
+        width: 70px;
+    }
+
+    .howitworks-card-header > p{
+        font-size: x-large;
+    }
+}
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+    .howitworks-container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (min-width: 1875px) {
+    .howitworks-container{
+        max-width: 1600px;
+    }
+}
+
+
+@media screen and (min-width: 2210px) {
+    .howitworks-container{
+        max-width: 2100px;
+        font-size: 30px;
+    }
+}

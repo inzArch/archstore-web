@@ -1,0 +1,267 @@
+.browse-brands {
+	max-width: 1300px;
+	margin-inline: auto;
+}
+
+.brand-card {
+	flex: 0 0 calc(50% - 0.7rem);
+	box-sizing: border-box;
+	margin-inline: 0.35rem;
+}
+
+.brand-img {
+	aspect-ratio: 11 / 16;
+	border-radius: 0.45rem;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.brand-img > img {
+	transform: scale(1);
+	transition: transform 200ms ease-in-out;
+}
+
+.brand-img:hover > img {
+	transform: scale(1.05);
+}
+
+.brand-name {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.browse-brands button {
+	font-size: 1.1rem;
+}
+
+.browse-brands button:hover {
+	background-color: #f5f5f5;
+}
+
+.l-arrow-icon {
+	width: 12px;
+	height: 12px;
+	transform: rotateZ(180deg);
+}
+
+/* styles for selections and guides section */
+
+.sg {
+	padding-top: 3rem;
+	max-width: 1300px;
+	margin-inline: auto;
+}
+
+.sg + div {
+	padding-bottom: 3rem;
+}
+
+.sg + div > button {
+	background-color: white;
+}
+
+.sg + div > button:hover {
+	background-color: #f5f5f5;
+}
+
+.sg .l-arrow-icon {
+	width: 10px;
+	height: 10px;
+}
+
+.sg > h2 {
+	margin: 1rem;
+}
+
+.sg .sg-card:not(.sg-card:last-child) {
+	margin-bottom: 1rem;
+}
+
+.sg .sg-card > .img-wrapper {
+	aspect-ratio: 16 / 9;
+	overflow: hidden;
+	border-radius: 0.45rem;
+}
+
+.sg .sg-card > .img-wrapper > img {
+	transform: scale(1);
+	transition: transform 250ms ease-in-out;
+}
+
+.sg .sg-card > .img-wrapper:hover > img {
+	transform: scale(1.1);
+}
+
+.sg .sg-card > h3 {
+	margin-block: 0.75rem;
+}
+
+.sg .sg-card a {
+	font-size: 0.95rem;
+	text-decoration-color: transparent;
+}
+
+.sg .sg-card a:hover {
+	text-decoration-color: unset;
+}
+
+.sg .sg-card a > span:last-child {
+	transition: margin-left 250ms ease-in-out;
+}
+
+.sg .sg-card a:hover > span:last-child {
+	margin-left: 0.75rem;
+}
+
+.sg .sg-card-row {
+	margin-inline: 1rem;
+	margin-bottom: 2rem;
+}
+
+.sg .sg-card-row > .sg-card {
+	flex: 0 0 calc(50% - 0.5rem);
+}
+
+.sg .sg-card-row:last-child > .sg-card {
+	flex: 0 0 calc(33.333% - 0.666666rem);
+}
+
+@media screen and (min-width: 500px) {
+	.brand-card {
+		flex: 0 0 calc(33.33% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.brand-card {
+		flex: 0 0 calc(25% - 0.7rem);
+	}
+
+	.sg .sg-card-row > .sg-card {
+		margin-right: 1rem;
+	}
+
+	.sg .sg-card-row > .sg-card:last-child {
+		margin-right: 0;
+	}
+
+	.sg .sg-card:not(.sg-card:last-child) {
+		margin-bottom: 0rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.brand-card {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.brand-card {
+		flex: 0 0 calc(16.66% - 0.7rem);
+	}
+}
+
+/* styles for category-cards */
+
+.category-header-wrapper {
+	background-color: #f2e4e0;
+}
+
+.category-logo {
+	width: 125px;
+	height: 125px;
+}
+
+.category,
+.category-header {
+	max-width: 1200px;
+	margin-inline: auto;
+	padding: 1rem;
+}
+
+.category {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.category-card > div {
+	aspect-ratio: 3 / 4.5;
+	position: relative;
+
+	border-radius: 0.45rem;
+	overflow: hidden;
+	margin-bottom: 0.5rem;
+}
+
+.category-card > ul {
+	display: none;
+}
+
+.category-card > ul a {
+	color: black;
+	text-decoration-color: transparent;
+	font-size: 1.05rem;
+}
+
+.category-card > ul > li:last-child a {
+	font-weight: 700;
+}
+
+.category-card > span {
+	font-size: 1.05rem;
+	font-weight: 600;
+}
+
+.category-card > div > img,
+.category-logo > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 600px) {
+	.category {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.category-card > ul {
+		display: block;
+	}
+
+	.category-card {
+		position: relative;
+	}
+
+	.category-card > span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		font-weight: bold;
+		font-size: 1.2rem;
+		/* font-size: 1.5rem; */
+
+		padding: 0.75rem 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.category {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.category {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.category-card > span {
+		font-size: 1.4rem;
+	}
+}

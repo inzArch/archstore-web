@@ -1,0 +1,70 @@
+.brands {
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 1rem;
+	margin-block: 3rem;
+}
+
+.brands-title {
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+
+.brand-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 125px;
+
+	flex: 0 0 50%;
+}
+
+.brand-card > .brand-logo > img {
+	width: 70%;
+}
+
+@media screen and (min-width: 425px) {
+	.brand-card {
+		flex: 0 0 40%;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.brand-card {
+		flex: 0 0 33.33333%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.brand-card {
+		flex: 0 0 25%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.brand-card {
+		flex: 0 0 20%;
+	}
+}
+
+/* Media queries for bigger screens */
+
+@media screen and (min-width: 1580px) {
+	.brands {
+		/* max-width: 1400px; */
+	}
+}
+
+@media screen and (min-width: 1875px) {
+	.brands {
+		/* max-width: 1600px; */
+	}
+}
+
+@media screen and (min-width: 2210px) {
+	.brands {
+		/* max-width: 2100px; */
+	}
+}

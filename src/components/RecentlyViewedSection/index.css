@@ -1,0 +1,64 @@
+
+.recently-viewed-brand-image{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.recently-viewed-section{
+    max-width: 1300px;
+    margin-inline: auto;
+	padding: 
+	1rem;
+}
+
+.recently-viewed-card{
+    position: relative;
+    flex: 0 0 calc(75% - 0.7rem);
+	box-sizing: border-box;
+	margin-inline: 0.35rem;
+}
+
+.recently-viewed-image{
+	border-radius: 0.45rem;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.recently-viewed-image > img {
+    border-radius: 0.45rem;
+    transform: scale(1);
+	transition: transform 200ms ease-in-out;
+}
+
+.recently-viewed-image:hover > img {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 500px) {
+	.recently-viewed-card {
+		flex: 0 0 calc(33.33% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.recently-viewed-card {
+		flex: 0 0 calc(25% - 0.7rem);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.recently-viewed-card  {
+		flex: 0 0 calc(20% - 0.7rem);
+	}
+}
+
+/* @media screen and (min-width: 1200px) {
+	.recently-viewed-card  {
+		flex: 0 0 calc(16.66% - 0.7rem);
+	}
+} */
