@@ -74,8 +74,8 @@ export default function WishlistPage() {
 					<h3 className='text-uppercase'>Groups</h3>
 					<Groups>{['dumdum', 'pompom', 'hello_world']}</Groups>
 				</div>
-				<div className='card-container'>
-					<div className='card-container-grid'>
+				<div className='wl-card-container'>
+					<div className='wl-card-container-grid'>
 						{numSelected > 0 && (
 							<div className='span-cols d-flex align-items-center flex-wrap gap-y-3'>
 								<span className='wl-btn w-auto mr-4'>
@@ -252,16 +252,20 @@ function Card({
 	onSelect,
 }) {
 	return (
-		<div className='product-card'>
+		<div className='wl-product-card'>
 			<div className='img-wrapper d-flex justify-content-center align-items-center'>
 				<img src={placeholderIcon} alt={name} width='45' height='45' />
 			</div>
-			<div className='product-details'>
-				<div className='product-manufacturer fw-bold'>{manufacturer}</div>
-				<div className='product-name text-secondary'>
+			<div className='wl-product-details'>
+				<div className='wl-product-manufacturer fw-bold'>
+					{manufacturer}
+				</div>
+				<div className='wl-product-name text-secondary'>
 					{`${name} - ${desc}`}
 				</div>
-				<span className='product-price'>{price ? price : <>&nbsp;</>}</span>
+				<span className='wl-product-price'>
+					{price ? price : <>&nbsp;</>}
+				</span>
 			</div>
 			<button
 				type='button'

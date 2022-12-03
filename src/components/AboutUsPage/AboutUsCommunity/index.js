@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import DownArrowIcon from '../../../assets/images/AboutUsPage/VideoWrapper/down-arrow.png';
+const DownArrowIcon =  "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/down-arrow.png";
 
 
 const AboutUsCommunity = () => {

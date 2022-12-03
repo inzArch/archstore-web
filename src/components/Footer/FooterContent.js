@@ -1,4 +1,5 @@
 
+
 export const FooterContent = {
     img: "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/Logo_White.png",
     info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

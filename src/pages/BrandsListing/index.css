@@ -57,7 +57,7 @@
 	margin-inline: auto;
 }
 
-.accordion-aside {
+.brands-listing > .accordion-aside {
 	display: none;
 }
 
@@ -68,7 +68,7 @@
 	gap: 1rem;
 }
 
-.brand-card {
+.bl-brand-card {
 	background-color: #f7f8fa;
 	border: thin solid #e4e5e7;
 
@@ -76,11 +76,11 @@
 	transition: background-color 250ms ease-in-out;
 }
 
-.brand-card:hover {
+.bl-brand-card:hover {
 	background-color: #eaedf2;
 }
 
-.brand-card > .brand-logo {
+.bl-brand-card > .bl-brand-logo {
 	width: 45%;
 }
 
@@ -107,7 +107,7 @@
 /* 2 cards & accordion-aside */
 
 @media screen and (min-width: 768px) {
-	.accordion-aside {
+	.brands-listing > .accordion-aside {
 		display: block;
 	}
 

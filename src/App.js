@@ -1,32 +1,23 @@
 import './App.css';
-import React from 'react';
-import Home from './pages/Home';
-// import FAQ from './components/FAQ';
-// import {
-//   createBrowserRouter,
-//   createRoutesFromElements,
-//   RouterProvider,
-//   Routes,
-//   Route,
-// } from "react-router-dom";
-
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <>
-//       <Route path="/" element={<Home />} errorElement={<h1>Error Page</h1>} />
-//       <Route path="/faq" element={<FAQ />} errorElement={<h1>Error Page</h1>} />
-//     </>
-//   )
-// );
+import React, { createContext, useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from 'components/Footer';
+export const MenuItemActiveStatusContext = createContext(null);
 
 function App() {
-    
-    return (
-      <div className='main-page-container'>
-        {/* <RouterProvider router={router} /> */}
-        <Home />
-      </div>
-  );
+	const [activeMenuItem, setActiveMenuItem] = useState(null);
+	return (
+		<MenuItemActiveStatusContext.Provider
+		value={{ activeMenuItem, setActiveMenuItem }}
+	>
+		<div className='main-page-container'>
+			<Header />
+			<Outlet />
+			<Footer />
+		</div>
+		</MenuItemActiveStatusContext.Provider>
+	);
 }
 
 export default App;
