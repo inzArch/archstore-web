@@ -1,6 +1,6 @@
 import './index.css';
 import MenuContent from '../MenuContent';
-import { MenuItemActiveStatusContext } from 'pages/Home';
+import { MenuItemActiveStatusContext } from 'App.js';
 import { useContext, useState } from 'react';
 
 const EvokLogo = "https://archstore-website.s3.ap-south-1.amazonaws.com/static/media/evok-logo.1d6324a83018f152d4f49dc4283c7eb5.svg";

@@ -1,12 +1,22 @@
 import './App.css';
-import React from 'react';
-import Home from './pages/Home';
+import React, { createContext, useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from 'components/Footer';
+export const MenuItemActiveStatusContext = createContext(null);
 
 function App() {
+	const [activeMenuItem, setActiveMenuItem] = useState(null);
 	return (
+		<MenuItemActiveStatusContext.Provider
+		value={{ activeMenuItem, setActiveMenuItem }}
+	>
 		<div className='main-page-container'>
-			<Home />
+			<Header />
+			<Outlet />
+			<Footer />
 		</div>
+		</MenuItemActiveStatusContext.Provider>
 	);
 }
 

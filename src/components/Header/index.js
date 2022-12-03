@@ -4,8 +4,8 @@ import { Bell, Heart, Profile } from './MenuContent.js';
 import MenuIcon from 'assets/images/header/MenuIcon.svg';
 import './index.css';
 import SubHeader from './SubHeader';
-
-import { MenuItemActiveStatusContext } from 'pages/Home';
+import { MenuItemActiveStatusContext } from 'App.js';
+import MegaMenu from './MegaMenu/index.js';
 
 const Header = () => {
 	const { activeMenuItem, setActiveMenuItem } = useContext(
@@ -22,7 +22,8 @@ const Header = () => {
 	}, [setActiveMenuItem]);
 
 	return (
-		<nav className='main-header-container'>
+		<>
+					<nav className='main-header-container'>
 			<div className='header-container'>
 				<div className='header-logo-section'>
 					<img className='header-menu-icon' src={MenuIcon} alt='' />
@@ -54,6 +55,8 @@ const Header = () => {
 			</div>
 			<SubHeader />
 		</nav>
+			<MegaMenu />
+		</>
 	);
 };
 
