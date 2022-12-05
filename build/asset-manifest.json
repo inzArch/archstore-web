@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb08fded.css",
-    "main.js": "/static/js/main.d9cd131c.js",
+    "main.css": "/static/css/main.81be1d83.css",
+    "main.js": "/static/js/main.c4a0a5a9.js",
     "index.html": "/index.html",
-    "static/media/MenuIcon.svg": "/static/media/MenuIcon.dbdeda9d1098c4b89c7e6b1d2c66be86.svg",
+    "static/media/MenuIcon.svg": "/static/media/MenuIcon.fb743d2d8700d7596b76fca5c3d3b12c.svg",
     "static/media/HeartIcon.svg": "/static/media/HeartIcon.11d936158c5e62d927379d99bef75d65.svg",
-    "static/media/search.svg": "/static/media/search.d9e2264987501329948692fd9e343215.svg",
-    "static/media/DownArrow.svg": "/static/media/DownArrow.3b08190734beb6e5410548ec274895d3.svg",
-    "main.cb08fded.css.map": "/static/css/main.cb08fded.css.map",
-    "main.d9cd131c.js.map": "/static/js/main.d9cd131c.js.map"
+    "static/media/search.svg": "/static/media/search.021d27b88261f90cb526ef518c8a9320.svg",
+    "static/media/DownArrow.svg": "/static/media/DownArrow.573224cc09311570040e7170f018c364.svg",
+    "main.81be1d83.css.map": "/static/css/main.81be1d83.css.map",
+    "main.c4a0a5a9.js.map": "/static/js/main.c4a0a5a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb08fded.css",
-    "static/js/main.d9cd131c.js"
+    "static/css/main.81be1d83.css",
+    "static/js/main.c4a0a5a9.js"
   ]
 }
