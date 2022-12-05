@@ -122,7 +122,7 @@
 }
 
 /* Media queries for bigger screens */
-
+/* 
 @media screen and (min-width: 1580px) {
     .howitworks-container{
         max-width: 1400px;
@@ -142,4 +142,4 @@
         max-width: 2100px;
         font-size: 30px;
     }
-}
+} */

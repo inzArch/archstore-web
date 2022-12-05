@@ -202,7 +202,7 @@
 
 
 /* Media queries for bigger screens */
-
+/* 
 @media screen and (min-width: 1580px) {
 
 	.header-container {
@@ -224,4 +224,4 @@
 	.header-container {
 		max-width: 2100px;
 	}
-}
+} */

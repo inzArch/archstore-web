@@ -207,7 +207,7 @@
 }
 
 /* Media queries for bigger screens */
-
+/* 
 @media screen and (min-width: 1580px) {
 	.megamenu-inner-container {
 		max-width: 1400px;
@@ -224,4 +224,4 @@
 	.megamenu-inner-container {
 		max-width: 2100px;
 	}
-}
+} */

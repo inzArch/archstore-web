@@ -112,7 +112,7 @@
 
 
 /* Media queries for bigger screens */
-
+/* 
 @media screen and (min-width: 1580px) {
 
     .customersFav-container{
@@ -134,4 +134,4 @@
     .customersFav-container{
         max-width: 2100px;
     }
-}
+} */

@@ -67,21 +67,21 @@
 }
 
 /* Media queries for bigger screens */
-
+/* 
 @media screen and (min-width: 1580px) {
 	.brands {
-		/* max-width: 1400px; */
+		max-width: 1400px;
 	}
 }
 
 @media screen and (min-width: 1875px) {
 	.brands {
-		/* max-width: 1600px; */
+		max-width: 1600px;
 	}
 }
 
 @media screen and (min-width: 2210px) {
 	.brands {
-		/* max-width: 2100px; */
+		max-width: 2100px;
 	}
-}
+} */

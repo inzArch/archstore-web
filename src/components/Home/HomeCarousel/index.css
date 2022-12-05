@@ -25,7 +25,7 @@
 
 
 /* Media queries for bigger screens */
-
+/* 
 @media screen and (min-width: 1580px) {
     .carousel-container{
         max-width: 1400px;
@@ -44,4 +44,4 @@
     .carousel-container{
         max-width: 2100px;
     }
-}
+} */

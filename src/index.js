@@ -17,6 +17,7 @@ import Home from 'pages/Home';
 import AboutUsPage from './components/AboutUsPage';
 import WishlistPage from 'pages/WishlistPage';
 import FAQ from 'components/FAQ';
+import ProductDetail from 'pages/ProductDetail';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
 				<Route path='wishlist' element={<WishlistPage />} />
 				<Route path='brands-listing' element={<BrandsListing />} />
 				<Route path='products-listing' element={<ProductsListing />} />
+				<Route path='product-detail' element={<ProductDetail />} />
 			</Route>
 			<Route path='about-us' element={<AboutUsPage />} />
 			<Route path='cover' element={<CoverPage />} />
